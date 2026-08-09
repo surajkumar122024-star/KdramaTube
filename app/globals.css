@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* ── Tailwind v4: Register custom utilities ──────────────── */
+@utility font-display {
+  font-family: var(--font-playfair), "Playfair Display", serif;
+}
+
+@utility hero-gradient {
+  background: linear-gradient(
+    -45deg,
+    #020617,
+    #0f0a2e,
+    #1a0a3c,
+    #0f172a
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+/* ── Custom CSS Variables ────────────────────────────────── */
+:root {
+  --color-bg: #020617;           /* slate-950 */
+  --color-surface: #0f172a;      /* slate-900 */
+  --color-card: #1e293b;         /* slate-800 */
+  --color-border: #334155;       /* slate-700 */
+  --color-accent: #7c3aed;       /* violet-600 */
+  --color-accent-light: #a78bfa; /* violet-400 */
+}
+
+/* ── Base Styles ─────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* next/font injects --font-inter as a CSS var on <html> */
+  font-family: var(--font-inter), system-ui, sans-serif;
+  background-color: var(--color-bg);
+}
+
+/* ── Scrollbar ───────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* ── Animated gradient keyframes ─────────────────────────── */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Focus ring ──────────────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid var(--color-accent-light);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
