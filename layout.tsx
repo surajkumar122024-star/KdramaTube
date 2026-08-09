@@ -37,8 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <meta name="google-site-verification" content="GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY" />
-      <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
+     <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
         <Header />
         <main className="pt-16">{children}</main>
         <Footer />
