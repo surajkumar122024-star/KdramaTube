@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import WatchButtons from "@/components/WatchButtons";
 import { Metadata } from "next";
 import Link from "next/link";
 import { getDramaBySlug, getAllDramaSlugs } from "@/lib/dramas";
@@ -210,6 +211,7 @@ export default async function DramaDetailPage({ params }: PageProps) {
             ))}
           </div>
         </section>
+        <WatchButtons drama={drama} />
 
         {/* Episodes */}
         <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} />
