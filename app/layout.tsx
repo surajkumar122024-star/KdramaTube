@@ -42,8 +42,6 @@ export default function RootLayout({
         <Header />
         <main className="pt-16">{children}</main>
         <Footer />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6461565201811259"
-     crossorigin="anonymous"></script>
       </body>
     </html>
   );
