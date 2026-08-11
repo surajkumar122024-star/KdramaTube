@@ -287,7 +287,9 @@
       { "title": "Episode 6", "url": "https://example.com/fatmagul/episode-6" },
       { "title": "Episode 7", "url": "https://example.com/fatmagul/episode-7" },
       { "title": "Episode 8", "url": "https://example.com/fatmagul/episode-8" }
-      {
+    ]
+    },
+  {
     "id": "squid-game",
     "slug": "squid-game",
     "title": "Squid Game",
