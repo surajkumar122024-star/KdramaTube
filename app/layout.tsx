@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <meta name="google-adsense-account" content="ca-pub-6461565201811259">
+      <meta name="google-adsense-account" content="ca-pub-6461565201811259" />
       <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
         <Header />
         <main className="pt-16">{children}</main>
