@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}
+    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
         <Header />
         <main className="pt-16">{children}</main>
