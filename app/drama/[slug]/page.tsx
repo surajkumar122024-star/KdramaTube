@@ -82,28 +82,27 @@ export default async function DramaDetailPage({ params }: PageProps) {
       </div>
 
       {/* Hero / poster area */}
-      <div className="relative w-full overflow-hidden" style={{ minHeight: "340px" }}>
-        {/* Background */}
-        {drama.poster ? (
-          <div
-            className="absolute inset-0 bg-cover bg-center scale-110 blur-sm"
-            style={{ backgroundImage: `url(${drama.poster})` }}
-            aria-hidden="true"
-          />
-        ) : (
-          <div
-            className={`absolute inset-0 bg-gradient-to-br ${posterGrad}`}
-            aria-hidden="true"
-          >
-            <div className="absolute inset-0 opacity-10 flex items-center justify-center">
-              <span className="text-white font-black text-[18rem] leading-none select-none">
-                {drama.title.charAt(0)}
-              </span>
+        <div className="relative w-full overflow-hidden" style={{ minHeight: "340px" }}>
+          {/* Background */}
+          {drama.poster ? (
+            <div
+              className="absolute inset-0 bg-cover bg-center scale-105"
+              style={{ backgroundImage: `url(${drama.poster})` }}
+              aria-hidden="true"
+            />
+          ) : (
+            <div
+              className={`absolute inset-0 bg-gradient-to-br ${posterGrad}`}
+              aria-hidden="true"
+            >
+              <div className="absolute inset-0 opacity-10 flex items-center justify-center">
+                <span className="text-white font-black text-[18rem] leading-none select-none">
+                  {drama.title.charAt(0)}
+                </span>
+              </div>
             </div>
-          </div>
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent" />
-
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/10" />
         {/* Content overlay */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row gap-6 items-end">
           {/* Poster card */}
