@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}
-      <body className="bg-slate-950 text-slate-100 antialiased min-h-screen" />
+      <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
         <Header />
         <main className="pt-16">{children}</main>
         <Footer />
