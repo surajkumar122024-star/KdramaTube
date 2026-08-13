@@ -476,6 +476,8 @@
   { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
   { "name": "Hwang In-yeop", "role": "Han Seo-jun" }
 ]
+  },
+  {
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/true-beauty/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/true-beauty/episode-2" },
