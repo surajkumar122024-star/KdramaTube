@@ -1,3 +1,4 @@
+import CastList from "@/components/CastList";
 import { notFound } from "next/navigation";
 import { generateDramaSchema } from "@/lib/schema";
 import WatchButtons from "@/components/WatchButtons";
@@ -216,7 +217,7 @@ export default async function DramaDetailPage({ params }: PageProps) {
           </div>
         </section>
         <WatchButtons drama={drama} />
-
+        <CastList cast={drama.cast} />
         {/* Episodes */}
         <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} />
       </div>
