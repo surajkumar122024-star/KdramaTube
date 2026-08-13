@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { getDramaBySlug, getAllDramaSlugs } from "@/lib/dramas";
 import EpisodeList from "@/components/EpisodeList";
-
+import { generateDramaSchema } from "@/lib/schema";
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -60,7 +60,11 @@ export default async function DramaDetailPage({ params }: PageProps) {
   const posterGrad = posterGradients[drama.category] ?? "from-slate-900 to-slate-800";
 
   return (
-    <article>
+     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateDramaSchema(drama)) }}
+      />
       {/* Back nav */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Link
