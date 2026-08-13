@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { generateDramaSchema } from "@/lib/schema";
 import WatchButtons from "@/components/WatchButtons";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -60,10 +61,14 @@ export default async function DramaDetailPage({ params }: PageProps) {
   };
   const posterGrad = posterGradients[drama.category] ?? "from-slate-900 to-slate-800";
 
-  return (
-    <article>
-      {/* Back nav */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+ return (
+  <article>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(generateDramaSchema(drama)) }}
+    />
+    {/* Back nav */}
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors group"
