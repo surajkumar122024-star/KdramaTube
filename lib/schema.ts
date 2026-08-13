@@ -1,49 +1,30 @@
 // lib/schema.ts
-
-export interface Drama {
-  slug: string;
-  title: string;
-  story: string;
-  poster?: string;
-  genres: string[];
-  year: number;
-  country: string;
-  episodes: number;
-  rating?: number;       // e.g. 8.6
-  ratingCount?: number;  // sirf real hone par pass karo
-}
+import type { Drama } from "@/types/drama";
 
 const SITE_URL = "https://kdramatube.vercel.app";
 
+function absoluteUrl(path: string) {
+  return path.startsWith("http") ? path : `${SITE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
+}
+
 export function generateDramaSchema(drama: Drama) {
-  const schema: Record<string, unknown> = {
+  return {
     "@context": "https://schema.org",
     "@type": "TVSeries",
     name: drama.title,
     description: drama.story,
-    genre: drama.genres,
-    numberOfEpisodes: drama.episodes,
+    image: absoluteUrl(drama.poster),
+    genre: drama.genre,
+    numberOfEpisodes: drama.episodes.length,
     countryOfOrigin: {
       "@type": "Country",
       name: drama.country,
     },
     datePublished: `${drama.year}`,
     url: `${SITE_URL}/drama/${drama.slug}`,
+    // AggregateRating jaan-bujh kar nahi lagaya — dataset mein real ratingCount
+    // nahi hai, aur bina genuine count ke Google isse fake-rating maan sakta hai.
   };
-
-  if (drama.poster) schema.image = drama.poster;
-
-  // Sirf real ratingCount hone par hi AggregateRating add karo
-  if (drama.rating && drama.ratingCount) {
-    schema.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: drama.rating,
-      bestRating: "10",
-      ratingCount: drama.ratingCount,
-    };
-  }
-
-  return schema;
 }
 
 export function generateDramaListSchema(dramas: Drama[]) {
