@@ -488,11 +488,7 @@
       { "title": "Episode 14", "url": "https://example.com/true-beauty/episode-14" },
       { "title": "Episode 15", "url": "https://example.com/true-beauty/episode-15" },
       { "title": "Episode 16", "url": "https://example.com/true-beauty/episode-16" },
-       "cast": [
-  { "name": "Moon Ga-young", "role": "Lim Ju-kyung" },
-  { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
-  { "name": "Hwang In-yeop", "role": "Han Seo-jun" },
-]
+    ]
   },
   {
     "id": "the-glory",
