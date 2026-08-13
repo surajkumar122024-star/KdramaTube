@@ -463,6 +463,11 @@
     "slug": "true-beauty",
     "title": "True Beauty",
     "category": "Korean",
+    "cast": [
+  { "name": "Moon Ga-young", "role": "Lim Ju-kyung" },
+  { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
+  { "name": "Hwang In-yeop", "role": "Han Seo-jun" }
+]
     "country": "South Korea",
     "year": 2020,
     "rating": 8.6,
@@ -471,13 +476,6 @@
     "story": "Lim Ju-kyung, once bullied for her appearance, masters makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
     "genre": ["Romance", "Comedy"],
     "featured": false,
-    "cast": [
-  { "name": "Moon Ga-young", "role": "Lim Ju-kyung" },
-  { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
-  { "name": "Hwang In-yeop", "role": "Han Seo-jun" }
-]
-  },
-  {
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/true-beauty/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/true-beauty/episode-2" },
