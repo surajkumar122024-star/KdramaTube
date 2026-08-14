@@ -470,10 +470,22 @@
     "description": "A girl who transforms herself with makeup navigates high school romance while hiding her bare face.",
     "story": "Lim Ju-kyung, once bullied for her appearance, mastaaaers makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
     "genre": ["Romance", "Comedy"],
-    "cast": [
-  { "name": "Moon Ga-young", "role": "Lim Ju-kyung" },
-  { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
-  { "name": "Hwang In-yeop", "role": "Han Seo-jun" }
+  "cast": [
+  {
+    "name": "Moon Ga-young",
+    "role": "Lim Ju-kyung",
+    "bio": "South Korean actress born July 10, 1996 in Karlsruhe, Germany. Started as a child actress in 2006 and gained major recognition through her lead role in True Beauty."
+  },
+  {
+    "name": "Cha Eun-woo",
+    "role": "Lee Su-ho",
+    "bio": "South Korean singer and actor, born Lee Dong-min on March 30, 1997 in Gunpo. Member of boy band Astro; True Beauty brought him international recognition."
+  },
+  {
+    "name": "Hwang In-yeop",
+    "role": "Han Seo-jun",
+    "bio": "South Korean actor and model born January 19, 1991. Started as a runway model before his acting debut, later known for The Tale of Nokdu, 18 Again, and True Beauty."
+  }
 ],
     "featured": false,
     "episodes": [
