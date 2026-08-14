@@ -468,8 +468,13 @@
     "rating": 8.6,
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/76/True_Beauty_TV_series_poster.jpg",
     "description": "A girl who transforms herself with makeup navigates high school romance while hiding her bare face.",
-    "story": "Lim Ju-kyung, once bullied for her appearance, masters makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
+    "story": "Lim Ju-kyung, once bullied for her appearance, mastaaaers makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
     "genre": ["Romance", "Comedy"],
+    "cast": [
+  { "name": "Moon Ga-young", "role": "Lim Ju-kyung" },
+  { "name": "Cha Eun-woo", "role": "Lee Su-ho" },
+  { "name": "Hwang In-yeop", "role": "Han Seo-jun" }
+],
     "featured": false,
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/true-beauty/episode-1" },
