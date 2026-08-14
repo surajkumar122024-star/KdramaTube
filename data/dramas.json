@@ -120,6 +120,28 @@
     "story": "Park Saeroyi's life is shattered when his father is killed in a hit-and-run by the son of a powerful food company CEO. After serving time in prison for assaulting the culprit, Saeroyi vows revenge — not through violence, but by building a thriving business empire to outcompete the conglomerate. With the help of a sharp-tongued manager, Jo Yi-seo, and a loyal crew of misfits, he embarks on a journey of grit, ambition, and justice.",
     "genre": ["Drama", "Business", "Romance"],
     "featured": false,
+    "cast": [
+  {
+    "name": "Park Seo-joon",
+    "role": "Park Sae-ro-yi",
+    "bio": "South Korean actor born Park Yong-kyu on December 16, 1988 in Seoul. Known for What's Wrong with Secretary Kim (2018); Itaewon Class further established him as a leading actor."
+  },
+  {
+    "name": "Kim Da-mi",
+    "role": "Jo Yi-seo",
+    "bio": "South Korean actress born April 9, 1995 in Seoul. First gained recognition in The Witch: Part 1 (2018); her role in Itaewon Class won her Best New Actress at the Baeksang Arts Awards."
+  },
+  {
+    "name": "Yoo Jae-myung",
+    "role": "Jang Dae-hee",
+    "bio": "South Korean actor born June 3, 1973 in Busan. Known for Reply 1988 (2015) and Stranger (2017); won Best Supporting Actor for his role in Itaewon Class."
+  },
+  {
+    "name": "Kwon Nara",
+    "role": "Oh Soo-ah",
+    "bio": "South Korean actress and former singer born Kwon Ah-yoon on March 13, 1991 in Incheon. A founding member of girl group Hello Venus before transitioning fully into acting."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/itaewon-class/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/itaewon-class/episode-2" },
@@ -152,6 +174,48 @@
     "story": "Do Min-joon is an alien who landed on Earth during the Joseon dynasty and has been living as a human ever since. With supernatural abilities and an appearance that never ages, he works as a law professor. He meets Cheon Song-yi, the nation's biggest celebrity, who moves into his apartment building. Despite his desire to keep his distance, Min-joon finds himself falling for her — even as the clock ticks on his imminent departure from Earth.",
     "genre": ["Sci-Fi", "Romance", "Fantasy"],
     "featured": false,
+    "cast": [
+  {
+    "name": "Kim Soo-hyun",
+    "role": "Do Min-joon",
+    "bio": "South Korean actor who plays Do Min-joon, an alien who has lived on Earth for 400 years."
+  },
+  {
+    "name": "Jun Ji-hyun",
+    "role": "Cheon Song-yi",
+    "bio": "South Korean actress who plays Cheon Song-yi, a famous actress whose life changes after meeting Do Min-joon."
+  },
+  {
+    "name": "Park Hae-jin",
+    "role": "Lee Hwi-kyung",
+    "bio": "South Korean actor who plays Lee Hwi-kyung, Song-yi's longtime friend who has loved her since childhood."
+  },
+  {
+    "name": "Yoo In-na",
+    "role": "Yoo Se-mi",
+    "bio": "South Korean actress who plays Yoo Se-mi, Song-yi's longtime friend and a fellow actress."
+  },
+  {
+    "name": "Shin Sung-rok",
+    "role": "Lee Jae-kyung",
+    "bio": "South Korean actor who plays Lee Jae-kyung, Hwi-kyung's older brother and a major antagonist."
+  },
+  {
+    "name": "Ahn Jae-hyun",
+    "role": "Cheon Yoon-jae",
+    "bio": "South Korean actor who plays Cheon Yoon-jae, Song-yi's younger brother."
+  },
+  {
+    "name": "Na Young-hee",
+    "role": "Yang Mi-yeon",
+    "bio": "South Korean actress who plays Yang Mi-yeon, Cheon Song-yi's mother."
+  },
+  {
+    "name": "Kim Chang-wan",
+    "role": "Jang Young-mok",
+    "bio": "South Korean actor who plays Jang Young-mok, Do Min-joon's lawyer and trusted confidant."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/my-love-from-the-star/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/my-love-from-the-star/episode-2" },
