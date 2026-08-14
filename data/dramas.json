@@ -65,6 +65,28 @@
     "description": "An immortal Goblin seeks his human bride to end his eternal life, but falls in love with her instead.",
     "story": "Kim Shin is a decorated military general from the Goryeo dynasty who was cursed to live as an immortal Goblin. The only way to end his immortal life is to find his human bride who can pull the sword from his chest. He meets Ji Eun-tak, a bubbly high school student with the ability to see ghosts, who is destined to be his bride. As their love grows, both must face the consequences of fate and sacrifice.",
     "genre": ["Fantasy", "Romance", "Drama"],
+    "cast": [
+  {
+    "name": "Gong Yoo",
+    "role": "Kim Shin",
+    "bio": "South Korean actor born Gong Ji-cheol on July 10, 1979 in Busan. Known for Coffee Prince (2007) and Train to Busan (2016); won Best Actor at the Baeksang Awards for Goblin."
+  },
+  {
+    "name": "Kim Go-eun",
+    "role": "Ji Eun-tak",
+    "bio": "South Korean actress born July 2, 1991 in Seoul. Goblin was one of her breakout television roles, launching her as a leading actress in Korean drama."
+  },
+  {
+    "name": "Lee Dong-wook",
+    "role": "Wang Yeo (Grim Reaper)",
+    "bio": "South Korean actor born November 6, 1981 in Seoul. Known for My Girl (2005) and Scent of a Woman (2011); later led Tale of the Nine Tailed after Goblin."
+  },
+  {
+    "name": "Yoo In-na",
+    "role": "Sunny",
+    "bio": "South Korean actress born June 5, 1982 in Seongnam. Known for My Love from the Star (2013); won Best Supporting Actress honors for her role in Goblin."
+  }
+],
     "featured": false,
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/goblin/episode-1" },
