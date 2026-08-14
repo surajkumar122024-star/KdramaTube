@@ -248,6 +248,23 @@
     "story": "Go Ha-jin, a contemporary woman, is transported back in time to the Goryeo dynasty where she wakes up in the body of a noble girl named Hae Soo. Surrounded by the many princes of the ruling Wang family, she must navigate dangerous court politics, royal rivalries, and the pain of knowing history's cruel outcomes. She falls deeply in love with the brooding fourth prince, Wang So, but destiny may not allow them a happy ending.",
     "genre": ["Historical", "Fantasy", "Romance"],
     "featured": false,
+"cast": [
+  {
+    "name": "Lee Joon-gi",
+    "role": "Wang So (4th Prince)",
+    "bio": "South Korean actor born April 17, 1982 in Busan. Rose to fame with The King and the Clown (2005); known for period dramas like Arang and the Magistrate before Moon Lovers."
+  },
+  {
+    "name": "IU",
+    "role": "Hae Soo",
+    "bio": "South Korean singer-songwriter and actress born Lee Ji-eun on May 16, 1993 in Seoul. One of Korea's most prominent stars, later known for Hotel Del Luna (2019) and My Mister."
+  },
+  {
+    "name": "Kang Ha-neul",
+    "role": "Wang Wook (8th Prince)",
+    "bio": "South Korean actor born Kim Ha-neul on February 21, 1990 in Busan. Known for Misaeng: Incomplete Life (2014); later gained international recognition through Squid Game."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/scarlet-heart/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/scarlet-heart/episode-2" },
@@ -284,6 +301,58 @@
     "story": "Wei Wuxian and Lan Wangji are two young men from rival cultivation clans who meet and develop an unlikely bond while pursuing a shared goal of justice. After a tragedy leads to Wei Wuxian's apparent death, he is resurrected sixteen years later in the body of another man. Together, they investigate a series of supernatural murders that lead back to long-buried secrets and a powerful, ancient evil that threatens the entire cultivation world.",
     "genre": ["Fantasy", "Mystery", "Adventure"],
     "featured": false,
+"cast": [
+  {
+    "name": "Xiao Zhan",
+    "role": "Wei Wuxian",
+    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
+  },
+  {
+    "name": "Wang Yibo",
+    "role": "Lan Wangji",
+    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
+  },
+  {
+    "name": "Wang Zhuocheng",
+    "role": "Jiang Cheng",
+    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
+  },
+  {
+    "name": "Xuan Lu",
+    "role": "Jiang Yanli",
+    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
+  },
+  {
+    "name": "Ji Li",
+    "role": "Nie Huaisang",
+    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
+  },
+  {
+    "name": "Yu Bin",
+    "role": "Wen Ning",
+    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
+  },
+  {
+    "name": "Liu Haikuan",
+    "role": "Lan Xichen",
+    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
+  },
+  {
+    "name": "Meng Ziyi",
+    "role": "Wen Qing",
+    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
+  },
+  {
+    "name": "Zhu Zanjin",
+    "role": "Jin Guangyao",
+    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
+  },
+  {
+    "name": "Cao Yuchen",
+    "role": "Jin Zixuan",
+    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/the-untamed/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/the-untamed/episode-2" },
@@ -310,6 +379,58 @@
     "story": "Bei Wei Wei is a talented and beautiful computer science student who is known as the top female player in a popular online RPG. She is approached by Xiao Nai, the most sought-after student on campus and also the best player in the game, to become his in-game wife. As their virtual relationship blossoms, so does their real-world one — but jealousy, rivalry, and past wounds threaten to keep them apart.",
     "genre": ["Romance", "Comedy", "Gaming"],
     "featured": false,
+"cast": [
+  {
+    "name": "Xiao Zhan",
+    "role": "Wei Wuxian",
+    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
+  },
+  {
+    "name": "Wang Yibo",
+    "role": "Lan Wangji",
+    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
+  },
+  {
+    "name": "Wang Zhuocheng",
+    "role": "Jiang Cheng",
+    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
+  },
+  {
+    "name": "Xuan Lu",
+    "role": "Jiang Yanli",
+    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
+  },
+  {
+    "name": "Ji Li",
+    "role": "Nie Huaisang",
+    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
+  },
+  {
+    "name": "Yu Bin",
+    "role": "Wen Ning",
+    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
+  },
+  {
+    "name": "Liu Haikuan",
+    "role": "Lan Xichen",
+    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
+  },
+  {
+    "name": "Meng Ziyi",
+    "role": "Wen Qing",
+    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
+  },
+  {
+    "name": "Zhu Zanjin",
+    "role": "Jin Guangyao",
+    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
+  },
+  {
+    "name": "Cao Yuchen",
+    "role": "Jin Zixuan",
+    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/love-o2o/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/love-o2o/episode-2" },
@@ -336,6 +457,58 @@
     "story": "Set in the 13th century, Diriliş: Ertuğrul follows the heroic Ertuğrul Bey, leader of the Kayı tribe, as he fights against the Mongol invasion and the treacherous Knights Templar while also struggling with inner conflicts within his own tribe. His valor, faith, and cunning leadership lay the foundation for what would eventually become the vast Ottoman Empire. A sweeping historical epic full of battles, betrayal, and brotherhood.",
     "genre": ["Historical", "Action", "Epic"],
     "featured": false,
+"cast": [
+  {
+    "name": "Xiao Zhan",
+    "role": "Wei Wuxian",
+    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
+  },
+  {
+    "name": "Wang Yibo",
+    "role": "Lan Wangji",
+    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
+  },
+  {
+    "name": "Wang Zhuocheng",
+    "role": "Jiang Cheng",
+    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
+  },
+  {
+    "name": "Xuan Lu",
+    "role": "Jiang Yanli",
+    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
+  },
+  {
+    "name": "Ji Li",
+    "role": "Nie Huaisang",
+    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
+  },
+  {
+    "name": "Yu Bin",
+    "role": "Wen Ning",
+    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
+  },
+  {
+    "name": "Liu Haikuan",
+    "role": "Lan Xichen",
+    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
+  },
+  {
+    "name": "Meng Ziyi",
+    "role": "Wen Qing",
+    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
+  },
+  {
+    "name": "Zhu Zanjin",
+    "role": "Jin Guangyao",
+    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
+  },
+  {
+    "name": "Cao Yuchen",
+    "role": "Jin Zixuan",
+    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/dirilis-ertugrul/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/dirilis-ertugrul/episode-2" },
@@ -362,6 +535,58 @@
     "story": "Kemal is a hardworking young man from a humble background who falls deeply in love with Nihan, a beautiful woman from a wealthy and complicated family. Their relationship is opposed by her family and further complicated by Emir, a powerful and manipulative man who is determined to keep Nihan for himself. The series is a dramatic, intense portrayal of love, sacrifice, and the destructive power of obsession.",
     "genre": ["Romance", "Melodrama", "Drama"],
     "featured": false,
+"cast": [
+  {
+    "name": "Burak Özçivit",
+    "role": "Kemal Soydere",
+    "bio": "Turkish actor who plays Kemal Soydere, a young engineer whose life becomes deeply connected with Nihan."
+  },
+  {
+    "name": "Neslihan Atagül",
+    "role": "Nihan Sezin",
+    "bio": "Turkish actress who plays Nihan Sezin, a young woman caught between her family circumstances and her love for Kemal."
+  },
+  {
+    "name": "Kaan Urgancıoğlu",
+    "role": "Emir Kozcuoğlu",
+    "bio": "Turkish actor who plays Emir Kozcuoğlu, a wealthy businessman and Kemal's main rival."
+  },
+  {
+    "name": "Zerrin Tekindor",
+    "role": "Leyla Acemzade",
+    "bio": "Turkish actress who plays Leyla Acemzade, a respected woman who becomes an important part of Nihan and Kemal's story."
+  },
+  {
+    "name": "Melisa Aslı Pamuk",
+    "role": "Asu Alacahan",
+    "bio": "Turkish actress who plays Asu Alacahan, a key character whose connection to Emir and Kemal affects the story."
+  },
+  {
+    "name": "Hazal Filiz Küçükköse",
+    "role": "Zeynep Soydere",
+    "bio": "Turkish actress who plays Zeynep Soydere, Kemal's sister whose choices create major consequences for the family."
+  },
+  {
+    "name": "Orhan Güner",
+    "role": "Hüseyin Soydere",
+    "bio": "Turkish actor who plays Hüseyin Soydere, Kemal's father and an important member of the Soydere family."
+  },
+  {
+    "name": "Neşe Baykent",
+    "role": "Vildan Sezin",
+    "bio": "Turkish actress who plays Vildan Sezin, Nihan's mother and a member of the Sezin family."
+  },
+  {
+    "name": "Zeyno Eracar",
+    "role": "Fehime Soydere",
+    "bio": "Turkish actress who plays Fehime Soydere, Kemal's mother and a central member of the Soydere family."
+  },
+  {
+    "name": "Burak Sergen",
+    "role": "Galip Kozcuoğlu",
+    "bio": "Turkish actor who plays Galip Kozcuoğlu, Emir's father and a powerful businessman."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/kara-sevda/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/kara-sevda/episode-2" },
@@ -386,6 +611,58 @@
     "story": "Fatmagül is a simple, kind-hearted young woman living in a small Turkish town on the Aegean coast, about to be married to her childhood sweetheart. Her life is shattered when she becomes the victim of a violent assault committed by a group of wealthy young men. The series follows her long, painful battle for justice in a society quick to blame the victim, and her unexpected bond with Kerim, one of the perpetrators who was coerced into participating.",
     "genre": ["Drama", "Social", "Legal"],
     "featured": false,
+"cast": [
+  {
+    "name": "Beren Saat",
+    "role": "Fatmagül Ilgaz",
+    "bio": "Turkish actress who plays Fatmagül, the central character whose life changes dramatically after a traumatic incident."
+  },
+  {
+    "name": "Engin Akyürek",
+    "role": "Kerim Ilgaz",
+    "bio": "Turkish actor who plays Kerim, a central character whose relationship with Fatmagül becomes an important part of the story."
+  },
+  {
+    "name": "Fırat Çelik",
+    "role": "Mustafa Nalçın",
+    "bio": "Turkish actor who plays Mustafa, Fatmagül's former fiancé."
+  },
+  {
+    "name": "Buğra Gülsoy",
+    "role": "Vural Namlı",
+    "bio": "Turkish actor who plays Vural, one of the young men whose actions have major consequences for Fatmagül's life."
+  },
+  {
+    "name": "Engin Öztürk",
+    "role": "Selim Yaşaran",
+    "bio": "Turkish actor who plays Selim Yaşaran, a member of the wealthy Yaşaran family."
+  },
+  {
+    "name": "Kaan Taşaner",
+    "role": "Erdoğan Yaşaran",
+    "bio": "Turkish actor who plays Erdoğan Yaşaran, a member of the Yaşaran family."
+  },
+  {
+    "name": "Murat Daltaban",
+    "role": "Münir Telci",
+    "bio": "Turkish actor who plays Münir Telci, a lawyer and close associate of the Yaşaran family."
+  },
+  {
+    "name": "Sumru Yavrucuk",
+    "role": "Meryem Aksoy",
+    "bio": "Turkish actress who plays Meryem Aksoy, also known as Ebe Nine, who becomes an important support in Fatmagül's life."
+  },
+  {
+    "name": "Musa Uzunlar",
+    "role": "Reşat Yaşaran",
+    "bio": "Turkish actor who plays Reşat Yaşaran, a powerful member of the Yaşaran family."
+  },
+  {
+    "name": "Esra Dermancıoğlu",
+    "role": "Mukaddes Ketenci",
+    "bio": "Turkish actress who plays Mukaddes, Fatmagül's sister-in-law and a complicated member of her family."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/fatmagul/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/fatmagul/episode-2" },
@@ -410,6 +687,58 @@
     "story": "Seong Gi-hun, a divorced father drowning in debt, is recruited into a secret survival competition where hundreds of desperate contestants play childhood games with deadly consequences for a massive cash prize.",
     "genre": ["Thriller", "Drama", "Mystery"],
     "featured": true,
+"cast": [
+  {
+    "name": "Lee Jung-jae",
+    "role": "Seong Gi-hun (Player 456)",
+    "bio": "South Korean actor who plays Seong Gi-hun, the central character who becomes deeply determined to uncover the truth behind the game."
+  },
+  {
+    "name": "Park Hae-soo",
+    "role": "Cho Sang-woo (Player 218)",
+    "bio": "South Korean actor who plays Cho Sang-woo, Gi-hun's childhood friend and a highly educated contestant facing serious financial problems."
+  },
+  {
+    "name": "Jung Ho-yeon",
+    "role": "Kang Sae-byeok (Player 067)",
+    "bio": "South Korean actress and model who plays Kang Sae-byeok, a determined contestant with a strong motivation to help her family."
+  },
+  {
+    "name": "Wi Ha-jun",
+    "role": "Hwang Jun-ho",
+    "bio": "South Korean actor who plays Hwang Jun-ho, a police officer searching for his missing brother and investigating the mysterious game."
+  },
+  {
+    "name": "Lee Byung-hun",
+    "role": "Hwang In-ho / Front Man",
+    "bio": "South Korean actor who plays the Front Man, the mysterious figure overseeing the organization behind the game."
+  },
+  {
+    "name": "Oh Young-soo",
+    "role": "Oh Il-nam (Player 001)",
+    "bio": "South Korean actor who plays Oh Il-nam, an elderly contestant who forms a friendship with Gi-hun during the competition."
+  },
+  {
+    "name": "Heo Sung-tae",
+    "role": "Jang Deok-su (Player 101)",
+    "bio": "South Korean actor who plays Jang Deok-su, a tough contestant whose criminal past influences his actions inside the game."
+  },
+  {
+    "name": "Kim Joo-ryoung",
+    "role": "Han Mi-nyeo (Player 212)",
+    "bio": "South Korean actress who plays Han Mi-nyeo, an unpredictable contestant who forms alliances to survive the competition."
+  },
+  {
+    "name": "Anupam Tripathi",
+    "role": "Abdul Ali (Player 199)",
+    "bio": "Indian actor who plays Abdul Ali, a Pakistani migrant worker who enters the game hoping to improve his family's situation."
+  },
+  {
+    "name": "Yim Si-wan",
+    "role": "Lee Myung-gi (Player 333)",
+    "bio": "South Korean actor and singer who joins the series in Season 2 as Lee Myung-gi, a former cryptocurrency influencer who enters the game after severe financial losses."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/squid-game/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/squid-game/episode-2" },
@@ -435,6 +764,58 @@
     "story": "Ha-ri agrees to a blind date pretending to be her friend, planning to sabotage it - but the man turns out to be her company's young CEO, leading to a fake-dating arrangement that slowly becomes real.",
     "genre": ["Romance", "Comedy"],
     "featured": false,
+"cast": [
+  {
+    "name": "Ahn Hyo-seop",
+    "role": "Kang Tae-moo",
+    "bio": "South Korean actor who plays Kang Tae-moo, the strict and ambitious CEO of Go Food."
+  },
+  {
+    "name": "Kim Se-jeong",
+    "role": "Shin Ha-ri",
+    "bio": "South Korean actress and singer who plays Shin Ha-ri, a food researcher who becomes involved in an unexpected blind-date arrangement."
+  },
+  {
+    "name": "Kim Min-kyu",
+    "role": "Cha Sung-hoon",
+    "bio": "South Korean actor who plays Cha Sung-hoon, Kang Tae-moo's loyal secretary and close friend."
+  },
+  {
+    "name": "Seol In-ah",
+    "role": "Jin Young-seo",
+    "bio": "South Korean actress who plays Jin Young-seo, Ha-ri's best friend and the daughter of a wealthy family."
+  },
+  {
+    "name": "Lee Deok-hwa",
+    "role": "Kang Da-goo",
+    "bio": "South Korean actor who plays Kang Da-goo, Tae-moo's grandfather and the chairman of Go Food."
+  },
+  {
+    "name": "Kim Kwang-kyu",
+    "role": "Shin Joong-hae",
+    "bio": "South Korean actor who plays Shin Joong-hae, Ha-ri's father and the owner of a small chicken restaurant."
+  },
+  {
+    "name": "Jung Young-joo",
+    "role": "Han Mi-mo",
+    "bio": "South Korean actress who plays Han Mi-mo, Ha-ri's mother and a caring member of the Shin family."
+  },
+  {
+    "name": "Choi Byung-chan",
+    "role": "Shin Ha-min",
+    "bio": "South Korean actor and singer who plays Shin Ha-min, Ha-ri's younger brother."
+  },
+  {
+    "name": "Song Won-seok",
+    "role": "Lee Min-woo",
+    "bio": "South Korean actor who plays Lee Min-woo, Ha-ri's longtime friend and a chef she has feelings for."
+  },
+  {
+    "name": "Bae Woo-hee",
+    "role": "Koh Yoo-ra",
+    "bio": "South Korean actress and singer who plays Koh Yoo-ra, a food content creator and Lee Min-woo's girlfriend."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/business-proposal/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/business-proposal/episode-2" },
@@ -463,6 +844,58 @@
     "story": "Vincenzo Cassano, raised in Italy and adopted into the mafia, returns to Korea to retrieve hidden gold - and ends up using his mob tactics to fight a corrupt conglomerate alongside a fierce lawyer.",
     "genre": ["Crime", "Drama", "Comedy"],
     "featured": false,
+    "cast": [
+  {
+    "name": "Song Joong-ki",
+    "role": "Vincenzo Cassano",
+    "bio": "South Korean actor who plays Vincenzo Cassano, a Korean-Italian lawyer and former consigliere of the Cassano crime family."
+  },
+  {
+    "name": "Jeon Yeo-been",
+    "role": "Hong Cha-young",
+    "bio": "South Korean actress who plays Hong Cha-young, a sharp and ambitious lawyer who becomes Vincenzo's partner."
+  },
+  {
+    "name": "Ok Taec-yeon",
+    "role": "Jang Jun-woo / Jang Han-seok",
+    "bio": "South Korean actor and singer who plays Jang Jun-woo, a seemingly friendly lawyer hiding his true identity as Babel Group's ruthless chairman."
+  },
+  {
+    "name": "Kwak Dong-yeon",
+    "role": "Jang Han-seo",
+    "bio": "South Korean actor who plays Jang Han-seo, the younger brother of Jang Han-seok and the nominal head of Babel Group."
+  },
+  {
+    "name": "Kim Yeo-jin",
+    "role": "Choi Myung-hee",
+    "bio": "South Korean actress who plays Choi Myung-hee, a former prosecutor who becomes Babel Group's powerful lawyer."
+  },
+  {
+    "name": "Yoo Jae-myung",
+    "role": "Hong Yoo-chan",
+    "bio": "South Korean actor who plays Hong Yoo-chan, a principled lawyer and Hong Cha-young's father."
+  },
+  {
+    "name": "Jo Han-chul",
+    "role": "Han Seung-hyuk",
+    "bio": "South Korean actor who plays Han Seung-hyuk, a senior lawyer at Wusang Law Firm."
+  },
+  {
+    "name": "Choi Young-joon",
+    "role": "Cho Young-woon",
+    "bio": "South Korean actor who plays Cho Young-woon, the owner of the Geumga Plaza building."
+  },
+  {
+    "name": "Kim Hyung-mook",
+    "role": "Mr. Lee",
+    "bio": "South Korean actor who plays Mr. Lee, an important member of the organization connected to Vincenzo."
+  },
+  {
+    "name": "Seo Ye-hwa",
+    "role": "Jang Yeon-jin",
+    "bio": "South Korean actress who plays Jang Yeon-jin, one of the colorful residents and supporting characters connected to Geumga Plaza."
+  }
+],
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/vincenzo/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/vincenzo/episode-2" },
@@ -489,6 +922,7 @@
     "story": "Yoon Hye-jin sets up a dental practice in the small coastal village of Gongjin, where she repeatedly bumps heads - and eventually falls in love - with Hong Du-sik, the warm-hearted jack-of-all-trades everyone in town relies on.",
     "genre": ["Romance", "Comedy", "Drama"],
     "featured": false,
+    
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/hometown-cha-cha-cha/episode-1" },
       { "title": "Episode 2", "url": "https://example.com/hometown-cha-cha-cha/episode-2" },
