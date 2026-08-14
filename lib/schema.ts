@@ -8,7 +8,7 @@ function absoluteUrl(path: string) {
 }
 
 export function generateDramaSchema(drama: Drama) {
-  return {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "TVSeries",
     name: drama.title,
@@ -25,6 +25,16 @@ export function generateDramaSchema(drama: Drama) {
     // AggregateRating jaan-bujh kar nahi lagaya — dataset mein real ratingCount
     // nahi hai, aur bina genuine count ke Google isse fake-rating maan sakta hai.
   };
+
+  if (drama.cast && drama.cast.length > 0) {
+    schema.actor = drama.cast.map((member) => ({
+      "@type": "Person",
+      name: member.name,
+      description: member.bio,
+    }));
+  }
+
+  return schema;
 }
 
 export function generateDramaListSchema(dramas: Drama[]) {
