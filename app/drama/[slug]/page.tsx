@@ -1,4 +1,6 @@
 import CastList from "@/components/CastList";
+import { getRelatedDramas } from "@/lib/dramas";
+import RelatedDramas from "@/components/RelatedDramas";
 import { notFound } from "next/navigation";
 import { generateDramaSchema } from "@/lib/schema";
 import WatchButtons from "@/components/WatchButtons";
@@ -54,6 +56,8 @@ export default async function DramaDetailPage({ params }: PageProps) {
 
   if (!drama) notFound();
 
+const related = getRelatedDramas(drama);
+  
   const catColor = categoryColors[drama.category] ?? "bg-slate-600/20 text-slate-300 border-slate-600/40";
   const posterGradients: Record<string, string> = {
     Korean: "from-violet-900 via-purple-800 to-indigo-950",
@@ -220,6 +224,7 @@ export default async function DramaDetailPage({ params }: PageProps) {
         <CastList cast={drama.cast} />
         {/* Episodes */}
         <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} />
+       <RelatedDramas dramas={related} />
       </div>
     </article>
   );
