@@ -11,6 +11,28 @@
     "description": "A South Korean heiress accidentally paraglides into North Korea and falls in love with a military officer who shields her identity.",
     "story": "Yoon Se-ri, a successful businesswoman and heiress, is paragliding when a sudden storm forces her to land in North Korea. There she meets Captain Ri Jeong-hyeok, a stoic military officer who decides to help hide her. As the two spend more time together, they fall deeply in love. The drama explores the hardships of a relationship divided by borders, ideology, and impossible circumstances, all while maintaining a warm and often humorous tone.",
     "genre": ["Romance", "Comedy", "Drama"],
+"cast": [
+  {
+    "name": "Hyun Bin",
+    "role": "Ri Jeong-hyeok",
+    "bio": "South Korean actor born Kim Tae-pyung on September 25, 1982 in Seoul. Rose to fame with My Lovely Sam Soon (2005); Crash Landing on You brought him major international recognition."
+  },
+  {
+    "name": "Son Ye-jin",
+    "role": "Yoon Se-ri",
+    "bio": "South Korean actress born January 11, 1982 in Daegu. Known as Korea's 'Nation's First Love' for early romance films; Crash Landing on You made her a global star."
+  },
+  {
+    "name": "Seo Ji-hye",
+    "role": "Seo Dan",
+    "bio": "South Korean actress born August 24, 1984 in Seoul. Known for dramas including 49 Days and Punch before her breakout supporting role in Crash Landing on You."
+  },
+  {
+    "name": "Kim Jung-hyun",
+    "role": "Gu Seung-jun",
+    "bio": "South Korean actor born April 5, 1990 in Busan. Known for School 2017 and Welcome to Waikiki; gained international recognition through Crash Landing on You."
+  }
+]
     "featured": true,
     "episodes": [
       { "title": "Episode 1", "url": "https://example.com/crash-landing/episode-1" },
