@@ -2,15 +2,12 @@ export interface Episode {
   title: string;
   url: string;
 }
+
 export interface CastMember {
   name: string;
-  role: string;   // character ka naam jo actor ne play kiya
+  role: string; // character ka naam jo actor ne play kiya
+  bio?: string; // ek-do line ka actor bio
   photo?: string; // optional — agar photo URL ho
-}
-
-export interface Drama {
-  // ...existing fields waisi hi rakho...
-  cast?: CastMember[]; // ye naya field add karo
 }
 
 export interface Drama {
@@ -27,6 +24,7 @@ export interface Drama {
   genre: string[];
   featured: boolean;
   episodes: Episode[];
+  cast?: CastMember[];
 }
 
 export type CategoryFilter = "All" | "Korean" | "Chinese" | "Turkish";
