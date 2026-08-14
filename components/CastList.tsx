@@ -9,13 +9,13 @@ export default function CastList({ cast }: { cast?: CastMember[] }) {
         <span className="w-1 h-6 rounded-full bg-violet-500 block" aria-hidden="true" />
         Cast
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <div className="space-y-3">
         {cast.map((member) => (
           <div
             key={member.name}
-            className="bg-slate-800/40 border border-slate-700/40 rounded-xl p-4 text-center"
+            className="bg-slate-800/40 border border-slate-700/40 rounded-xl p-4 flex gap-4 items-start"
           >
-            <div className="w-16 h-16 mx-auto rounded-full overflow-hidden bg-slate-700 mb-2 flex items-center justify-center">
+            <div className="w-16 h-16 shrink-0 rounded-full overflow-hidden bg-slate-700 flex items-center justify-center">
               {member.photo ? (
                 <img
                   src={member.photo}
@@ -28,8 +28,13 @@ export default function CastList({ cast }: { cast?: CastMember[] }) {
                 </span>
               )}
             </div>
-            <p className="text-white font-bold text-sm">{member.name}</p>
-            <p className="text-slate-500 text-xs">{member.role}</p>
+            <div>
+              <p className="text-white font-bold text-sm">{member.name}</p>
+              <p className="text-slate-500 text-xs mb-1">{member.role}</p>
+              {member.bio && (
+                <p className="text-slate-300 text-xs leading-relaxed">{member.bio}</p>
+              )}
+            </div>
           </div>
         ))}
       </div>
