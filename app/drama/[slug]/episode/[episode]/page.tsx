@@ -107,7 +107,7 @@ export default async function EpisodePage({ params }: PageProps) {
           </h2>
           <div className="space-y-4">
             {/* Viki */}
-            
+            <a
               href={currentEpisode.url}
               target="_blank"
               rel="noopener noreferrer"
@@ -123,7 +123,7 @@ export default async function EpisodePage({ params }: PageProps) {
             </a>
 
             {/* Netflix */}
-            
+            <a
               href={currentEpisode.url}
               target="_blank"
               rel="noopener noreferrer"
@@ -139,7 +139,7 @@ export default async function EpisodePage({ params }: PageProps) {
             </a>
 
             {/* Disney+ */}
-            
+            <a
               href={currentEpisode.url}
               target="_blank"
               rel="noopener noreferrer"
