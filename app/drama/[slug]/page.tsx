@@ -223,7 +223,7 @@ const related = getRelatedDramas(drama);
         <WatchButtons drama={drama} />
         <CastList cast={drama.cast} />
         {/* Episodes */}
-        <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} />
+       <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} dramaSlug={drama.slug} />
        <RelatedDramas dramas={related} />
       </div>
     </article>
