@@ -1,11 +1,13 @@
-import { Episode } from "@/types/drama";
+import Link from "next/link";
+import type { Episode } from "@/types/drama";
 
 interface EpisodeListProps {
   episodes: Episode[];
   dramaTitle: string;
+  dramaSlug: string;
 }
 
-export default function EpisodeList({ episodes, dramaTitle }: EpisodeListProps) {
+export default function EpisodeList({ episodes, dramaTitle, dramaSlug }: EpisodeListProps) {
   return (
     <section aria-labelledby="episodes-heading">
       <h2
@@ -19,17 +21,15 @@ export default function EpisodeList({ episodes, dramaTitle }: EpisodeListProps) 
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
         {episodes.map((episode, index) => (
-          <a
+          <Link
             key={index}
-            href={episode.url}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={`/drama/${dramaSlug}/episode/${index + 1}`}
             id={`episode-${index + 1}`}
             aria-label={`Watch ${episode.title} of ${dramaTitle}`}
-            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-800/60 border border-slate-700/50 hover:border-violet-500/50 hover:bg-slate-800 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-violet-900/20"
+            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-800/60 border border-slate-700/50 hover:border-violet-500/50 hover:shadow-lg hover:shadow-violet-900/20"
           >
             {/* Episode number bubble */}
-            <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-violet-600/20 border border-violet-500/30 flex items-center justify-center text-violet-400 font-bold text-xs group-hover:bg-violet-600 group-hover:border-violet-500 group-hover:text-white transition-all duration-200">
+            <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-violet-600/20 border border-violet-500/30 flex items-center justify-center text-violet-300 text-sm font-bold group-hover:bg-violet-600 group-hover:text-white transition-all duration-200">
               {index + 1}
             </div>
 
@@ -44,9 +44,9 @@ export default function EpisodeList({ episodes, dramaTitle }: EpisodeListProps) 
               fill="currentColor"
               aria-hidden="true"
             >
-              <path d="M5 3.5l8 4.5-8 4.5V3.5z" />
+              <path d="M5 3.5l4.5 4.5-4.5 4.5V3.5z" />
             </svg>
-          </a>
+          </Link>
         ))}
       </div>
     </section>
