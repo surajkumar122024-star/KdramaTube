@@ -29,3 +29,23 @@ export function getFeaturedDrama(): Drama | undefined {
 export function getAllDramaSlugs(): string[] {
   return allDramas.map((d) => d.slug);
 }
+
+/** Return other dramas from the same category, excluding the current one */
+export function getRelatedDramas(current: Drama, limit = 4): Drama[] {
+  return allDramas
+    .filter((d) => d.slug !== current.slug && d.category === current.category)
+    .slice(0, limit);
+}
+
+/** Search dramas by title (case-insensitive) across all categories */
+export function searchDramas(query: string): Drama[] {
+  const lower = query.toLowerCase().trim();
+  if (!lower) return allDramas;
+  return allDramas.filter(
+    (d) =>
+      d.title.toLowerCase().includes(lower) ||
+      d.category.toLowerCase().includes(lower) ||
+      d.genre.some((g) => g.toLowerCase().includes(lower)) ||
+      d.country.toLowerCase().includes(lower)
+  );
+}
