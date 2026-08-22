@@ -1,5 +1,23 @@
+interface Drama {
+  id: string;
+  slug: string;
+  title: string;
+  category: string;
+  country: string;
+  year: number;
+  rating: number;
+  poster?: string;        // optional
+  description: string;
+  story?: string;         // optional
+  genre: string[];
+  cast?: { name: string; role: string; bio?: string }[];  // optional
+  featured: boolean;
+  whereToWatch?: { platform: string; url: string }[];     // optional
+  episodeCount: number;
+  episodes?: { title: string; summary: string }[];        // optional
+}
 import dramas from "@/data/dramas.json";
-import { Drama, CategoryFilter } from "@/types/drama";
+import { CategoryFilter } from "@/types/drama";
 
 // Cast the imported JSON to our typed array
 const allDramas = dramas as Drama[];
