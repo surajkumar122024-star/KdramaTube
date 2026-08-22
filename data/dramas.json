@@ -10,47 +10,106 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/5/5e/Crash_Landing_on_You_poster.png",
     "description": "A South Korean heiress accidentally paraglides into North Korea and falls in love with a military officer who shields her identity.",
     "story": "Yoon Se-ri, a successful businesswoman and heiress, is paragliding when a sudden storm forces her to land in North Korea. There she meets Captain Ri Jeong-hyeok, a stoic military officer who decides to help hide her. As the two spend more time together, they fall deeply in love. The drama explores the hardships of a relationship divided by borders, ideology, and impossible circumstances, all while maintaining a warm and often humorous tone.",
-    "genre": ["Romance", "Comedy", "Drama"],
-"cast": [
-  {
-    "name": "Hyun Bin",
-    "role": "Ri Jeong-hyeok",
-    "bio": "South Korean actor born Kim Tae-pyung on September 25, 1982 in Seoul. Rose to fame with My Lovely Sam Soon (2005); Crash Landing on You brought him major international recognition."
-  },
-  {
-    "name": "Son Ye-jin",
-    "role": "Yoon Se-ri",
-    "bio": "South Korean actress born January 11, 1982 in Daegu. Known as Korea's 'Nation's First Love' for early romance films; Crash Landing on You made her a global star."
-  },
-  {
-    "name": "Seo Ji-hye",
-    "role": "Seo Dan",
-    "bio": "South Korean actress born August 24, 1984 in Seoul. Known for dramas including 49 Days and Punch before her breakout supporting role in Crash Landing on You."
-  },
-  {
-    "name": "Kim Jung-hyun",
-    "role": "Gu Seung-jun",
-    "bio": "South Korean actor born April 5, 1990 in Busan. Known for School 2017 and Welcome to Waikiki; gained international recognition through Crash Landing on You."
-  }
-],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Hyun Bin",
+        "role": "Ri Jeong-hyeok",
+        "bio": "South Korean actor born Kim Tae-pyung on September 25, 1982 in Seoul. Rose to fame with My Lovely Sam Soon (2005); Crash Landing on You brought him major international recognition."
+      },
+      {
+        "name": "Son Ye-jin",
+        "role": "Yoon Se-ri",
+        "bio": "South Korean actress born January 11, 1982 in Daegu. Known as Korea's 'Nation's First Love' for early romance films; Crash Landing on You made her a global star."
+      },
+      {
+        "name": "Seo Ji-hye",
+        "role": "Seo Dan",
+        "bio": "South Korean actress born August 24, 1984 in Seoul. Known for dramas including 49 Days and Punch before her breakout supporting role in Crash Landing on You."
+      },
+      {
+        "name": "Kim Jung-hyun",
+        "role": "Gu Seung-jun",
+        "bio": "South Korean actor born April 5, 1990 in Busan. Known for School 2017 and Welcome to Waikiki; gained international recognition through Crash Landing on You."
+      }
+    ],
     "featured": true,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/in/title/81159258"
+      }
+    ],
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://www.netflix.com/in/title/81159258#episodes-1" },
-      { "title": "Episode 2", "url": "https://example.com/crash-landing/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/crash-landing/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/crash-landing/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/crash-landing/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/crash-landing/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/crash-landing/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/crash-landing/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/crash-landing/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/crash-landing/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/crash-landing/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/crash-landing/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/crash-landing/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/crash-landing/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/crash-landing/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/crash-landing/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -64,47 +123,100 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/6/68/Goblin_Poster.jpg",
     "description": "An immortal Goblin seeks his human bride to end his eternal life, but falls in love with her instead.",
     "story": "Kim Shin is a decorated military general from the Goryeo dynasty who was cursed to live as an immortal Goblin. The only way to end his immortal life is to find his human bride who can pull the sword from his chest. He meets Ji Eun-tak, a bubbly high school student with the ability to see ghosts, who is destined to be his bride. As their love grows, both must face the consequences of fate and sacrifice.",
-    "genre": ["Fantasy", "Romance", "Drama"],
+    "genre": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
     "cast": [
-  {
-    "name": "Gong Yoo",
-    "role": "Kim Shin",
-    "bio": "South Korean actor born Gong Ji-cheol on July 10, 1979 in Busan. Known for Coffee Prince (2007) and Train to Busan (2016); won Best Actor at the Baeksang Awards for Goblin."
-  },
-  {
-    "name": "Kim Go-eun",
-    "role": "Ji Eun-tak",
-    "bio": "South Korean actress born July 2, 1991 in Seoul. Goblin was one of her breakout television roles, launching her as a leading actress in Korean drama."
-  },
-  {
-    "name": "Lee Dong-wook",
-    "role": "Wang Yeo (Grim Reaper)",
-    "bio": "South Korean actor born November 6, 1981 in Seoul. Known for My Girl (2005) and Scent of a Woman (2011); later led Tale of the Nine Tailed after Goblin."
-  },
-  {
-    "name": "Yoo In-na",
-    "role": "Sunny",
-    "bio": "South Korean actress born June 5, 1982 in Seongnam. Known for My Love from the Star (2013); won Best Supporting Actress honors for her role in Goblin."
-  }
-],
+      {
+        "name": "Gong Yoo",
+        "role": "Kim Shin",
+        "bio": "South Korean actor born Gong Ji-cheol on July 10, 1979 in Busan. Known for Coffee Prince (2007) and Train to Busan (2016); won Best Actor at the Baeksang Awards for Goblin."
+      },
+      {
+        "name": "Kim Go-eun",
+        "role": "Ji Eun-tak",
+        "bio": "South Korean actress born July 2, 1991 in Seoul. Goblin was one of her breakout television roles, launching her as a leading actress in Korean drama."
+      },
+      {
+        "name": "Lee Dong-wook",
+        "role": "Wang Yeo (Grim Reaper)",
+        "bio": "South Korean actor born November 6, 1981 in Seoul. Known for My Girl (2005) and Scent of a Woman (2011); later led Tale of the Nine Tailed after Goblin."
+      },
+      {
+        "name": "Yoo In-na",
+        "role": "Sunny",
+        "bio": "South Korean actress born June 5, 1982 in Seongnam. Known for My Love from the Star (2013); won Best Supporting Actress honors for her role in Goblin."
+      }
+    ],
     "featured": false,
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/goblin/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/goblin/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/goblin/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/goblin/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/goblin/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/goblin/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/goblin/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/goblin/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/goblin/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/goblin/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/goblin/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/goblin/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/goblin/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/goblin/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/goblin/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/goblin/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -117,48 +229,101 @@
     "rating": 8.7,
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/99/Itaewon_Class.jpg",
     "description": "An ex-convict opens a small bar in Itaewon and fights against a powerful food conglomerate that destroyed his family.",
-    "story": "Park Saeroyi's life is shattered when his father is killed in a hit-and-run by the son of a powerful food company CEO. After serving time in prison for assaulting the culprit, Saeroyi vows revenge — not through violence, but by building a thriving business empire to outcompete the conglomerate. With the help of a sharp-tongued manager, Jo Yi-seo, and a loyal crew of misfits, he embarks on a journey of grit, ambition, and justice.",
-    "genre": ["Drama", "Business", "Romance"],
+    "story": "Park Saeroyi's life is shattered when his father is killed in a hit-and-run by the son of a powerful food company CEO. After serving time in prison for assaulting the culprit, Saeroyi vows revenge - not through violence, but by building a thriving business empire to outcompete the conglomerate. With the help of a sharp-tongued manager, Jo Yi-seo, and a loyal crew of misfits, he embarks on a journey of grit, ambition, and justice.",
+    "genre": [
+      "Drama",
+      "Business",
+      "Romance"
+    ],
     "featured": false,
     "cast": [
-  {
-    "name": "Park Seo-joon",
-    "role": "Park Sae-ro-yi",
-    "bio": "South Korean actor born Park Yong-kyu on December 16, 1988 in Seoul. Known for What's Wrong with Secretary Kim (2018); Itaewon Class further established him as a leading actor."
-  },
-  {
-    "name": "Kim Da-mi",
-    "role": "Jo Yi-seo",
-    "bio": "South Korean actress born April 9, 1995 in Seoul. First gained recognition in The Witch: Part 1 (2018); her role in Itaewon Class won her Best New Actress at the Baeksang Arts Awards."
-  },
-  {
-    "name": "Yoo Jae-myung",
-    "role": "Jang Dae-hee",
-    "bio": "South Korean actor born June 3, 1973 in Busan. Known for Reply 1988 (2015) and Stranger (2017); won Best Supporting Actor for his role in Itaewon Class."
-  },
-  {
-    "name": "Kwon Nara",
-    "role": "Oh Soo-ah",
-    "bio": "South Korean actress and former singer born Kwon Ah-yoon on March 13, 1991 in Incheon. A founding member of girl group Hello Venus before transitioning fully into acting."
-  }
-],
+      {
+        "name": "Park Seo-joon",
+        "role": "Park Sae-ro-yi",
+        "bio": "South Korean actor born Park Yong-kyu on December 16, 1988 in Seoul. Known for What's Wrong with Secretary Kim (2018); Itaewon Class further established him as a leading actor."
+      },
+      {
+        "name": "Kim Da-mi",
+        "role": "Jo Yi-seo",
+        "bio": "South Korean actress born April 9, 1995 in Seoul. First gained recognition in The Witch: Part 1 (2018); her role in Itaewon Class won her Best New Actress at the Baeksang Arts Awards."
+      },
+      {
+        "name": "Yoo Jae-myung",
+        "role": "Jang Dae-hee",
+        "bio": "South Korean actor born June 3, 1973 in Busan. Known for Reply 1988 (2015) and Stranger (2017); won Best Supporting Actor for his role in Itaewon Class."
+      },
+      {
+        "name": "Kwon Nara",
+        "role": "Oh Soo-ah",
+        "bio": "South Korean actress and former singer born Kwon Ah-yoon on March 13, 1991 in Incheon. A founding member of girl group Hello Venus before transitioning fully into acting."
+      }
+    ],
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/itaewon-class/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/itaewon-class/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/itaewon-class/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/itaewon-class/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/itaewon-class/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/itaewon-class/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/itaewon-class/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/itaewon-class/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/itaewon-class/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/itaewon-class/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/itaewon-class/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/itaewon-class/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/itaewon-class/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/itaewon-class/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/itaewon-class/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/itaewon-class/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -171,68 +336,121 @@
     "rating": 8.8,
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/You_Who_Came_From_the_Stars_Cover.jpg",
     "description": "An alien who has lived on Earth for 400 years falls in love with a top actress just before he must return to his home planet.",
-    "story": "Do Min-joon is an alien who landed on Earth during the Joseon dynasty and has been living as a human ever since. With supernatural abilities and an appearance that never ages, he works as a law professor. He meets Cheon Song-yi, the nation's biggest celebrity, who moves into his apartment building. Despite his desire to keep his distance, Min-joon finds himself falling for her — even as the clock ticks on his imminent departure from Earth.",
-    "genre": ["Sci-Fi", "Romance", "Fantasy"],
+    "story": "Do Min-joon is an alien who landed on Earth during the Joseon dynasty and has been living as a human ever since. With supernatural abilities and an appearance that never ages, he works as a law professor. He meets Cheon Song-yi, the nation's biggest celebrity, who moves into his apartment building. Despite his desire to keep his distance, Min-joon finds himself falling for her - even as the clock ticks on his imminent departure from Earth.",
+    "genre": [
+      "Sci-Fi",
+      "Romance",
+      "Fantasy"
+    ],
     "featured": false,
     "cast": [
-  {
-    "name": "Kim Soo-hyun",
-    "role": "Do Min-joon",
-    "bio": "South Korean actor who plays Do Min-joon, an alien who has lived on Earth for 400 years."
-  },
-  {
-    "name": "Jun Ji-hyun",
-    "role": "Cheon Song-yi",
-    "bio": "South Korean actress who plays Cheon Song-yi, a famous actress whose life changes after meeting Do Min-joon."
-  },
-  {
-    "name": "Park Hae-jin",
-    "role": "Lee Hwi-kyung",
-    "bio": "South Korean actor who plays Lee Hwi-kyung, Song-yi's longtime friend who has loved her since childhood."
-  },
-  {
-    "name": "Yoo In-na",
-    "role": "Yoo Se-mi",
-    "bio": "South Korean actress who plays Yoo Se-mi, Song-yi's longtime friend and a fellow actress."
-  },
-  {
-    "name": "Shin Sung-rok",
-    "role": "Lee Jae-kyung",
-    "bio": "South Korean actor who plays Lee Jae-kyung, Hwi-kyung's older brother and a major antagonist."
-  },
-  {
-    "name": "Ahn Jae-hyun",
-    "role": "Cheon Yoon-jae",
-    "bio": "South Korean actor who plays Cheon Yoon-jae, Song-yi's younger brother."
-  },
-  {
-    "name": "Na Young-hee",
-    "role": "Yang Mi-yeon",
-    "bio": "South Korean actress who plays Yang Mi-yeon, Cheon Song-yi's mother."
-  },
-  {
-    "name": "Kim Chang-wan",
-    "role": "Jang Young-mok",
-    "bio": "South Korean actor who plays Jang Young-mok, Do Min-joon's lawyer and trusted confidant."
-  }
-],
+      {
+        "name": "Kim Soo-hyun",
+        "role": "Do Min-joon",
+        "bio": "South Korean actor who plays Do Min-joon, an alien who has lived on Earth for 400 years."
+      },
+      {
+        "name": "Jun Ji-hyun",
+        "role": "Cheon Song-yi",
+        "bio": "South Korean actress who plays Cheon Song-yi, a famous actress whose life changes after meeting Do Min-joon."
+      },
+      {
+        "name": "Park Hae-jin",
+        "role": "Lee Hwi-kyung",
+        "bio": "South Korean actor who plays Lee Hwi-kyung, Song-yi's longtime friend who has loved her since childhood."
+      },
+      {
+        "name": "Yoo In-na",
+        "role": "Yoo Se-mi",
+        "bio": "South Korean actress who plays Yoo Se-mi, Song-yi's longtime friend and a fellow actress."
+      },
+      {
+        "name": "Shin Sung-rok",
+        "role": "Lee Jae-kyung",
+        "bio": "South Korean actor who plays Lee Jae-kyung, Hwi-kyung's older brother and a major antagonist."
+      },
+      {
+        "name": "Ahn Jae-hyun",
+        "role": "Cheon Yoon-jae",
+        "bio": "South Korean actor who plays Cheon Yoon-jae, Song-yi's younger brother."
+      },
+      {
+        "name": "Na Young-hee",
+        "role": "Yang Mi-yeon",
+        "bio": "South Korean actress who plays Yang Mi-yeon, Cheon Song-yi's mother."
+      },
+      {
+        "name": "Kim Chang-wan",
+        "role": "Jang Young-mok",
+        "bio": "South Korean actor who plays Jang Young-mok, Do Min-joon's lawyer and trusted confidant."
+      }
+    ],
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/my-love-from-the-star/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/my-love-from-the-star/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/my-love-from-the-star/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/my-love-from-the-star/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/my-love-from-the-star/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/my-love-from-the-star/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/my-love-from-the-star/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/my-love-from-the-star/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/my-love-from-the-star/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/my-love-from-the-star/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/my-love-from-the-star/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/my-love-from-the-star/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/my-love-from-the-star/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/my-love-from-the-star/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/my-love-from-the-star/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/my-love-from-the-star/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -246,46 +464,111 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/77/Scarlet_Heart.jpg",
     "description": "A modern woman travels back in time to the Goryeo dynasty and becomes entangled in a power struggle among princes.",
     "story": "Go Ha-jin, a contemporary woman, is transported back in time to the Goryeo dynasty where she wakes up in the body of a noble girl named Hae Soo. Surrounded by the many princes of the ruling Wang family, she must navigate dangerous court politics, royal rivalries, and the pain of knowing history's cruel outcomes. She falls deeply in love with the brooding fourth prince, Wang So, but destiny may not allow them a happy ending.",
-    "genre": ["Historical", "Fantasy", "Romance"],
+    "genre": [
+      "Historical",
+      "Fantasy",
+      "Romance"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Lee Joon-gi",
-    "role": "Wang So (4th Prince)",
-    "bio": "South Korean actor born April 17, 1982 in Busan. Rose to fame with The King and the Clown (2005); known for period dramas like Arang and the Magistrate before Moon Lovers."
-  },
-  {
-    "name": "IU",
-    "role": "Hae Soo",
-    "bio": "South Korean singer-songwriter and actress born Lee Ji-eun on May 16, 1993 in Seoul. One of Korea's most prominent stars, later known for Hotel Del Luna (2019) and My Mister."
-  },
-  {
-    "name": "Kang Ha-neul",
-    "role": "Wang Wook (8th Prince)",
-    "bio": "South Korean actor born Kim Ha-neul on February 21, 1990 in Busan. Known for Misaeng: Incomplete Life (2014); later gained international recognition through Squid Game."
-  }
-],
+    "cast": [
+      {
+        "name": "Lee Joon-gi",
+        "role": "Wang So (4th Prince)",
+        "bio": "South Korean actor born April 17, 1982 in Busan. Rose to fame with The King and the Clown (2005); known for period dramas like Arang and the Magistrate before Moon Lovers."
+      },
+      {
+        "name": "IU",
+        "role": "Hae Soo",
+        "bio": "South Korean singer-songwriter and actress born Lee Ji-eun on May 16, 1993 in Seoul. One of Korea's most prominent stars, later known for Hotel Del Luna (2019) and My Mister."
+      },
+      {
+        "name": "Kang Ha-neul",
+        "role": "Wang Wook (8th Prince)",
+        "bio": "South Korean actor born Kim Ha-neul on February 21, 1990 in Busan. Known for Misaeng: Incomplete Life (2014); later gained international recognition through Squid Game."
+      }
+    ],
+    "episodeCount": 20,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/scarlet-heart/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/scarlet-heart/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/scarlet-heart/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/scarlet-heart/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/scarlet-heart/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/scarlet-heart/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/scarlet-heart/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/scarlet-heart/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/scarlet-heart/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/scarlet-heart/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/scarlet-heart/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/scarlet-heart/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/scarlet-heart/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/scarlet-heart/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/scarlet-heart/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/scarlet-heart/episode-16" },
-      { "title": "Episode 17", "url": "https://example.com/scarlet-heart/episode-17" },
-      { "title": "Episode 18", "url": "https://example.com/scarlet-heart/episode-18" },
-      { "title": "Episode 19", "url": "https://example.com/scarlet-heart/episode-19" },
-      { "title": "Episode 20", "url": "https://example.com/scarlet-heart/episode-20" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      },
+      {
+        "title": "Episode 17",
+        "summary": ""
+      },
+      {
+        "title": "Episode 18",
+        "summary": ""
+      },
+      {
+        "title": "Episode 19",
+        "summary": ""
+      },
+      {
+        "title": "Episode 20",
+        "summary": ""
+      }
     ]
   },
   {
@@ -299,71 +582,106 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/31/Theuntamed.jpg",
     "description": "Two cultivators investigate a series of mysterious dark arts crimes that shake the martial world and uncover a conspiracy buried in the past.",
     "story": "Wei Wuxian and Lan Wangji are two young men from rival cultivation clans who meet and develop an unlikely bond while pursuing a shared goal of justice. After a tragedy leads to Wei Wuxian's apparent death, he is resurrected sixteen years later in the body of another man. Together, they investigate a series of supernatural murders that lead back to long-buried secrets and a powerful, ancient evil that threatens the entire cultivation world.",
-    "genre": ["Fantasy", "Mystery", "Adventure"],
+    "genre": [
+      "Fantasy",
+      "Mystery",
+      "Adventure"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Xiao Zhan",
-    "role": "Wei Wuxian",
-    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
-  },
-  {
-    "name": "Wang Yibo",
-    "role": "Lan Wangji",
-    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
-  },
-  {
-    "name": "Wang Zhuocheng",
-    "role": "Jiang Cheng",
-    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
-  },
-  {
-    "name": "Xuan Lu",
-    "role": "Jiang Yanli",
-    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
-  },
-  {
-    "name": "Ji Li",
-    "role": "Nie Huaisang",
-    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
-  },
-  {
-    "name": "Yu Bin",
-    "role": "Wen Ning",
-    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
-  },
-  {
-    "name": "Liu Haikuan",
-    "role": "Lan Xichen",
-    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
-  },
-  {
-    "name": "Meng Ziyi",
-    "role": "Wen Qing",
-    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
-  },
-  {
-    "name": "Zhu Zanjin",
-    "role": "Jin Guangyao",
-    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
-  },
-  {
-    "name": "Cao Yuchen",
-    "role": "Jin Zixuan",
-    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
-  }
-],
+    "cast": [
+      {
+        "name": "Xiao Zhan",
+        "role": "Wei Wuxian",
+        "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
+      },
+      {
+        "name": "Wang Yibo",
+        "role": "Lan Wangji",
+        "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
+      },
+      {
+        "name": "Wang Zhuocheng",
+        "role": "Jiang Cheng",
+        "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
+      },
+      {
+        "name": "Xuan Lu",
+        "role": "Jiang Yanli",
+        "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
+      },
+      {
+        "name": "Ji Li",
+        "role": "Nie Huaisang",
+        "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
+      },
+      {
+        "name": "Yu Bin",
+        "role": "Wen Ning",
+        "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
+      },
+      {
+        "name": "Liu Haikuan",
+        "role": "Lan Xichen",
+        "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
+      },
+      {
+        "name": "Meng Ziyi",
+        "role": "Wen Qing",
+        "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
+      },
+      {
+        "name": "Zhu Zanjin",
+        "role": "Jin Guangyao",
+        "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
+      },
+      {
+        "name": "Cao Yuchen",
+        "role": "Jin Zixuan",
+        "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
+      }
+    ],
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/the-untamed/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/the-untamed/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/the-untamed/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/the-untamed/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/the-untamed/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/the-untamed/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/the-untamed/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/the-untamed/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/the-untamed/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/the-untamed/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -376,72 +694,55 @@
     "rating": 8.4,
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/bd/Love_O2O_Poster.jpg",
     "description": "A beautiful computer science student and a top gamer meet in an online game and their in-game romance spills into real life.",
-    "story": "Bei Wei Wei is a talented and beautiful computer science student who is known as the top female player in a popular online RPG. She is approached by Xiao Nai, the most sought-after student on campus and also the best player in the game, to become his in-game wife. As their virtual relationship blossoms, so does their real-world one — but jealousy, rivalry, and past wounds threaten to keep them apart.",
-    "genre": ["Romance", "Comedy", "Gaming"],
+    "story": "Bei Wei Wei is a talented and beautiful computer science student who is known as the top female player in a popular online RPG. She is approached by Xiao Nai, the most sought-after student on campus and also the best player in the game, to become his in-game wife. As their virtual relationship blossoms, so does their real-world one - but jealousy, rivalry, and past wounds threaten to keep them apart.",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Gaming"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Xiao Zhan",
-    "role": "Wei Wuxian",
-    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
-  },
-  {
-    "name": "Wang Yibo",
-    "role": "Lan Wangji",
-    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
-  },
-  {
-    "name": "Wang Zhuocheng",
-    "role": "Jiang Cheng",
-    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
-  },
-  {
-    "name": "Xuan Lu",
-    "role": "Jiang Yanli",
-    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
-  },
-  {
-    "name": "Ji Li",
-    "role": "Nie Huaisang",
-    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
-  },
-  {
-    "name": "Yu Bin",
-    "role": "Wen Ning",
-    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
-  },
-  {
-    "name": "Liu Haikuan",
-    "role": "Lan Xichen",
-    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
-  },
-  {
-    "name": "Meng Ziyi",
-    "role": "Wen Qing",
-    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
-  },
-  {
-    "name": "Zhu Zanjin",
-    "role": "Jin Guangyao",
-    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
-  },
-  {
-    "name": "Cao Yuchen",
-    "role": "Jin Zixuan",
-    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
-  }
-],
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/love-o2o/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/love-o2o/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/love-o2o/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/love-o2o/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/love-o2o/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/love-o2o/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/love-o2o/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/love-o2o/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/love-o2o/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/love-o2o/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -455,71 +756,54 @@
     "poster": "",
     "description": "The epic story of Ertuğrul, father of Ottoman Empire founder Osman I, and his tribe's fight for survival and justice.",
     "story": "Set in the 13th century, Diriliş: Ertuğrul follows the heroic Ertuğrul Bey, leader of the Kayı tribe, as he fights against the Mongol invasion and the treacherous Knights Templar while also struggling with inner conflicts within his own tribe. His valor, faith, and cunning leadership lay the foundation for what would eventually become the vast Ottoman Empire. A sweeping historical epic full of battles, betrayal, and brotherhood.",
-    "genre": ["Historical", "Action", "Epic"],
+    "genre": [
+      "Historical",
+      "Action",
+      "Epic"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Xiao Zhan",
-    "role": "Wei Wuxian",
-    "bio": "Chinese actor who plays Wei Wuxian, a talented cultivator whose journey becomes central to the mysteries of the story."
-  },
-  {
-    "name": "Wang Yibo",
-    "role": "Lan Wangji",
-    "bio": "Chinese actor who plays Lan Wangji, a disciplined cultivator from the Gusu Lan Clan and Wei Wuxian's close companion."
-  },
-  {
-    "name": "Wang Zhuocheng",
-    "role": "Jiang Cheng",
-    "bio": "Chinese actor who plays Jiang Cheng, a member of the Yunmeng Jiang Clan and Wei Wuxian's martial brother."
-  },
-  {
-    "name": "Xuan Lu",
-    "role": "Jiang Yanli",
-    "bio": "Chinese actress who plays Jiang Yanli, Jiang Cheng's elder sister and an important figure in Wei Wuxian's life."
-  },
-  {
-    "name": "Ji Li",
-    "role": "Nie Huaisang",
-    "bio": "Chinese actor who plays Nie Huaisang, the younger brother of Nie Mingjue and a member of the Qinghe Nie Clan."
-  },
-  {
-    "name": "Yu Bin",
-    "role": "Wen Ning",
-    "bio": "Chinese actor who plays Wen Ning, a member of the Wen Clan who develops a strong bond with Wei Wuxian."
-  },
-  {
-    "name": "Liu Haikuan",
-    "role": "Lan Xichen",
-    "bio": "Chinese actor who plays Lan Xichen, the elder brother of Lan Wangji and leader of the Gusu Lan Clan."
-  },
-  {
-    "name": "Meng Ziyi",
-    "role": "Wen Qing",
-    "bio": "Chinese actress who plays Wen Qing, a skilled physician of the Wen Clan and Wen Ning's elder sister."
-  },
-  {
-    "name": "Zhu Zanjin",
-    "role": "Jin Guangyao",
-    "bio": "Chinese actor who plays Jin Guangyao, a prominent member of the Lanling Jin Clan with a complicated past."
-  },
-  {
-    "name": "Cao Yuchen",
-    "role": "Jin Zixuan",
-    "bio": "Chinese actor who plays Jin Zixuan, a young cultivator of the Lanling Jin Clan and Jiang Yanli's husband."
-  }
-],
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/dirilis-ertugrul/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/dirilis-ertugrul/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/dirilis-ertugrul/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/dirilis-ertugrul/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/dirilis-ertugrul/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/dirilis-ertugrul/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/dirilis-ertugrul/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/dirilis-ertugrul/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/dirilis-ertugrul/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/dirilis-ertugrul/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -533,69 +817,63 @@
     "poster": "",
     "description": "A passionate love story between two people from different worlds whose lives become entangled in tragedy and obsession.",
     "story": "Kemal is a hardworking young man from a humble background who falls deeply in love with Nihan, a beautiful woman from a wealthy and complicated family. Their relationship is opposed by her family and further complicated by Emir, a powerful and manipulative man who is determined to keep Nihan for himself. The series is a dramatic, intense portrayal of love, sacrifice, and the destructive power of obsession.",
-    "genre": ["Romance", "Melodrama", "Drama"],
+    "genre": [
+      "Romance",
+      "Melodrama",
+      "Drama"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Burak Özçivit",
-    "role": "Kemal Soydere",
-    "bio": "Turkish actor who plays Kemal Soydere, a young engineer whose life becomes deeply connected with Nihan."
-  },
-  {
-    "name": "Neslihan Atagül",
-    "role": "Nihan Sezin",
-    "bio": "Turkish actress who plays Nihan Sezin, a young woman caught between her family circumstances and her love for Kemal."
-  },
-  {
-    "name": "Kaan Urgancıoğlu",
-    "role": "Emir Kozcuoğlu",
-    "bio": "Turkish actor who plays Emir Kozcuoğlu, a wealthy businessman and Kemal's main rival."
-  },
-  {
-    "name": "Zerrin Tekindor",
-    "role": "Leyla Acemzade",
-    "bio": "Turkish actress who plays Leyla Acemzade, a respected woman who becomes an important part of Nihan and Kemal's story."
-  },
-  {
-    "name": "Melisa Aslı Pamuk",
-    "role": "Asu Alacahan",
-    "bio": "Turkish actress who plays Asu Alacahan, a key character whose connection to Emir and Kemal affects the story."
-  },
-  {
-    "name": "Hazal Filiz Küçükköse",
-    "role": "Zeynep Soydere",
-    "bio": "Turkish actress who plays Zeynep Soydere, Kemal's sister whose choices create major consequences for the family."
-  },
-  {
-    "name": "Orhan Güner",
-    "role": "Hüseyin Soydere",
-    "bio": "Turkish actor who plays Hüseyin Soydere, Kemal's father and an important member of the Soydere family."
-  },
-  {
-    "name": "Neşe Baykent",
-    "role": "Vildan Sezin",
-    "bio": "Turkish actress who plays Vildan Sezin, Nihan's mother and a member of the Sezin family."
-  },
-  {
-    "name": "Zeyno Eracar",
-    "role": "Fehime Soydere",
-    "bio": "Turkish actress who plays Fehime Soydere, Kemal's mother and a central member of the Soydere family."
-  },
-  {
-    "name": "Burak Sergen",
-    "role": "Galip Kozcuoğlu",
-    "bio": "Turkish actor who plays Galip Kozcuoğlu, Emir's father and a powerful businessman."
-  }
-],
+    "cast": [
+      {
+        "name": "Burak Özçivit",
+        "role": "Kemal Soydere",
+        "bio": "Turkish actor who plays Kemal Soydere, a young engineer whose life becomes deeply connected with Nihan."
+      },
+      {
+        "name": "Neslihan Atagül",
+        "role": "Nihan Sezin",
+        "bio": "Turkish actress who plays Nihan Sezin, a young woman caught between her family circumstances and her love for Kemal."
+      },
+      {
+        "name": "Kaan Urgancıoğlu",
+        "role": "Emir Kozcuoğlu",
+        "bio": "Turkish actor who plays Emir Kozcuoğlu, a wealthy businessman and Kemal's main rival."
+      }
+    ],
+    "episodeCount": 8,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/kara-sevda/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/kara-sevda/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/kara-sevda/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/kara-sevda/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/kara-sevda/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/kara-sevda/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/kara-sevda/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/kara-sevda/episode-8" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      }
     ]
   },
   {
@@ -609,71 +887,48 @@
     "poster": "",
     "description": "A young woman's fight for justice after a horrific crime changes her life and challenges the society around her.",
     "story": "Fatmagül is a simple, kind-hearted young woman living in a small Turkish town on the Aegean coast, about to be married to her childhood sweetheart. Her life is shattered when she becomes the victim of a violent assault committed by a group of wealthy young men. The series follows her long, painful battle for justice in a society quick to blame the victim, and her unexpected bond with Kerim, one of the perpetrators who was coerced into participating.",
-    "genre": ["Drama", "Social", "Legal"],
+    "genre": [
+      "Drama",
+      "Social",
+      "Legal"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Beren Saat",
-    "role": "Fatmagül Ilgaz",
-    "bio": "Turkish actress who plays Fatmagül, the central character whose life changes dramatically after a traumatic incident."
-  },
-  {
-    "name": "Engin Akyürek",
-    "role": "Kerim Ilgaz",
-    "bio": "Turkish actor who plays Kerim, a central character whose relationship with Fatmagül becomes an important part of the story."
-  },
-  {
-    "name": "Fırat Çelik",
-    "role": "Mustafa Nalçın",
-    "bio": "Turkish actor who plays Mustafa, Fatmagül's former fiancé."
-  },
-  {
-    "name": "Buğra Gülsoy",
-    "role": "Vural Namlı",
-    "bio": "Turkish actor who plays Vural, one of the young men whose actions have major consequences for Fatmagül's life."
-  },
-  {
-    "name": "Engin Öztürk",
-    "role": "Selim Yaşaran",
-    "bio": "Turkish actor who plays Selim Yaşaran, a member of the wealthy Yaşaran family."
-  },
-  {
-    "name": "Kaan Taşaner",
-    "role": "Erdoğan Yaşaran",
-    "bio": "Turkish actor who plays Erdoğan Yaşaran, a member of the Yaşaran family."
-  },
-  {
-    "name": "Murat Daltaban",
-    "role": "Münir Telci",
-    "bio": "Turkish actor who plays Münir Telci, a lawyer and close associate of the Yaşaran family."
-  },
-  {
-    "name": "Sumru Yavrucuk",
-    "role": "Meryem Aksoy",
-    "bio": "Turkish actress who plays Meryem Aksoy, also known as Ebe Nine, who becomes an important support in Fatmagül's life."
-  },
-  {
-    "name": "Musa Uzunlar",
-    "role": "Reşat Yaşaran",
-    "bio": "Turkish actor who plays Reşat Yaşaran, a powerful member of the Yaşaran family."
-  },
-  {
-    "name": "Esra Dermancıoğlu",
-    "role": "Mukaddes Ketenci",
-    "bio": "Turkish actress who plays Mukaddes, Fatmagül's sister-in-law and a complicated member of her family."
-  }
-],
+    "episodeCount": 8,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/fatmagul/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/fatmagul/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/fatmagul/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/fatmagul/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/fatmagul/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/fatmagul/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/fatmagul/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/fatmagul/episode-8" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      }
     ]
-    },
+  },
   {
     "id": "squid-game",
     "slug": "squid-game",
@@ -685,70 +940,67 @@
     "poster": "https://upload.wikimedia.org/wikipedia/commons/5/57/Squid_Game_2021_vector_logo_english.svg",
     "description": "Hundreds of cash-strapped players accept a strange invitation to compete in deadly children's games for a huge cash prize.",
     "story": "Seong Gi-hun, a divorced father drowning in debt, is recruited into a secret survival competition where hundreds of desperate contestants play childhood games with deadly consequences for a massive cash prize.",
-    "genre": ["Thriller", "Drama", "Mystery"],
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Mystery"
+    ],
     "featured": true,
-"cast": [
-  {
-    "name": "Lee Jung-jae",
-    "role": "Seong Gi-hun (Player 456)",
-    "bio": "South Korean actor who plays Seong Gi-hun, the central character who becomes deeply determined to uncover the truth behind the game."
-  },
-  {
-    "name": "Park Hae-soo",
-    "role": "Cho Sang-woo (Player 218)",
-    "bio": "South Korean actor who plays Cho Sang-woo, Gi-hun's childhood friend and a highly educated contestant facing serious financial problems."
-  },
-  {
-    "name": "Jung Ho-yeon",
-    "role": "Kang Sae-byeok (Player 067)",
-    "bio": "South Korean actress and model who plays Kang Sae-byeok, a determined contestant with a strong motivation to help her family."
-  },
-  {
-    "name": "Wi Ha-jun",
-    "role": "Hwang Jun-ho",
-    "bio": "South Korean actor who plays Hwang Jun-ho, a police officer searching for his missing brother and investigating the mysterious game."
-  },
-  {
-    "name": "Lee Byung-hun",
-    "role": "Hwang In-ho / Front Man",
-    "bio": "South Korean actor who plays the Front Man, the mysterious figure overseeing the organization behind the game."
-  },
-  {
-    "name": "Oh Young-soo",
-    "role": "Oh Il-nam (Player 001)",
-    "bio": "South Korean actor who plays Oh Il-nam, an elderly contestant who forms a friendship with Gi-hun during the competition."
-  },
-  {
-    "name": "Heo Sung-tae",
-    "role": "Jang Deok-su (Player 101)",
-    "bio": "South Korean actor who plays Jang Deok-su, a tough contestant whose criminal past influences his actions inside the game."
-  },
-  {
-    "name": "Kim Joo-ryoung",
-    "role": "Han Mi-nyeo (Player 212)",
-    "bio": "South Korean actress who plays Han Mi-nyeo, an unpredictable contestant who forms alliances to survive the competition."
-  },
-  {
-    "name": "Anupam Tripathi",
-    "role": "Abdul Ali (Player 199)",
-    "bio": "Indian actor who plays Abdul Ali, a Pakistani migrant worker who enters the game hoping to improve his family's situation."
-  },
-  {
-    "name": "Yim Si-wan",
-    "role": "Lee Myung-gi (Player 333)",
-    "bio": "South Korean actor and singer who joins the series in Season 2 as Lee Myung-gi, a former cryptocurrency influencer who enters the game after severe financial losses."
-  }
-],
+    "cast": [
+      {
+        "name": "Lee Jung-jae",
+        "role": "Seong Gi-hun (Player 456)",
+        "bio": "South Korean actor who plays Seong Gi-hun, the central character who becomes deeply determined to uncover the truth behind the game."
+      },
+      {
+        "name": "Park Hae-soo",
+        "role": "Cho Sang-woo (Player 218)",
+        "bio": "South Korean actor who plays Cho Sang-woo, Gi-hun's childhood friend and a highly educated contestant facing serious financial problems."
+      },
+      {
+        "name": "Jung Ho-yeon",
+        "role": "Kang Sae-byeok (Player 067)",
+        "bio": "South Korean actress and model who plays Kang Sae-byeok, a determined contestant with a strong motivation to help her family."
+      }
+    ],
+    "episodeCount": 9,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/squid-game/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/squid-game/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/squid-game/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/squid-game/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/squid-game/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/squid-game/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/squid-game/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/squid-game/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/squid-game/episode-9" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      }
     ]
   },
   {
@@ -762,73 +1014,61 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/19/A_Business_Proposal.jpg",
     "description": "A woman goes on a blind date pretending to be someone else, only to discover her date is her own CEO.",
     "story": "Ha-ri agrees to a blind date pretending to be her friend, planning to sabotage it - but the man turns out to be her company's young CEO, leading to a fake-dating arrangement that slowly becomes real.",
-    "genre": ["Romance", "Comedy"],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
     "featured": false,
-"cast": [
-  {
-    "name": "Ahn Hyo-seop",
-    "role": "Kang Tae-moo",
-    "bio": "South Korean actor who plays Kang Tae-moo, the strict and ambitious CEO of Go Food."
-  },
-  {
-    "name": "Kim Se-jeong",
-    "role": "Shin Ha-ri",
-    "bio": "South Korean actress and singer who plays Shin Ha-ri, a food researcher who becomes involved in an unexpected blind-date arrangement."
-  },
-  {
-    "name": "Kim Min-kyu",
-    "role": "Cha Sung-hoon",
-    "bio": "South Korean actor who plays Cha Sung-hoon, Kang Tae-moo's loyal secretary and close friend."
-  },
-  {
-    "name": "Seol In-ah",
-    "role": "Jin Young-seo",
-    "bio": "South Korean actress who plays Jin Young-seo, Ha-ri's best friend and the daughter of a wealthy family."
-  },
-  {
-    "name": "Lee Deok-hwa",
-    "role": "Kang Da-goo",
-    "bio": "South Korean actor who plays Kang Da-goo, Tae-moo's grandfather and the chairman of Go Food."
-  },
-  {
-    "name": "Kim Kwang-kyu",
-    "role": "Shin Joong-hae",
-    "bio": "South Korean actor who plays Shin Joong-hae, Ha-ri's father and the owner of a small chicken restaurant."
-  },
-  {
-    "name": "Jung Young-joo",
-    "role": "Han Mi-mo",
-    "bio": "South Korean actress who plays Han Mi-mo, Ha-ri's mother and a caring member of the Shin family."
-  },
-  {
-    "name": "Choi Byung-chan",
-    "role": "Shin Ha-min",
-    "bio": "South Korean actor and singer who plays Shin Ha-min, Ha-ri's younger brother."
-  },
-  {
-    "name": "Song Won-seok",
-    "role": "Lee Min-woo",
-    "bio": "South Korean actor who plays Lee Min-woo, Ha-ri's longtime friend and a chef she has feelings for."
-  },
-  {
-    "name": "Bae Woo-hee",
-    "role": "Koh Yoo-ra",
-    "bio": "South Korean actress and singer who plays Koh Yoo-ra, a food content creator and Lee Min-woo's girlfriend."
-  }
-],
+    "episodeCount": 12,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/business-proposal/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/business-proposal/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/business-proposal/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/business-proposal/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/business-proposal/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/business-proposal/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/business-proposal/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/business-proposal/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/business-proposal/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/business-proposal/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/business-proposal/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/business-proposal/episode-12" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      }
     ]
   },
   {
@@ -842,71 +1082,54 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/5/5b/Vincenzo_TV_series.jpg",
     "description": "A Korean-Italian mafia lawyer returns to Korea and uses his ruthless methods to take down a corrupt corporation.",
     "story": "Vincenzo Cassano, raised in Italy and adopted into the mafia, returns to Korea to retrieve hidden gold - and ends up using his mob tactics to fight a corrupt conglomerate alongside a fierce lawyer.",
-    "genre": ["Crime", "Drama", "Comedy"],
+    "genre": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
     "featured": false,
-    "cast": [
-  {
-    "name": "Song Joong-ki",
-    "role": "Vincenzo Cassano",
-    "bio": "South Korean actor who plays Vincenzo Cassano, a Korean-Italian lawyer and former consigliere of the Cassano crime family."
-  },
-  {
-    "name": "Jeon Yeo-been",
-    "role": "Hong Cha-young",
-    "bio": "South Korean actress who plays Hong Cha-young, a sharp and ambitious lawyer who becomes Vincenzo's partner."
-  },
-  {
-    "name": "Ok Taec-yeon",
-    "role": "Jang Jun-woo / Jang Han-seok",
-    "bio": "South Korean actor and singer who plays Jang Jun-woo, a seemingly friendly lawyer hiding his true identity as Babel Group's ruthless chairman."
-  },
-  {
-    "name": "Kwak Dong-yeon",
-    "role": "Jang Han-seo",
-    "bio": "South Korean actor who plays Jang Han-seo, the younger brother of Jang Han-seok and the nominal head of Babel Group."
-  },
-  {
-    "name": "Kim Yeo-jin",
-    "role": "Choi Myung-hee",
-    "bio": "South Korean actress who plays Choi Myung-hee, a former prosecutor who becomes Babel Group's powerful lawyer."
-  },
-  {
-    "name": "Yoo Jae-myung",
-    "role": "Hong Yoo-chan",
-    "bio": "South Korean actor who plays Hong Yoo-chan, a principled lawyer and Hong Cha-young's father."
-  },
-  {
-    "name": "Jo Han-chul",
-    "role": "Han Seung-hyuk",
-    "bio": "South Korean actor who plays Han Seung-hyuk, a senior lawyer at Wusang Law Firm."
-  },
-  {
-    "name": "Choi Young-joon",
-    "role": "Cho Young-woon",
-    "bio": "South Korean actor who plays Cho Young-woon, the owner of the Geumga Plaza building."
-  },
-  {
-    "name": "Kim Hyung-mook",
-    "role": "Mr. Lee",
-    "bio": "South Korean actor who plays Mr. Lee, an important member of the organization connected to Vincenzo."
-  },
-  {
-    "name": "Seo Ye-hwa",
-    "role": "Jang Yeon-jin",
-    "bio": "South Korean actress who plays Jang Yeon-jin, one of the colorful residents and supporting characters connected to Geumga Plaza."
-  }
-],
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/vincenzo/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/vincenzo/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/vincenzo/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/vincenzo/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/vincenzo/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/vincenzo/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/vincenzo/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/vincenzo/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/vincenzo/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/vincenzo/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -920,26 +1143,92 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/3e/Hometown_Cha-Cha-Cha.jpg",
     "description": "A city dentist moves to a seaside village and clashes, then falls for, the town's do-it-all handyman.",
     "story": "Yoon Hye-jin sets up a dental practice in the small coastal village of Gongjin, where she repeatedly bumps heads - and eventually falls in love - with Hong Du-sik, the warm-hearted jack-of-all-trades everyone in town relies on.",
-    "genre": ["Romance", "Comedy", "Drama"],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
     "featured": false,
-    
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/title/81381461"
+      },
+      {
+        "platform": "Viki",
+        "url": "https://www.viki.com/tv/37285c-hometown-cha-cha-cha"
+      },
+      {
+        "platform": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      }
+    ],
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/hometown-cha-cha-cha/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/hometown-cha-cha-cha/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/hometown-cha-cha-cha/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/hometown-cha-cha-cha/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/hometown-cha-cha-cha/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/hometown-cha-cha-cha/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/hometown-cha-cha-cha/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/hometown-cha-cha-cha/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/hometown-cha-cha-cha/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/hometown-cha-cha-cha/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/hometown-cha-cha-cha/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/hometown-cha-cha-cha/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/hometown-cha-cha-cha/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/hometown-cha-cha-cha/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/hometown-cha-cha-cha/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/hometown-cha-cha-cha/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -951,27 +1240,79 @@
     "year": 2020,
     "rating": 8.9,
     "poster": "",
-    "description": "A psychiatric ward caregiver and a antisocial children's book author heal each other's emotional wounds.",
+    "description": "A psychiatric ward caregiver and an antisocial children's book author heal each other's emotional wounds.",
     "story": "Moon Gang-tae, who cares for his autistic older brother while working at a psychiatric hospital, crosses paths with Ko Moon-young, a successful but emotionally guarded children's book author, and the two begin to heal each other's deep-rooted trauma.",
-    "genre": ["Romance", "Drama"],
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
     "featured": false,
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/its-okay-to-not-be-okay/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/its-okay-to-not-be-okay/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/its-okay-to-not-be-okay/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/its-okay-to-not-be-okay/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/its-okay-to-not-be-okay/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/its-okay-to-not-be-okay/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/its-okay-to-not-be-okay/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/its-okay-to-not-be-okay/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/its-okay-to-not-be-okay/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/its-okay-to-not-be-okay/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/its-okay-to-not-be-okay/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/its-okay-to-not-be-okay/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/its-okay-to-not-be-okay/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/its-okay-to-not-be-okay/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/its-okay-to-not-be-okay/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/its-okay-to-not-be-okay/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -985,19 +1326,54 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/d/d8/TVN%27s_Reply_1988_%28%EC%9D%91%EB%8B%B5%ED%95%98%EB%9D%BC_1988%29_poster.jpg",
     "description": "Five childhood friends and their families navigate life, love, and growing up in 1980s Seoul.",
     "story": "Set in a close-knit Seoul neighborhood in 1988, five friends grow up together through school, first loves, and family struggles, in a nostalgic look at friendship and coming of age.",
-    "genre": ["Drama", "Family", "Romance"],
+    "genre": [
+      "Drama",
+      "Family",
+      "Romance"
+    ],
     "featured": false,
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/reply-1988/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/reply-1988/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/reply-1988/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/reply-1988/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/reply-1988/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/reply-1988/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/reply-1988/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/reply-1988/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/reply-1988/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/reply-1988/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1010,43 +1386,95 @@
     "rating": 8.6,
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/76/True_Beauty_TV_series_poster.jpg",
     "description": "A girl who transforms herself with makeup navigates high school romance while hiding her bare face.",
-    "story": "Lim Ju-kyung, once bullied for her appearance, mastaaaers makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
-    "genre": ["Romance", "Comedy"],
-  "cast": [
-  {
-    "name": "Moon Ga-young",
-    "role": "Lim Ju-kyung",
-    "bio": "South Korean actress born July 10, 1996 in Karlsruhe, Germany. Started as a child actress in 2006 and gained major recognition through her lead role in True Beauty."
-  },
-  {
-    "name": "Cha Eun-woo",
-    "role": "Lee Su-ho",
-    "bio": "South Korean singer and actor, born Lee Dong-min on March 30, 1997 in Gunpo. Member of boy band Astro; True Beauty brought him international recognition."
-  },
-  {
-    "name": "Hwang In-yeop",
-    "role": "Han Seo-jun",
-    "bio": "South Korean actor and model born January 19, 1991. Started as a runway model before his acting debut, later known for The Tale of Nokdu, 18 Again, and True Beauty."
-  }
-],
+    "story": "Lim Ju-kyung, once bullied for her appearance, masters makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "cast": [
+      {
+        "name": "Moon Ga-young",
+        "role": "Lim Ju-kyung",
+        "bio": "South Korean actress born July 10, 1996 in Karlsruhe, Germany. Started as a child actress in 2006 and gained major recognition through her lead role in True Beauty."
+      },
+      {
+        "name": "Cha Eun-woo",
+        "role": "Lee Su-ho",
+        "bio": "South Korean singer and actor, born Lee Dong-min on March 30, 1997 in Gunpo. Member of boy band Astro; True Beauty brought him international recognition."
+      },
+      {
+        "name": "Hwang In-yeop",
+        "role": "Han Seo-jun",
+        "bio": "South Korean actor and model born January 19, 1991. Started as a runway model before his acting debut, later known for The Tale of Nokdu, 18 Again, and True Beauty."
+      }
+    ],
     "featured": false,
+    "episodeCount": 16,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/true-beauty/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/true-beauty/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/true-beauty/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/true-beauty/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/true-beauty/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/true-beauty/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/true-beauty/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/true-beauty/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/true-beauty/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/true-beauty/episode-10" },
-      { "title": "Episode 11", "url": "https://example.com/true-beauty/episode-11" },
-      { "title": "Episode 12", "url": "https://example.com/true-beauty/episode-12" },
-      { "title": "Episode 13", "url": "https://example.com/true-beauty/episode-13" },
-      { "title": "Episode 14", "url": "https://example.com/true-beauty/episode-14" },
-      { "title": "Episode 15", "url": "https://example.com/true-beauty/episode-15" },
-      { "title": "Episode 16", "url": "https://example.com/true-beauty/episode-16" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1060,17 +1488,45 @@
     "poster": "",
     "description": "A woman devises a meticulous plan to take revenge on the classmates who brutally bullied her in school.",
     "story": "After enduring horrific bullying in high school that left her scarred for life, Moon Dong-eun spends years carefully orchestrating an elaborate revenge plan against her former tormentors.",
-    "genre": ["Thriller", "Drama"],
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
     "featured": false,
+    "episodeCount": 8,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/the-glory/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/the-glory/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/the-glory/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/the-glory/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/the-glory/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/the-glory/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/the-glory/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/the-glory/episode-8" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1084,19 +1540,54 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/15/Twenty-Five_Twenty-One.jpg",
     "description": "During the 1998 financial crisis, a passionate fencer and a once-wealthy young man form a bittersweet bond.",
     "story": "Amid South Korea's 1997 financial crisis, aspiring fencer Na Hee-do fights to keep her Olympic dream alive while forming a deep connection with Baek Yi-jin, a young man whose family fortune collapsed overnight.",
-    "genre": ["Romance", "Drama", "Youth"],
+    "genre": [
+      "Romance",
+      "Drama",
+      "Youth"
+    ],
     "featured": false,
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/twenty-five-twenty-one/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/twenty-five-twenty-one/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/twenty-five-twenty-one/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/twenty-five-twenty-one/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/twenty-five-twenty-one/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/twenty-five-twenty-one/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/twenty-five-twenty-one/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/twenty-five-twenty-one/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/twenty-five-twenty-one/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/twenty-five-twenty-one/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1110,19 +1601,54 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/6/6e/DescendantsoftheSun.jpg",
     "description": "A special forces captain and a surgeon fall in love while navigating duty, danger, and disaster relief abroad.",
     "story": "Captain Yoo Si-jin of a special forces unit and surgeon Kang Mo-yeon reconnect on a humanitarian mission overseas, where their romance is tested by military duty, natural disasters, and personal sacrifice.",
-    "genre": ["Romance", "Action", "Melodrama"],
+    "genre": [
+      "Romance",
+      "Action",
+      "Melodrama"
+    ],
     "featured": false,
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/descendants-of-the-sun/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/descendants-of-the-sun/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/descendants-of-the-sun/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/descendants-of-the-sun/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/descendants-of-the-sun/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/descendants-of-the-sun/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/descendants-of-the-sun/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/descendants-of-the-sun/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/descendants-of-the-sun/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/descendants-of-the-sun/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1136,19 +1662,54 @@
     "poster": "",
     "description": "Young entrepreneurs chase their startup dreams in Korea's version of Silicon Valley while navigating a tangled love triangle.",
     "story": "Seo Dal-mi dreams of becoming an entrepreneur and reconnects with a childhood pen pal, only to find her path intertwined with two young men - one pretending to be that pen pal - as they all build startups in a competitive tech incubator.",
-    "genre": ["Romance", "Drama", "Business"],
+    "genre": [
+      "Romance",
+      "Drama",
+      "Business"
+    ],
     "featured": false,
+    "episodeCount": 10,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/start-up/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/start-up/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/start-up/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/start-up/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/start-up/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/start-up/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/start-up/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/start-up/episode-8" },
-      { "title": "Episode 9", "url": "https://example.com/start-up/episode-9" },
-      { "title": "Episode 10", "url": "https://example.com/start-up/episode-10" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
     ]
   },
   {
@@ -1162,21 +1723,52 @@
     "poster": "",
     "description": "A college weightlifter navigates friendship, ambition, and an unexpected romance with a competitive swimmer.",
     "story": "Kim Bok-joo, a talented but insecure weightlifter at a sports university, grows in confidence both in and out of the gym as she falls for her childhood friend, a swimmer chasing his own Olympic dream.",
-    "genre": ["Romance", "Comedy", "Sports"],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Sports"
+    ],
     "featured": false,
+    "episodeCount": 8,
     "episodes": [
-      { "title": "Episode 1", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-1" },
-      { "title": "Episode 2", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-2" },
-      { "title": "Episode 3", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-3" },
-      { "title": "Episode 4", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-4" },
-      { "title": "Episode 5", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-5" },
-      { "title": "Episode 6", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-6" },
-      { "title": "Episode 7", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-7" },
-      { "title": "Episode 8", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-8" }
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      }
     ]
   },
   {
     "title": "When Life Gives You Tangerines",
+    "id": "when-life-gives-you-tangerines",
+    "slug": "when-life-gives-you-tangerines",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1186,7 +1778,7 @@
     ],
     "episodeCount": 16,
     "rating": 9.2,
-    "synopsis": "Spanning decades on Jeju Island starting in the 1950s, the story follows Ae-sun and Gwan-sik as their bond grows from childhood into a lifelong relationship, set against the backdrop of the island's tangerine farms.",
+    "description": "Spanning decades on Jeju Island starting in the 1950s, the story follows Ae-sun and Gwan-sik as their bond grows from childhood into a lifelong relationship, set against the backdrop of the island's tangerine farms.",
     "cast": [
       {
         "name": "IU",
@@ -1273,6 +1865,8 @@
   },
   {
     "title": "Melo Movie",
+    "id": "melo-movie",
+    "slug": "melo-movie",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1281,7 +1875,7 @@
     ],
     "episodeCount": 12,
     "rating": 8.1,
-    "synopsis": "A film critic and an aspiring director cross paths through their shared love of cinema, navigating a slow-burn romance shaped by their complicated family histories.",
+    "description": "A film critic and an aspiring director cross paths through their shared love of cinema, navigating a slow-burn romance shaped by their complicated family histories.",
     "cast": [
       {
         "name": "Choi Woo-shik",
@@ -1352,6 +1946,8 @@
   },
   {
     "title": "Weak Hero Class 2",
+    "id": "weak-hero-class-2",
+    "slug": "weak-hero-class-2",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1361,7 +1957,7 @@
     ],
     "episodeCount": 10,
     "rating": 8.4,
-    "synopsis": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season.",
+    "description": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season.",
     "cast": [],
     "featured": false,
     "whereToWatch": [
@@ -1415,6 +2011,8 @@
   },
   {
     "title": "Yulje Medical Center (Spin-off)",
+    "id": "yulje-medical-center-spinoff",
+    "slug": "yulje-medical-center-spinoff",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1423,7 +2021,7 @@
     ],
     "episodeCount": 12,
     "rating": 8.0,
-    "synopsis": "First-year OBGYN residents at Yulje Medical Center navigate the pressures of training while balancing their personal lives, in a spin-off set within the same hospital universe.",
+    "description": "First-year OBGYN residents at Yulje Medical Center navigate the pressures of training while balancing their personal lives, in a spin-off set within the same hospital universe.",
     "cast": [
       {
         "name": "Go Youn-jung",
@@ -1498,6 +2096,8 @@
   },
   {
     "title": "Trigger",
+    "id": "trigger",
+    "slug": "trigger",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1506,7 +2106,7 @@
     ],
     "episodeCount": 10,
     "rating": 7.6,
-    "synopsis": "After firearms unexpectedly become widely available in South Korea, a normally gun-free country, two men become entangled in the fallout of the crisis.",
+    "description": "After firearms unexpectedly become widely available in South Korea, a normally gun-free country, two men become entangled in the fallout of the crisis.",
     "cast": [
       {
         "name": "Kim Nam-gil",
@@ -1569,6 +2169,8 @@
   },
   {
     "title": "Us and Them",
+    "id": "us-and-them",
+    "slug": "us-and-them",
     "country": "South Korea",
     "year": 2025,
     "genre": [
@@ -1577,7 +2179,7 @@
     ],
     "episodeCount": 1,
     "rating": 7.1,
-    "synopsis": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart.",
+    "description": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart.",
     "cast": [
       {
         "name": "Koo Kyo-hwan",
