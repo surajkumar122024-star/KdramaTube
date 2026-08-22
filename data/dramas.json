@@ -1174,5 +1174,432 @@
       { "title": "Episode 7", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-7" },
       { "title": "Episode 8", "url": "https://example.com/weightlifting-fairy-kim-bok-joo/episode-8" }
     ]
+  },
+  {
+    "title": "When Life Gives You Tangerines",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Slice of Life",
+      "Romance",
+      "Drama"
+    ],
+    "episodeCount": 16,
+    "rating": 9.2,
+    "synopsis": "Spanning decades on Jeju Island starting in the 1950s, the story follows Ae-sun and Gwan-sik as their bond grows from childhood into a lifelong relationship, set against the backdrop of the island's tangerine farms.",
+    "cast": [
+      {
+        "name": "IU",
+        "role": "Oh Ae-sun"
+      },
+      {
+        "name": "Park Bo-gum",
+        "role": "Yang Gwan-sik"
+      }
+    ],
+    "featured": true,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=When%20Life%20Gives%20You%20Tangerines"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      },
+      {
+        "title": "Episode 13",
+        "summary": ""
+      },
+      {
+        "title": "Episode 14",
+        "summary": ""
+      },
+      {
+        "title": "Episode 15",
+        "summary": ""
+      },
+      {
+        "title": "Episode 16",
+        "summary": ""
+      }
+    ]
+  },
+  {
+    "title": "Melo Movie",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "episodeCount": 12,
+    "rating": 8.1,
+    "synopsis": "A film critic and an aspiring director cross paths through their shared love of cinema, navigating a slow-burn romance shaped by their complicated family histories.",
+    "cast": [
+      {
+        "name": "Choi Woo-shik",
+        "role": "Ko Gyeom"
+      },
+      {
+        "name": "Park Bo-young",
+        "role": "Kim Mu-bee"
+      }
+    ],
+    "featured": false,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=Melo%20Movie"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      }
+    ]
+  },
+  {
+    "title": "Weak Hero Class 2",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Action",
+      "School",
+      "Drama"
+    ],
+    "episodeCount": 10,
+    "rating": 8.4,
+    "synopsis": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season.",
+    "cast": [],
+    "featured": false,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=Weak%20Hero%20Class%202"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
+    ]
+  },
+  {
+    "title": "Yulje Medical Center (Spin-off)",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Medical",
+      "Drama"
+    ],
+    "episodeCount": 12,
+    "rating": 8.0,
+    "synopsis": "First-year OBGYN residents at Yulje Medical Center navigate the pressures of training while balancing their personal lives, in a spin-off set within the same hospital universe.",
+    "cast": [
+      {
+        "name": "Go Youn-jung",
+        "role": "Lead resident"
+      },
+      {
+        "name": "Shin Si-ah",
+        "role": "Resident"
+      },
+      {
+        "name": "Han Ye-ji",
+        "role": "Resident"
+      }
+    ],
+    "featured": false,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=Yulje%20Medical%20Center"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      }
+    ]
+  },
+  {
+    "title": "Trigger",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "episodeCount": 10,
+    "rating": 7.6,
+    "synopsis": "After firearms unexpectedly become widely available in South Korea, a normally gun-free country, two men become entangled in the fallout of the crisis.",
+    "cast": [
+      {
+        "name": "Kim Nam-gil",
+        "role": "Lead"
+      },
+      {
+        "name": "Kim Young-kwang",
+        "role": "Lead"
+      }
+    ],
+    "featured": false,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=Trigger"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      }
+    ]
+  },
+  {
+    "title": "Us and Them",
+    "country": "South Korea",
+    "year": 2025,
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "episodeCount": 1,
+    "rating": 7.1,
+    "synopsis": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart.",
+    "cast": [
+      {
+        "name": "Koo Kyo-hwan",
+        "role": "Lead"
+      },
+      {
+        "name": "Moon Ga-young",
+        "role": "Lead"
+      }
+    ],
+    "featured": false,
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=Us%20and%20Them"
+      }
+    ],
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      }
+    ]
   }
 ]
