@@ -1,5 +1,10 @@
 export interface Episode {
   title: string;
+  summary?: string; // spoiler-free recap, shown instead of a streaming link
+}
+
+export interface WhereToWatch {
+  platform: string;
   url: string;
 }
 
@@ -23,8 +28,10 @@ export interface Drama {
   story: string; // Full synopsis for detail page
   genre: string[];
   featured: boolean;
-  episodes: Episode[];
+  episodeCount?: number;
+  episodes?: Episode[];
   cast?: CastMember[];
+  whereToWatch?: WhereToWatch[]; // legal streaming platform links
 }
 
 export type CategoryFilter = "All" | "Korean" | "Chinese" | "Turkish";
