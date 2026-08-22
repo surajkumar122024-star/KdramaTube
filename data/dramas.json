@@ -217,7 +217,8 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "itaewon-class",
@@ -324,7 +325,8 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "my-love-from-the-star",
@@ -451,7 +453,8 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "scarlet-heart",
@@ -569,7 +572,8 @@
         "title": "Episode 20",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "the-untamed",
@@ -682,7 +686,8 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "love-o2o",
@@ -743,7 +748,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "dirilis-ertugrul",
@@ -804,7 +811,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "kara-sevda",
@@ -874,7 +883,8 @@
         "title": "Episode 8",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "fatmagul",
@@ -927,7 +937,9 @@
         "title": "Episode 8",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "squid-game",
@@ -1001,7 +1013,8 @@
         "title": "Episode 9",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "business-proposal",
@@ -1069,7 +1082,9 @@
         "title": "Episode 12",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "vincenzo",
@@ -1130,7 +1145,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "hometown-cha-cha-cha",
@@ -1229,7 +1246,8 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "cast": []
   },
   {
     "id": "its-okay-to-not-be-okay",
@@ -1313,7 +1331,9 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "reply-1988",
@@ -1374,7 +1394,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "true-beauty",
@@ -1475,7 +1497,8 @@
         "title": "Episode 16",
         "summary": ""
       }
-    ]
+    ],
+    "whereToWatch": []
   },
   {
     "id": "the-glory",
@@ -1527,7 +1550,9 @@
         "title": "Episode 8",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "twenty-five-twenty-one",
@@ -1588,7 +1613,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "descendants-of-the-sun",
@@ -1649,7 +1676,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "start-up",
@@ -1710,7 +1739,9 @@
         "title": "Episode 10",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "id": "weightlifting-fairy-kim-bok-joo",
@@ -1763,7 +1794,9 @@
         "title": "Episode 8",
         "summary": ""
       }
-    ]
+    ],
+    "cast": [],
+    "whereToWatch": []
   },
   {
     "title": "When Life Gives You Tangerines",
@@ -1862,7 +1895,9 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "Spanning decades on Jeju Island starting in the 1950s, the story follows Ae-sun and Gwan-sik as their bond grows from childhood into a lifelong relationship, set against the backdrop of the island's tangerine farms."
   },
   {
     "title": "Melo Movie",
@@ -1944,7 +1979,9 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "A film critic and an aspiring director cross paths through their shared love of cinema, navigating a slow-burn romance shaped by their complicated family histories."
   },
   {
     "title": "Weak Hero Class 2",
@@ -2010,7 +2047,9 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season."
   },
   {
     "title": "Yulje Medical Center (Spin-off)",
@@ -2096,7 +2135,9 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "First-year OBGYN residents at Yulje Medical Center navigate the pressures of training while balancing their personal lives, in a spin-off set within the same hospital universe."
   },
   {
     "title": "Trigger",
@@ -2170,7 +2211,9 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "After firearms unexpectedly become widely available in South Korea, a normally gun-free country, two men become entangled in the fallout of the crisis."
   },
   {
     "title": "Us and Them",
@@ -2208,6 +2251,8 @@
         "summary": ""
       }
     ],
-    "category": "Korean"
+    "category": "Korean",
+    "poster": "",
+    "story": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart."
   }
 ]
