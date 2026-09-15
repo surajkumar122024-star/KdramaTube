@@ -36,6 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <meta name="google-site-verification" content="GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY" />
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="bg-slate-950 text-slate-100 antialiased min-h-screen">
         <Header />
