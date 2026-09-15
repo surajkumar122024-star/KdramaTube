@@ -158,7 +158,7 @@ const related = getRelatedDramas(drama);
               <span className="text-slate-600">|</span>
               <span>{drama.country}</span>
               <span className="text-slate-600">|</span>
-              <span>{drama.episodes.length} Episodes</span>
+              <span>{drama.episodes?.length ?? drama.episodeCount ?? 0} Episodes</span>
             </div>
 
             {/* Genre badges */}
@@ -208,7 +208,7 @@ const related = getRelatedDramas(drama);
               { label: "Country", value: drama.country },
               { label: "Year", value: drama.year.toString() },
               { label: "Rating", value: `★ ${drama.rating}/10` },
-              { label: "Episodes", value: drama.episodes.length.toString() },
+              { label: "Episodes", value: (drama.episodes?.length ?? drama.episodeCount ?? 0).toString() },
             ].map((item) => (
               <div
                 key={item.label}
@@ -223,7 +223,7 @@ const related = getRelatedDramas(drama);
         <WatchButtons drama={drama} />
         <CastList cast={drama.cast} />
         {/* Episodes */}
-       <EpisodeList episodes={drama.episodes} dramaTitle={drama.title} dramaSlug={drama.slug} />
+        <EpisodeList episodes={drama.episodes ?? []} dramaTitle={drama.title} dramaSlug={drama.slug} />
        <RelatedDramas dramas={related} />
       </div>
     </article>
