@@ -760,7 +760,7 @@
     "country": "Turkey",
     "year": 2014,
     "rating": 9.2,
-    "poster": "https://upload.wikimedia.org/wikipedia/en/6/62/Dirili%C5%9F-_Ertu%C4%9Frul_logo.png",
+    "poster": "",
     "description": "The epic story of Ertuğrul, father of Ottoman Empire founder Osman I, and his tribe's fight for survival and justice.",
     "story": "Set in the 13th century, Diriliş: Ertuğrul follows the heroic Ertuğrul Bey, leader of the Kayı tribe, as he fights against the Mongol invasion and the treacherous Knights Templar while also struggling with inner conflicts within his own tribe. His valor, faith, and cunning leadership lay the foundation for what would eventually become the vast Ottoman Empire. A sweeping historical epic full of battles, betrayal, and brotherhood.",
     "genre": [
@@ -1815,11 +1815,13 @@
     "cast": [
       {
         "name": "IU",
-        "role": "Oh Ae-sun"
+        "role": "Oh Ae-sun",
+        "bio": ""
       },
       {
         "name": "Park Bo-gum",
-        "role": "Yang Gwan-sik"
+        "role": "Yang Gwan-sik",
+        "bio": ""
       }
     ],
     "featured": true,
@@ -1915,11 +1917,13 @@
     "cast": [
       {
         "name": "Choi Woo-shik",
-        "role": "Ko Gyeom"
+        "role": "Ko Gyeom",
+        "bio": ""
       },
       {
         "name": "Park Bo-young",
-        "role": "Kim Mu-bee"
+        "role": "Kim Mu-bee",
+        "bio": ""
       }
     ],
     "featured": false,
@@ -2067,15 +2071,18 @@
     "cast": [
       {
         "name": "Go Youn-jung",
-        "role": "Lead resident"
+        "role": "Lead resident",
+        "bio": ""
       },
       {
         "name": "Shin Si-ah",
-        "role": "Resident"
+        "role": "Resident",
+        "bio": ""
       },
       {
         "name": "Han Ye-ji",
-        "role": "Resident"
+        "role": "Resident",
+        "bio": ""
       }
     ],
     "featured": false,
@@ -2155,11 +2162,13 @@
     "cast": [
       {
         "name": "Kim Nam-gil",
-        "role": "Lead"
+        "role": "Lead",
+        "bio": ""
       },
       {
         "name": "Kim Young-kwang",
-        "role": "Lead"
+        "role": "Lead",
+        "bio": ""
       }
     ],
     "featured": false,
@@ -2231,11 +2240,13 @@
     "cast": [
       {
         "name": "Koo Kyo-hwan",
-        "role": "Lead"
+        "role": "Lead",
+        "bio": ""
       },
       {
         "name": "Moon Ga-young",
-        "role": "Lead"
+        "role": "Lead",
+        "bio": ""
       }
     ],
     "featured": false,
@@ -2254,5 +2265,97 @@
     "category": "Korean",
     "poster": "",
     "story": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart."
+  },
+  {
+    "id": "the-scandal",
+    "slug": "the-scandal",
+    "title": "The Scandal",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2026,
+    "rating": 0,
+    "poster": "",
+    "description": "A seductive and dangerous romance set in the Joseon era, adapted from a classic French novel of manipulation and desire.",
+    "story": "Set during the Joseon dynasty, high-ranking members of society Lady Cho and Cho Won engage in a web of manipulation, seduction, and scandal, drawing others into their dangerous games as consequences mount for everyone involved.",
+    "genre": [
+      "Romance",
+      "Period",
+      "Drama"
+    ],
+    "featured": false,
+    "episodeCount": 12,
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "summary": ""
+      },
+      {
+        "title": "Episode 2",
+        "summary": ""
+      },
+      {
+        "title": "Episode 3",
+        "summary": ""
+      },
+      {
+        "title": "Episode 4",
+        "summary": ""
+      },
+      {
+        "title": "Episode 5",
+        "summary": ""
+      },
+      {
+        "title": "Episode 6",
+        "summary": ""
+      },
+      {
+        "title": "Episode 7",
+        "summary": ""
+      },
+      {
+        "title": "Episode 8",
+        "summary": ""
+      },
+      {
+        "title": "Episode 9",
+        "summary": ""
+      },
+      {
+        "title": "Episode 10",
+        "summary": ""
+      },
+      {
+        "title": "Episode 11",
+        "summary": ""
+      },
+      {
+        "title": "Episode 12",
+        "summary": ""
+      }
+    ],
+    "cast": [
+      {
+        "name": "Son Ye-jin",
+        "role": "Lady Cho",
+        "bio": ""
+      },
+      {
+        "name": "Ji Chang-wook",
+        "role": "Cho Won",
+        "bio": ""
+      },
+      {
+        "name": "Nana",
+        "role": "Supporting role",
+        "bio": ""
+      }
+    ],
+    "whereToWatch": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/search?q=The%20Scandal"
+      }
+    ]
   }
 ]
