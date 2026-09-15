@@ -34,8 +34,8 @@ export default function SearchPageContent() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Page heading */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white mb-2">Search Dramas</h1>
-        <p className="text-slate-400 text-sm">
+        <h1 className="text-3xl font-bold text-[var(--color-text)] mb-2">Search Dramas</h1>
+        <p className="text-[var(--color-muted)] text-sm">
           Search by title, genre, country, or category across all dramas.
         </p>
       </div>
@@ -47,7 +47,7 @@ export default function SearchPageContent() {
         </label>
         <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
           <svg
-            className="w-5 h-5 text-slate-400"
+            className="w-5 h-5 text-[var(--color-muted)]"
             viewBox="0 0 20 20"
             fill="none"
             stroke="currentColor"
@@ -65,12 +65,12 @@ export default function SearchPageContent() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search dramas, genres, countries…"
-          className="w-full pl-12 pr-5 py-4 rounded-2xl bg-slate-800/60 border border-slate-700/60 text-white placeholder-slate-500 text-base focus:outline-none focus:ring-2 focus:ring-violet-500/60 focus:border-violet-500/60 focus:bg-slate-800 transition-all duration-200"
+          className="w-full pl-12 pr-5 py-4 rounded-2xl bg-[var(--color-surface)]/80 border border-[var(--color-border)] text-[var(--color-text)] placeholder-[var(--color-muted)] text-base focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/50 focus:border-[var(--color-accent)]/60 focus:bg-[var(--color-surface)] transition-all duration-200"
         />
         {query && (
           <button
             onClick={() => setQuery("")}
-            className="absolute inset-y-0 right-4 flex items-center text-slate-500 hover:text-white transition-colors"
+            className="absolute inset-y-0 right-4 flex items-center text-[var(--color-muted)] hover:text-[var(--color-text)] transition-colors"
             aria-label="Clear search"
           >
             <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
@@ -83,21 +83,21 @@ export default function SearchPageContent() {
       {/* Results header */}
       {hasQuery && (
         <div className="flex items-center gap-3 mb-5">
-          <h2 className="text-white font-bold text-lg flex items-center gap-3">
-            <span className="w-1 h-5 rounded-full bg-violet-500 block" aria-hidden="true" />
+          <h2 className="text-[var(--color-text)] font-bold text-lg flex items-center gap-3">
+            <span className="w-1 h-5 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
             Results for &quot;{query.trim()}&quot;
-            <span className="text-slate-500 text-sm font-normal">({results.length})</span>
+            <span className="text-[var(--color-muted)] text-sm font-normal">({results.length})</span>
           </h2>
         </div>
       )}
 
       {!hasQuery && (
         <div className="flex flex-col items-center justify-center py-20 text-center">
-          <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center mb-4 text-3xl">
+          <div className="w-16 h-16 rounded-full bg-[var(--color-surface)] flex items-center justify-center mb-4 text-3xl">
             🔍
           </div>
-          <p className="text-slate-400 text-lg font-medium">Start typing to search</p>
-          <p className="text-slate-600 text-sm mt-1">
+          <p className="text-[var(--color-muted)] text-lg font-medium">Start typing to search</p>
+          <p className="text-[var(--color-muted)] text-sm mt-1">
             Search across titles, genres, and countries.
           </p>
         </div>

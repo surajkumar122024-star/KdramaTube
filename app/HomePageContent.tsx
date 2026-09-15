@@ -44,10 +44,10 @@ export default function HomePageContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-8">
           {/* Page heading */}
           <div className="mb-8">
-            <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-2">
+            <h1 className="font-display text-3xl sm:text-4xl font-bold text-[var(--color-text)] mb-2">
               Discover Your Next Drama
             </h1>
-            <p className="text-slate-400 text-sm sm:text-base">
+            <p className="text-[var(--color-muted)] text-sm sm:text-base">
               Explore the best Korean, Chinese, and Turkish dramas — all in one place.
             </p>
           </div>
@@ -68,10 +68,10 @@ export default function HomePageContent() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Category filter row */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-          <h2 className="text-white font-bold text-xl flex items-center gap-3">
-            <span className="w-1 h-6 rounded-full bg-violet-500 block" aria-hidden="true" />
+          <h2 className="text-[var(--color-text)] font-bold text-xl flex items-center gap-3">
+            <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
             {activeCategory === "All" ? "All Dramas" : `${activeCategory} Dramas`}
-            <span className="text-slate-500 text-sm font-normal">({dramas.length})</span>
+            <span className="text-[var(--color-muted)] text-sm font-normal">({dramas.length})</span>
           </h2>
           <CategoryButtons active={activeCategory} onChange={handleCategoryChange} />
         </div>

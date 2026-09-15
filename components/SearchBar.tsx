@@ -30,7 +30,7 @@ export default function SearchBar({ initialQuery = "", autoFocus = false }: Sear
         {/* Search Icon */}
         <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
           <svg
-            className="w-4 h-4 text-slate-400"
+            className="w-4 h-4 text-[var(--color-muted)]"
             viewBox="0 0 20 20"
             fill="none"
             stroke="currentColor"
@@ -50,7 +50,7 @@ export default function SearchBar({ initialQuery = "", autoFocus = false }: Sear
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search dramas, genres, countries…"
           autoFocus={autoFocus}
-          className="w-full pl-10 pr-4 py-2 rounded-xl bg-white/10 border border-white/10 text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500/60 focus:border-violet-500/60 focus:bg-white/15 transition-all duration-200"
+          className="w-full pl-10 pr-4 py-2 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[var(--color-text)] placeholder-[var(--color-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/50 focus:border-[var(--color-accent)]/60 transition-all duration-200"
         />
       </div>
     </form>
