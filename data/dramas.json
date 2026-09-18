@@ -760,7 +760,7 @@
     "country": "Turkey",
     "year": 2014,
     "rating": 9.2,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dirili%C5%9F_Ertu%C4%9Frul_S1.jpg",
     "description": "The epic story of Ertuğrul, father of Ottoman Empire founder Osman I, and his tribe's fight for survival and justice.",
     "story": "Set in the 13th century, Diriliş: Ertuğrul follows the heroic Ertuğrul Bey, leader of the Kayı tribe, as he fights against the Mongol invasion and the treacherous Knights Templar while also struggling with inner conflicts within his own tribe. His valor, faith, and cunning leadership lay the foundation for what would eventually become the vast Ottoman Empire. A sweeping historical epic full of battles, betrayal, and brotherhood.",
     "genre": [
@@ -823,7 +823,7 @@
     "country": "Turkey",
     "year": 2015,
     "rating": 8.6,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kara_Sevda_Logo.png",
     "description": "A passionate love story between two people from different worlds whose lives become entangled in tragedy and obsession.",
     "story": "Kemal is a hardworking young man from a humble background who falls deeply in love with Nihan, a beautiful woman from a wealthy and complicated family. Their relationship is opposed by her family and further complicated by Emir, a powerful and manipulative man who is determined to keep Nihan for himself. The series is a dramatic, intense portrayal of love, sacrifice, and the destructive power of obsession.",
     "genre": [
@@ -949,7 +949,7 @@
     "country": "South Korea",
     "year": 2021,
     "rating": 8.0,
-    "poster": "https://upload.wikimedia.org/wikipedia/commons/5/57/Squid_Game_2021_vector_logo_english.svg",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/3/38/Squid_Game_season_2_poster.png",
     "description": "Hundreds of cash-strapped players accept a strange invitation to compete in deadly children's games for a huge cash prize.",
     "story": "Seong Gi-hun, a divorced father drowning in debt, is recruited into a secret survival competition where hundreds of desperate contestants play childhood games with deadly consequences for a massive cash prize.",
     "genre": [
@@ -1257,7 +1257,7 @@
     "country": "South Korea",
     "year": 2020,
     "rating": 8.9,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/5/58/It%27s_Okay_to_Not_Be_Okay_Poster.jpg",
     "description": "A psychiatric ward caregiver and an antisocial children's book author heal each other's emotional wounds.",
     "story": "Moon Gang-tae, who cares for his autistic older brother while working at a psychiatric hospital, crosses paths with Ko Moon-young, a successful but emotionally guarded children's book author, and the two begin to heal each other's deep-rooted trauma.",
     "genre": [
@@ -1688,7 +1688,7 @@
     "country": "South Korea",
     "year": 2020,
     "rating": 8.2,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/1/12/Start-Up_2020.jpg",
     "description": "Young entrepreneurs chase their startup dreams in Korea's version of Silicon Valley while navigating a tangled love triangle.",
     "story": "Seo Dal-mi dreams of becoming an entrepreneur and reconnects with a childhood pen pal, only to find her path intertwined with two young men - one pretending to be that pen pal - as they all build startups in a competitive tech incubator.",
     "genre": [
@@ -1751,7 +1751,7 @@
     "country": "South Korea",
     "year": 2016,
     "rating": 8.7,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/b/bd/Weightlifting_Fairy_Kim_Bok_Joo_Poster.jpg",
     "description": "A college weightlifter navigates friendship, ambition, and an unexpected romance with a competitive swimmer.",
     "story": "Kim Bok-joo, a talented but insecure weightlifter at a sports university, grows in confidence both in and out of the gym as she falls for her childhood friend, a swimmer chasing his own Olympic dream.",
     "genre": [
@@ -1984,7 +1984,7 @@
       }
     ],
     "category": "Korean",
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/7/7a/Melo_Movie_poster.png",
     "story": "A film critic and an aspiring director cross paths through their shared love of cinema, navigating a slow-burn romance shaped by their complicated family histories."
   },
   {
@@ -2052,7 +2052,7 @@
       }
     ],
     "category": "Korean",
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/3/3e/Weak_Hero_Class_1.jpeg",
     "story": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season."
   },
   {
@@ -2143,7 +2143,7 @@
       }
     ],
     "category": "Korean",
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/2/2e/Wise_Resident_Life_poster.png",
     "story": "First-year OBGYN residents at Yulje Medical Center navigate the pressures of training while balancing their personal lives, in a spin-off set within the same hospital universe."
   },
   {
@@ -2221,7 +2221,7 @@
       }
     ],
     "category": "Korean",
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a8/Trigger_%28South_Korean_TV_series%29.png",
     "story": "After firearms unexpectedly become widely available in South Korea, a normally gun-free country, two men become entangled in the fallout of the crisis."
   },
   {
@@ -2263,7 +2263,7 @@
       }
     ],
     "category": "Korean",
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/2/2f/Usandthem2018.jpg",
     "story": "Two former lovers cross paths on a flight to Korea, stirring up memories of a chance meeting years earlier before life pulled them apart."
   },
   {
@@ -2274,7 +2274,7 @@
     "country": "South Korea",
     "year": 2026,
     "rating": 0,
-    "poster": "",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/b/b2/The_Scandal_%282026_TV_series%29_poster.png",
     "description": "A seductive and dangerous romance set in the Joseon era, adapted from a classic French novel of manipulation and desire.",
     "story": "Set during the Joseon dynasty, high-ranking members of society Lady Cho and Cho Won engage in a web of manipulation, seduction, and scandal, drawing others into their dangerous games as consequences mount for everyone involved.",
     "genre": [
