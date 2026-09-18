@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     siteName: "DramaVerse",
     type: "website",
   },
+  verification: {
+    google: "GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY",
+  },
 };
 
 export default function RootLayout({
