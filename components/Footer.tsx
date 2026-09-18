@@ -6,6 +6,7 @@ const footerLinks = [
     links: [
       { href: "/about", label: "About" },
       { href: "/contact", label: "Contact" },
+      { href: "/terms", label: "Terms of Service" },
       { href: "/privacy-policy", label: "Privacy Policy" },
     ],
   },
