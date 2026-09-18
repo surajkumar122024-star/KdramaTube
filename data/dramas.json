@@ -2357,5 +2357,81 @@
         "url": "https://www.netflix.com/search?q=The%20Scandal"
       }
     ]
+  },
+  {
+    "id": "bon-appetit-your-majesty",
+    "slug": "bon-appetit-your-majesty",
+    "title": "Bon Appétit, Your Majesty",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2025,
+    "rating": 7.9,
+    "poster": "",
+    "description": "A modern French-trained chef time-slips into the Joseon era and must cook for a tyrannical, impossibly picky king.",
+    "story": "After winning a prestigious French cooking competition, chef Yeon Ji-young is suddenly transported back in time to Korea's Joseon era. Captured and brought before King Lee Heon, a ruler infamous for his temper and refined palate, she saves her own life with a single dish — and finds herself thrust into the most dangerous job in the palace: royal chef. As she navigates court intrigue and a king who demands nothing short of perfection, an unlikely romance simmers beneath the rivalry.",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Fantasy",
+      "Historical"
+    ],
+    "featured": false,
+    "episodeCount": 12
+  },
+  {
+    "id": "queen-of-tears",
+    "slug": "queen-of-tears",
+    "title": "Queen of Tears",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2024,
+    "rating": 8.3,
+    "poster": "",
+    "description": "A chaebol heiress and her husband from the countryside confront a marriage on the brink of divorce after a life-changing diagnosis.",
+    "story": "Hong Hae-in, a third-generation heiress and CEO of Queens Department Store, and Baek Hyun-woo, her husband and the group's legal director, have drifted apart after three years of marriage marked by conflicting worlds and unspoken resentment. When Hae-in is unexpectedly diagnosed with a serious illness, the couple is forced to confront the mistakes of their past and rediscover why they fell in love in the first place, all while navigating corporate scheming within the Queens family empire.",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "featured": false,
+    "episodeCount": 16
+  },
+  {
+    "id": "dear-x",
+    "slug": "dear-x",
+    "title": "Dear X",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2025,
+    "rating": 8.3,
+    "poster": "",
+    "description": "A dazzling actress hides a ruthless nature behind her beautiful face, mercilessly striking down anyone who stands in the way of her rise to the top.",
+    "story": "Baek Ah-jin is a beautiful, talented young actress whose charming public image conceals a cold, calculating cruelty forged by childhood abuse. Her stepbrother Yoon Joon-seo has protected her since they were children and loves her unconditionally, but as Ah-jin's methods grow more extreme in her pursuit of power and revenge, he begins to question how far he is willing to go to save her from herself.",
+    "genre": [
+      "Melodrama",
+      "Thriller"
+    ],
+    "featured": false,
+    "episodeCount": 12
+  },
+  {
+    "id": "the-manipulated",
+    "slug": "the-manipulated",
+    "title": "The Manipulated",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2025,
+    "rating": 8.5,
+    "poster": "",
+    "description": "An ordinary man wrongfully imprisoned for a brutal crime discovers a mysterious mastermind orchestrated his downfall, and sets out for revenge.",
+    "story": "Tae-jung, a hardworking delivery worker who dreams of opening his own garden cafe, has his life destroyed when he is framed for a heinous crime he didn't commit and sentenced to life in prison. Behind bars, he uncovers the truth: a mysterious figure named Yo-han has been pulling the strings behind his conviction all along. Fueled by vengeance and the will to reclaim his life, Tae-jung begins plotting his escape and his revenge.",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "featured": false,
+    "episodeCount": 12
   }
 ]

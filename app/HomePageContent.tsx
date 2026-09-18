@@ -7,6 +7,20 @@ import { CategoryFilter, Drama } from "@/types/drama";
 import CategoryButtons from "@/components/CategoryButtons";
 import FeaturedCard from "@/components/FeaturedCard";
 import DramaGrid from "@/components/DramaGrid";
+import TrendingRow from "@/components/TrendingRow";
+
+const TRENDING_SLUGS = [
+  "squid-game",
+  "when-life-gives-you-tangerines",
+  "bon-appetit-your-majesty",
+  "queen-of-tears",
+  "crash-landing-on-you",
+  "dear-x",
+  "the-glory",
+  "true-beauty",
+  "goblin",
+  "the-manipulated",
+];
 
 export default function HomePageContent() {
   const searchParams = useSearchParams();
@@ -17,6 +31,9 @@ export default function HomePageContent() {
 
   const allDramas = getAllDramas();
   const featured = getFeaturedDrama();
+  const trendingDramas = TRENDING_SLUGS
+    .map((slug) => allDramas.find((d) => d.slug === slug))
+    .filter((d): d is Drama => Boolean(d));
 
   useEffect(() => {
     const category = (searchParams.get("category") as CategoryFilter) || "All";
@@ -66,6 +83,8 @@ export default function HomePageContent() {
 
       {/* Catalog section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <TrendingRow dramas={trendingDramas} />
+
         {/* Category filter row */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
           <h2 className="text-[var(--color-text)] font-bold text-xl flex items-center gap-3">
