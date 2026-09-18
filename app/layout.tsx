@@ -19,6 +19,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kdramatube.vercel.app"),
   title: {
     default: "DramaVerse — Korean, Chinese & Turkish Dramas",
     template: "%s | DramaVerse",
@@ -26,9 +27,16 @@ export const metadata: Metadata = {
   description:
     "Explore a curated catalog of the best Korean, Chinese, and Turkish dramas. Find your next binge-worthy show on DramaVerse.",
   keywords: ["Korean drama", "Chinese drama", "Turkish drama", "kdrama", "cdrama", "drama catalog"],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     siteName: "DramaVerse",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
   verification: {
     google: "GGvF0UPj84iXp1cP1DJ_wHErlNISZjBJvqL34DwgOOY",

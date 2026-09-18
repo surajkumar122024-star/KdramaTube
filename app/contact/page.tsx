@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact Us",
   description:
     "Get in touch with the DramaVerse team for feedback, drama suggestions, or corrections.",

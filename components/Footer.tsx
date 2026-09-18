@@ -13,10 +13,10 @@ const footerLinks = [
   {
     heading: "Browse",
     links: [
-      { label: "All dramas", href: "/?category=All" },
-      { label: "Korean dramas", href: "/?category=Korean" },
-      { label: "Chinese dramas", href: "/?category=Chinese" },
-      { label: "Turkish dramas", href: "/?category=Turkish" },
+      { label: "All dramas", href: "/all-dramas" },
+      { label: "Korean dramas", href: "/korean-dramas" },
+      { label: "Chinese dramas", href: "/chinese-dramas" },
+      { label: "Turkish dramas", href: "/turkish-dramas" },
     ],
   },
   {

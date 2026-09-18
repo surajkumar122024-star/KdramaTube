@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy-policy" },
   title: "Privacy Policy",
   description:
     "Read the DramaVerse privacy policy to understand how we collect, use, and protect your data, including cookies and third-party advertising.",

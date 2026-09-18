@@ -6,10 +6,10 @@ import SearchBar from "./SearchBar";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Korean", href: "/?category=Korean" },
-  { label: "Chinese", href: "/?category=Chinese" },
-  { label: "Turkish", href: "/?category=Turkish" },
-  { label: "All dramas", href: "/?category=All" },
+  { label: "Korean", href: "/korean-dramas" },
+  { label: "Chinese", href: "/chinese-dramas" },
+  { label: "Turkish", href: "/turkish-dramas" },
+  { label: "All dramas", href: "/all-dramas" },
 ];
 
 export default function Header() {

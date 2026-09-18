@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About Us",
   description:
     "Learn about DramaVerse - a curated catalog of Korean, Chinese, and Turkish dramas helping viewers discover their next favorite show.",

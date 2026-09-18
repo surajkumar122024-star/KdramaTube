@@ -28,10 +28,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: drama.title,
     description: drama.description,
+    alternates: {
+      canonical: `/drama/${drama.slug}`,
+    },
     openGraph: {
       title: drama.title,
       description: drama.description,
       type: "website",
+      images: drama.poster ? [{ url: drama.poster }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: drama.title,
+      description: drama.description,
+      images: drama.poster ? [drama.poster] : undefined,
     },
   };
 }

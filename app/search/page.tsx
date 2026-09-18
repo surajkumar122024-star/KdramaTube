@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import SearchPageContent from "./SearchPageContent";
 
 export const metadata = {
+  alternates: { canonical: "/search" },
   title: "Search Dramas",
   description: "Search across all Korean, Chinese, and Turkish dramas on DramaVerse.",
 };

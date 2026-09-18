@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms" },
   title: "Terms of Service",
   description:
     "Terms of Service and content disclaimer for DramaVerse, including information about third-party content, copyright, and use of the site.",
