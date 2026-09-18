@@ -15,7 +15,7 @@ export function generateDramaSchema(drama: Drama) {
     description: drama.story,
     image: absoluteUrl(drama.poster),
     genre: drama.genre,
-    numberOfEpisodes: drama.episodes.length,
+    numberOfEpisodes: drama.episodes?.length ?? drama.episodeCount ?? 0,
     countryOfOrigin: {
       "@type": "Country",
       name: drama.country,
