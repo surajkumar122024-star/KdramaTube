@@ -234,6 +234,12 @@ const related = getRelatedDramas(drama);
               </div>
             ))}
           </div>
+          <p className="text-xs text-[var(--color-muted)] mt-3">
+            Shown above is the original production language ({originalLanguage[drama.category] ?? drama.category}).
+            Most major platforms also offer dubbed audio (often including English) plus subtitles in several
+            languages — exact options vary by platform and your country, so check the title page on each
+            service to see what&apos;s offered where you are.
+          </p>
         </section>
         <WatchButtons drama={drama} />
         <CastList cast={drama.cast} />
