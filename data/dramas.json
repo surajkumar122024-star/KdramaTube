@@ -19,22 +19,26 @@
       {
         "name": "Hyun Bin",
         "role": "Ri Jeong-hyeok",
-        "bio": "South Korean actor born Kim Tae-pyung on September 25, 1982 in Seoul. Rose to fame with My Lovely Sam Soon (2005); Crash Landing on You brought him major international recognition."
+        "bio": "South Korean actor born Kim Tae-pyung on September 25, 1982 in Seoul. Rose to fame with My Lovely Sam Soon (2005); Crash Landing on You brought him major international recognition.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyun_Bin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg"
       },
       {
         "name": "Son Ye-jin",
         "role": "Yoon Se-ri",
-        "bio": "South Korean actress born January 11, 1982 in Daegu. Known as Korea's 'Nation's First Love' for early romance films; Crash Landing on You made her a global star."
+        "bio": "South Korean actress born January 11, 1982 in Daegu. Known as Korea's 'Nation's First Love' for early romance films; Crash Landing on You made her a global star.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Son_Ye-jin_in_May_2026.png"
       },
       {
         "name": "Seo Ji-hye",
         "role": "Seo Dan",
-        "bio": "South Korean actress born August 24, 1984 in Seoul. Known for dramas including 49 Days and Punch before her breakout supporting role in Crash Landing on You."
+        "bio": "South Korean actress born August 24, 1984 in Seoul. Known for dramas including 49 Days and Punch before her breakout supporting role in Crash Landing on You.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Seo_Ji-Hye_para_Marie_Claire_Korea_01.jpg"
       },
       {
         "name": "Kim Jung-hyun",
         "role": "Gu Seung-jun",
-        "bio": "South Korean actor born April 5, 1990 in Busan. Known for School 2017 and Welcome to Waikiki; gained international recognition through Crash Landing on You."
+        "bio": "South Korean actor born April 5, 1990 in Busan. Known for School 2017 and Welcome to Waikiki; gained international recognition through Crash Landing on You.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Yokohama_International_Film_Festival_2024_Kim_Jung_Hyun_%2853869008061%29.jpg"
       }
     ],
     "featured": true,
