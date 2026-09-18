@@ -95,22 +95,35 @@ const related = getRelatedDramas(drama);
 
       {/* Hero / poster area */}
         <div className="relative w-full overflow-hidden" style={{ minHeight: "340px" }}>
-          {/* Background — plain gradient, not a stretched/blurred poster */}
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)" }}
-            aria-hidden="true"
-          >
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span
-                className="font-display italic select-none"
-                style={{ color: accent, opacity: 0.15, fontSize: "16rem", lineHeight: 1 }}
-              >
-                {drama.title.charAt(0)}
-              </span>
+          {/* Background — an intentionally blurred, darkened ambient wash of the poster
+              (not a sharp stretch), so low-res source art never looks pixelated */}
+          {drama.poster ? (
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage: `url(${drama.poster})`,
+                filter: "blur(40px) brightness(0.45) saturate(1.1)",
+                transform: "scale(1.15)",
+              }}
+              aria-hidden="true"
+            />
+          ) : (
+            <div
+              className="absolute inset-0"
+              style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)" }}
+              aria-hidden="true"
+            >
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span
+                  className="font-display italic select-none"
+                  style={{ color: accent, opacity: 0.15, fontSize: "16rem", lineHeight: 1 }}
+                >
+                  {drama.title.charAt(0)}
+                </span>
+              </div>
             </div>
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/40 to-[var(--color-bg)]/10" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/60 to-[var(--color-bg)]/30" />
         {/* Content overlay */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row gap-6 items-end">
           {/* Poster card */}
