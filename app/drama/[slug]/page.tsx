@@ -36,19 +36,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-const categoryColors: Record<string, string> = {
-  Korean: "bg-violet-600/20 text-violet-300 border-violet-600/40",
-  Chinese: "bg-rose-600/20 text-rose-300 border-rose-600/40",
-  Turkish: "bg-amber-600/20 text-amber-300 border-amber-600/40",
+const categoryAccent: Record<string, string> = {
+  Korean: "var(--color-korean)",
+  Chinese: "var(--color-chinese)",
+  Turkish: "var(--color-turkish)",
 };
-
-const genreColors = [
-  "bg-blue-600/20 text-blue-300 border-blue-600/30",
-  "bg-emerald-600/20 text-emerald-300 border-emerald-600/30",
-  "bg-pink-600/20 text-pink-300 border-pink-600/30",
-  "bg-cyan-600/20 text-cyan-300 border-cyan-600/30",
-  "bg-orange-600/20 text-orange-300 border-orange-600/30",
-];
 
 export default async function DramaDetailPage({ params }: PageProps) {
   const { slug } = await params;
@@ -58,13 +50,7 @@ export default async function DramaDetailPage({ params }: PageProps) {
 
 const related = getRelatedDramas(drama);
   
-  const catColor = categoryColors[drama.category] ?? "bg-slate-600/20 text-slate-300 border-slate-600/40";
-  const posterGradients: Record<string, string> = {
-    Korean: "from-violet-900 via-purple-800 to-indigo-950",
-    Chinese: "from-rose-900 via-red-800 to-pink-950",
-    Turkish: "from-amber-900 via-orange-800 to-red-950",
-  };
-  const posterGrad = posterGradients[drama.category] ?? "from-slate-900 to-slate-800";
+  const accent = categoryAccent[drama.category] ?? "var(--color-muted)";
 
  return (
   <article>
@@ -76,7 +62,7 @@ const related = getRelatedDramas(drama);
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors group"
+          className="inline-flex items-center gap-2 text-[var(--color-muted)] hover:text-[var(--color-text)] text-sm transition-colors group"
         >
           <svg
             className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform"
@@ -102,23 +88,30 @@ const related = getRelatedDramas(drama);
             />
           ) : (
             <div
-              className={`absolute inset-0 bg-gradient-to-br ${posterGrad}`}
+              className="absolute inset-0"
+              style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)" }}
               aria-hidden="true"
             >
-              <div className="absolute inset-0 opacity-10 flex items-center justify-center">
-                <span className="text-white font-black text-[18rem] leading-none select-none">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span
+                  className="font-display italic select-none"
+                  style={{ color: accent, opacity: 0.2, fontSize: "16rem", lineHeight: 1 }}
+                >
                   {drama.title.charAt(0)}
                 </span>
               </div>
             </div>
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/10" />
+          {/* Origin spine */}
+          <div className="absolute top-0 left-0 bottom-0 w-1 z-10" style={{ background: accent }} aria-hidden="true" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/40 to-[var(--color-bg)]/10" />
         {/* Content overlay */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row gap-6 items-end">
           {/* Poster card */}
           <div className="flex-shrink-0">
             <div
-              className={`w-32 sm:w-44 aspect-[2/3] rounded-xl bg-gradient-to-br ${posterGrad} border border-white/10 shadow-2xl flex items-center justify-center overflow-hidden`}
+              className="w-32 sm:w-44 aspect-[2/3] rounded-xl border overflow-hidden flex items-center justify-center"
+              style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)", borderColor: "var(--color-border)" }}
               role={drama.poster ? undefined : "img"}
               aria-label={drama.poster ? undefined : `${drama.title} poster placeholder`}
             >
@@ -128,7 +121,7 @@ const related = getRelatedDramas(drama);
                   style={{ backgroundImage: `url(${drama.poster})` }}
                 />
               ) : (
-                <span className="text-white/30 font-black text-6xl select-none">
+                <span className="font-display italic select-none text-6xl" style={{ color: accent, opacity: 0.4 }}>
                   {drama.title.charAt(0)}
                 </span>
               )}
@@ -138,35 +131,40 @@ const related = getRelatedDramas(drama);
           {/* Title + meta */}
           <div className="flex-1 pb-2">
             {/* Category badge */}
-            <span className={`inline-flex text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${catColor} mb-3`}>
+            <span
+              className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full border mb-3"
+              style={{ borderColor: "var(--color-border)", color: "var(--color-text)" }}
+            >
+              <span className="w-1.5 h-1.5 rounded-full" style={{ background: accent }} />
               {drama.category} Drama
             </span>
 
-            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight mb-3">
+            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold text-[var(--color-text)] leading-tight mb-3">
               {drama.title}
             </h1>
 
             {/* Stats row */}
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-slate-300 mb-4">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-[var(--color-text)] mb-4">
               <span className="flex items-center gap-1">
-                <span className="text-yellow-400">★</span>
-                <strong className="text-white">{drama.rating}</strong>
-                <span className="text-slate-500">/10</span>
+                <span style={{ color: "var(--color-accent)" }}>★</span>
+                <strong className="text-[var(--color-text)]">{drama.rating}</strong>
+                <span className="text-[var(--color-muted)]">/10</span>
               </span>
-              <span className="text-slate-600">|</span>
+              <span className="text-[var(--color-muted)]">|</span>
               <span>{drama.year}</span>
-              <span className="text-slate-600">|</span>
+              <span className="text-[var(--color-muted)]">|</span>
               <span>{drama.country}</span>
-              <span className="text-slate-600">|</span>
+              <span className="text-[var(--color-muted)]">|</span>
               <span>{drama.episodes?.length ?? drama.episodeCount ?? 0} Episodes</span>
             </div>
 
             {/* Genre badges */}
             <div className="flex flex-wrap gap-2">
-              {drama.genre.map((g, i) => (
+              {drama.genre.map((g) => (
                 <span
                   key={g}
-                  className={`text-xs font-medium px-3 py-1 rounded-full border ${genreColors[i % genreColors.length]}`}
+                  className="text-xs font-medium px-3 py-1 rounded-full border text-[var(--color-muted)]"
+                  style={{ borderColor: "var(--color-border)" }}
                 >
                   {g}
                 </span>
@@ -182,13 +180,13 @@ const related = getRelatedDramas(drama);
         <section aria-labelledby="story-heading">
           <h2
             id="story-heading"
-            className="text-xl font-bold text-white mb-4 flex items-center gap-3"
+            className="text-xl font-bold text-[var(--color-text)] mb-4 flex items-center gap-3"
           >
-            <span className="w-1 h-6 rounded-full bg-violet-500 block" aria-hidden="true" />
+            <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
             Story
           </h2>
-          <div className="bg-slate-800/40 border border-slate-700/40 rounded-xl p-6">
-            <p className="text-slate-300 leading-relaxed text-sm sm:text-base">
+          <div className="bg-[var(--color-surface)]/70 border border-[var(--color-border)] rounded-xl p-6">
+            <p className="text-[var(--color-text)] leading-relaxed text-sm sm:text-base">
               {drama.story}
             </p>
           </div>
@@ -198,9 +196,9 @@ const related = getRelatedDramas(drama);
         <section aria-labelledby="info-heading">
           <h2
             id="info-heading"
-            className="text-xl font-bold text-white mb-4 flex items-center gap-3"
+            className="text-xl font-bold text-[var(--color-text)] mb-4 flex items-center gap-3"
           >
-            <span className="w-1 h-6 rounded-full bg-violet-500 block" aria-hidden="true" />
+            <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
             Drama Info
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -212,10 +210,10 @@ const related = getRelatedDramas(drama);
             ].map((item) => (
               <div
                 key={item.label}
-                className="bg-slate-800/40 border border-slate-700/40 rounded-xl p-4 text-center"
+                className="bg-[var(--color-surface)]/70 border border-[var(--color-border)] rounded-xl p-4 text-center"
               >
-                <p className="text-slate-500 text-xs uppercase tracking-wider mb-1">{item.label}</p>
-                <p className="text-white font-bold text-sm">{item.value}</p>
+                <p className="text-[var(--color-muted)] text-xs uppercase tracking-wider mb-1">{item.label}</p>
+                <p className="text-[var(--color-text)] font-bold text-sm">{item.value}</p>
               </div>
             ))}
           </div>

@@ -9,11 +9,11 @@ interface CategoryButtonsProps {
 
 const categories: CategoryFilter[] = ["All", "Korean", "Chinese", "Turkish"];
 
-const categoryEmoji: Record<CategoryFilter, string> = {
-  All: "🌏",
-  Korean: "🇰🇷",
-  Chinese: "🇨🇳",
-  Turkish: "🇹🇷",
+const categoryAccent: Record<CategoryFilter, string | null> = {
+  All: null,
+  Korean: "var(--color-korean)",
+  Chinese: "var(--color-chinese)",
+  Turkish: "var(--color-turkish)",
 };
 
 export default function CategoryButtons({ active, onChange }: CategoryButtonsProps) {
@@ -25,6 +25,7 @@ export default function CategoryButtons({ active, onChange }: CategoryButtonsPro
     >
       {categories.map((cat) => {
         const isActive = active === cat;
+        const accent = categoryAccent[cat];
         return (
           <button
             key={cat}
@@ -33,12 +34,14 @@ export default function CategoryButtons({ active, onChange }: CategoryButtonsPro
             aria-pressed={isActive}
             className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 border ${
               isActive
-                ? "bg-violet-600 border-violet-500 text-white shadow-lg shadow-violet-600/30 scale-105"
-                : "bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 hover:border-white/20 hover:text-white"
+                ? "bg-[var(--color-surface-raised)] border-[var(--color-accent)]/70 text-[var(--color-text)]"
+                : "bg-transparent border-[var(--color-border)] text-[var(--color-muted)] hover:text-[var(--color-text)] hover:border-[var(--color-accent)]/40"
             }`}
           >
-            <span aria-hidden="true">{categoryEmoji[cat]}</span>
-            {cat === "All" ? "All Dramas" : `${cat} Dramas`}
+            {accent && (
+              <span className="w-1.5 h-1.5 rounded-full" style={{ background: accent }} aria-hidden="true" />
+            )}
+            {cat === "All" ? "All dramas" : `${cat} dramas`}
           </button>
         );
       })}

@@ -31,7 +31,7 @@ export default function WatchButtons({ drama }: { drama: Drama }) {
 
   return (
     <div className="mt-6">
-      <h3 className="text-sm font-semibold text-slate-300 mb-3">
+      <h3 className="text-sm font-semibold text-[var(--color-text)] mb-3">
         Where to Watch
       </h3>
       <div className="flex flex-wrap gap-3">
@@ -41,13 +41,13 @@ export default function WatchButtons({ drama }: { drama: Drama }) {
             href={platform.urlTemplate(drama.title)}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className={`${platform.color} text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors`}
+            className={`${platform.color} text-[var(--color-text)] text-sm font-medium px-4 py-2 rounded-lg transition-colors`}
           >
             Watch on {platform.name} &rarr;
           </a>
         ))}
       </div>
-      <p className="text-xs text-slate-500 mt-3">
+      <p className="text-xs text-[var(--color-muted)] mt-3">
         Availability varies by region. Links open an official platform search
         for &quot;{drama.title}&quot;.
       </p>

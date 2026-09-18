@@ -2,29 +2,35 @@
 
 /* ── Tailwind v4: Register custom utilities ──────────────── */
 @utility font-display {
-  font-family: var(--font-playfair), "Playfair Display", serif;
+  font-family: var(--font-fraunces), "Fraunces", serif;
 }
 
 @utility hero-gradient {
-  background: linear-gradient(
-    -45deg,
-    #020617,
-    #0f0a2e,
-    #1a0a3c,
-    #0f172a
-  );
-  background-size: 400% 400%;
-  animation: gradientShift 12s ease infinite;
+  background:
+    radial-gradient(ellipse 900px 500px at 12% 0%, rgba(212, 162, 76, 0.16), transparent 60%),
+    var(--color-bg);
 }
 
-/* ── Custom CSS Variables ────────────────────────────────── */
+/* ── Custom CSS Variables ─────────────────────────────────
+   A late-night screening room: warm charcoal, a single gold
+   spotlight accent, and three origin accents drawn from each
+   country's ceramic tradition — celadon jade (Korean), cinnabar
+   lacquer (Chinese), Iznik tile blue (Turkish) — used only as
+   small, meaningful marks, never as page-wide theming.       */
 :root {
-  --color-bg: #020617;           /* slate-950 */
-  --color-surface: #0f172a;      /* slate-900 */
-  --color-card: #1e293b;         /* slate-800 */
-  --color-border: #334155;       /* slate-700 */
-  --color-accent: #7c3aed;       /* violet-600 */
-  --color-accent-light: #a78bfa; /* violet-400 */
+  --color-bg: #100e0c;            /* near-black, warm charcoal */
+  --color-surface: #1a1613;       /* card surface */
+  --color-surface-raised: #221d19;
+  --color-border: #322a24;
+  --color-text: #f2ece3;          /* warm parchment */
+  --color-muted: #978d82;
+
+  --color-accent: #d4a24c;        /* marquee gold — spotlight/CTA */
+  --color-accent-soft: #e8c988;
+
+  --color-korean: #7fa98c;        /* celadon */
+  --color-chinese: #c1553a;       /* cinnabar */
+  --color-turkish: #3e8aa6;       /* Iznik blue */
 }
 
 /* ── Base Styles ─────────────────────────────────────────── */
@@ -33,8 +39,7 @@ html {
 }
 
 body {
-  /* next/font injects --font-inter as a CSS var on <html> */
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-work-sans), system-ui, sans-serif;
   background-color: var(--color-bg);
 }
 
@@ -53,16 +58,9 @@ body {
   background: var(--color-accent);
 }
 
-/* ── Animated gradient keyframes ─────────────────────────── */
-@keyframes gradientShift {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 /* ── Focus ring ──────────────────────────────────────────── */
 *:focus-visible {
-  outline: 2px solid var(--color-accent-light);
+  outline: 2px solid var(--color-accent);
   outline-offset: 3px;
   border-radius: 6px;
 }
