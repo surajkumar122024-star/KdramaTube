@@ -1,7 +1,9 @@
 import { getAllDramas, getFeaturedDrama } from "@/lib/dramas";
 import { Drama } from "@/types/drama";
+import { upcomingDramas } from "@/data/upcoming";
 import FeaturedCard from "@/components/FeaturedCard";
 import TrendingRow from "@/components/TrendingRow";
+import UpcomingRow from "@/components/UpcomingRow";
 import CategorySection from "@/components/CategorySection";
 
 const TRENDING_SLUGS = [
@@ -54,6 +56,7 @@ export default function HomePageContent() {
       {/* Trending row */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <TrendingRow dramas={trendingDramas} />
+        <UpcomingRow dramas={upcomingDramas} />
       </div>
 
       {/* Catalog section — full library, with links to dedicated category pages */}
