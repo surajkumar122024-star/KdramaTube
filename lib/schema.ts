@@ -3,6 +3,12 @@ import type { Drama } from "@/types/drama";
 
 const SITE_URL = "https://kdramatube.vercel.app";
 
+const languageCode: Record<Drama["category"], string> = {
+  Korean: "ko",
+  Chinese: "zh",
+  Turkish: "tr",
+};
+
 function absoluteUrl(path: string) {
   return path.startsWith("http") ? path : `${SITE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
 }
@@ -16,6 +22,7 @@ export function generateDramaSchema(drama: Drama) {
     image: absoluteUrl(drama.poster),
     genre: drama.genre,
     numberOfEpisodes: drama.episodes?.length ?? drama.episodeCount ?? 0,
+    inLanguage: languageCode[drama.category] ?? undefined,
     countryOfOrigin: {
       "@type": "Country",
       name: drama.country,

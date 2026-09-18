@@ -52,6 +52,12 @@ const categoryAccent: Record<string, string> = {
   Turkish: "var(--color-turkish)",
 };
 
+const originalLanguage: Record<string, string> = {
+  Korean: "Korean",
+  Chinese: "Mandarin Chinese",
+  Turkish: "Turkish",
+};
+
 export default async function DramaDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const drama = getDramaBySlug(slug);
@@ -211,9 +217,10 @@ const related = getRelatedDramas(drama);
             <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
             Drama Info
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
               { label: "Country", value: drama.country },
+              { label: "Language", value: originalLanguage[drama.category] ?? drama.category },
               { label: "Year", value: drama.year.toString() },
               { label: "Rating", value: `★ ${drama.rating}/10` },
               { label: "Episodes", value: (drama.episodes?.length ?? drama.episodeCount ?? 0).toString() },

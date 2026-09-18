@@ -49,7 +49,9 @@ export default function WatchButtons({ drama }: { drama: Drama }) {
       </div>
       <p className="text-xs text-[var(--color-muted)] mt-3">
         Availability varies by region. Links open an official platform search
-        for &quot;{drama.title}&quot;.
+        for &quot;{drama.title}&quot;. Subtitle and dubbing languages offered
+        also vary by platform and region — check the show page on each
+        service for details.
       </p>
     </div>
   );
