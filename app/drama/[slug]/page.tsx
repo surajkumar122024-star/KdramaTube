@@ -118,8 +118,6 @@ const related = getRelatedDramas(drama);
               </div>
             </div>
           )}
-          {/* Origin spine */}
-          <div className="absolute top-0 left-0 bottom-0 w-1 z-10" style={{ background: accent }} aria-hidden="true" />
           <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg)] via-[var(--color-bg)]/40 to-[var(--color-bg)]/10" />
         {/* Content overlay */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row gap-6 items-end">

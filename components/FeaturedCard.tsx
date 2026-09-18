@@ -22,13 +22,6 @@ export default function FeaturedCard({ drama }: FeaturedCardProps) {
         background: "linear-gradient(155deg, #1a1613 0%, #211b17 100%)",
       }}
     >
-      {/* Origin spine */}
-      <div
-        className="absolute top-0 left-0 bottom-0 w-1 z-10"
-        style={{ background: accent }}
-        aria-hidden="true"
-      />
-
       {/* Poster — shown at its own aspect ratio, never stretched or upscaled into blur */}
       <div className="relative w-full sm:w-[260px] lg:w-[300px] flex-shrink-0 aspect-[2/3] sm:aspect-auto sm:self-stretch">
         {drama.poster ? (

@@ -44,9 +44,6 @@ export default function DramaCard({ drama }: DramaCardProps) {
           </div>
         )}
 
-        {/* Origin spine */}
-        <div className="absolute top-0 left-0 bottom-0 w-[3px]" style={{ background: accent }} aria-hidden="true" />
-
         {/* Rating badge */}
         <div className="absolute top-2 right-2 flex items-center gap-1 bg-black/60 backdrop-blur-sm rounded-full px-2 py-1 text-xs font-bold text-[var(--color-accent)]">
           <span aria-hidden="true">★</span>
