@@ -26,6 +26,8 @@ export default function HomePageContent() {
     .map((slug) => allDramas.find((d) => d.slug === slug))
     .filter((d): d is Drama => Boolean(d));
   const schoolDramas = allDramas.filter((d) => d.genre.includes("School"));
+  const actionDramas = allDramas.filter((d) => d.genre.includes("Action"));
+  const comedyDramas = allDramas.filter((d) => d.genre.includes("Comedy"));
 
   return (
     <>
@@ -58,6 +60,8 @@ export default function HomePageContent() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <TrendingRow dramas={trendingDramas} />
         <TrendingRow dramas={schoolDramas} title="Popular School Dramas" headingId="school-dramas-heading" />
+        <TrendingRow dramas={actionDramas} title="Popular Action Dramas" headingId="action-dramas-heading" />
+        <TrendingRow dramas={comedyDramas} title="Popular Comedy Dramas" headingId="comedy-dramas-heading" />
         <UpcomingRow dramas={upcomingDramas} />
       </div>
 
