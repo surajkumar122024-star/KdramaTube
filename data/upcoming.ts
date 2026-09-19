@@ -6,11 +6,13 @@ export interface UpcomingDrama {
   expectedRelease: string;
   platform: string;
   synopsis: string;
+  poster?: string;
 }
 
 export const upcomingDramas: UpcomingDrama[] = [
   {
     id: "made-in-korea-season-2",
+    poster: "https://upload.wikimedia.org/wikipedia/en/9/91/Made_in_Korea_%28TV_series%29_title_card.jpg",
     title: "Made in Korea Season 2",
     category: "Korean",
     country: "South Korea",
@@ -21,6 +23,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "tantara",
+    poster: "https://upload.wikimedia.org/wikipedia/commons/5/53/Song_Hye_Kyo_2025_%EC%86%A1%ED%98%9C%EA%B5%90_04.jpg",
     title: "Tantara",
     category: "Korean",
     country: "South Korea",
@@ -31,6 +34,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "can-this-love-be-translated",
+    poster: "https://upload.wikimedia.org/wikipedia/en/1/1d/Can_This_Love_Be_Translated%3F_Poster.png",
     title: "Can This Love Be Translated?",
     category: "Korean",
     country: "South Korea",
@@ -41,6 +45,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "the-remarried-empress",
+    poster: "https://upload.wikimedia.org/wikipedia/en/0/00/The_Remarried_Empress_poster.jpg",
     title: "The Remarried Empress",
     category: "Korean",
     country: "South Korea",
@@ -51,6 +56,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "a-shop-for-killers-season-2",
+    poster: "https://upload.wikimedia.org/wikipedia/en/7/71/A_Shop_for_Killers_logo.png",
     title: "A Shop for Killers Season 2",
     category: "Korean",
     country: "South Korea",

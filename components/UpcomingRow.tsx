@@ -16,15 +16,23 @@ function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
   return (
     <div className="w-56 sm:w-64 flex-shrink-0 rounded-xl overflow-hidden bg-[var(--color-surface)] border border-[var(--color-border)]">
       <div
-        className="relative aspect-video flex items-center justify-center"
+        className="relative aspect-video flex items-center justify-center overflow-hidden"
         style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)" }}
       >
-        <span
-          className="font-display italic select-none"
-          style={{ color: accent, opacity: 0.3, fontSize: "3rem", lineHeight: 1 }}
-        >
-          {drama.title.charAt(0)}
-        </span>
+        {drama.poster ? (
+          <img
+            src={drama.poster}
+            alt={`${drama.title} artwork`}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        ) : (
+          <span
+            className="font-display italic select-none"
+            style={{ color: accent, opacity: 0.3, fontSize: "3rem", lineHeight: 1 }}
+          >
+            {drama.title.charAt(0)}
+          </span>
+        )}
         <span className="absolute top-2 left-2 bg-[var(--color-accent)] text-[#1a1310] text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full">
           Coming {drama.expectedRelease}
         </span>
