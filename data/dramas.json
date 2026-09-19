@@ -753,7 +753,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Yang Yang",
+        "role": "Xiao Nai",
+        "bio": "Chinese actor known for blending idol charm with action roles; Love O2O was his breakout leading role."
+      },
+      {
+        "name": "Zheng Shuang",
+        "role": "Bei Wei-wei",
+        "bio": "Chinese actress and one of the most in-demand young stars of the mid-2010s C-drama boom."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -816,7 +827,23 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Engin Altan Düzyatan",
+        "role": "Ertuğrul Bey",
+        "bio": "Turkish actor whose portrayal of Ertuğrul made him a household name across the Muslim world."
+      },
+      {
+        "name": "Esra Bilgiç",
+        "role": "Halime Hatun",
+        "bio": "Turkish actress who rose to international fame playing Ertuğrul's wife, Halime Sultan."
+      },
+      {
+        "name": "Cengiz Coşkun",
+        "role": "Turgut Alp",
+        "bio": "Turkish actor known for playing Ertuğrul's loyal and fierce companion Turgut Alp."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -942,7 +969,23 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Beren Saat",
+        "role": "Fatmagül Ketenci",
+        "bio": "Award-winning Turkish actress whose performance as Fatmagül became one of Turkish television's most acclaimed roles."
+      },
+      {
+        "name": "Engin Akyürek",
+        "role": "Kerim Ilgaz",
+        "bio": "Turkish actor whose role as Kerim made him one of the most recognized dizi stars internationally."
+      },
+      {
+        "name": "Fırat Çelik",
+        "role": "Mustafa Nalçalı",
+        "bio": "Turkish actor known for his role as Fatmagül's childhood love, Mustafa."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1087,7 +1130,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Ahn Hyo-seop",
+        "role": "Kang Tae-moo",
+        "bio": "South Korean actor and singer known for his roles in Business Proposal and A Time Called You."
+      },
+      {
+        "name": "Kim Se-jeong",
+        "role": "Shin Ha-ri",
+        "bio": "South Korean singer and actress, former member of girl group Gugudan, known for her comedic timing."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1150,7 +1204,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Song Joong-ki",
+        "role": "Vincenzo Cassano",
+        "bio": "South Korean actor known for Descendants of the Sun; Vincenzo showcased his range in a mafia-lawyer dark comedy."
+      },
+      {
+        "name": "Jeon Yeo-been",
+        "role": "Hong Cha-young",
+        "bio": "South Korean actress who gained wide recognition for her sharp, comedic performance as an unscrupulous lawyer."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1251,7 +1316,18 @@
         "summary": ""
       }
     ],
-    "cast": []
+    "cast": [
+      {
+        "name": "Shin Min-a",
+        "role": "Yoon Hye-jin",
+        "bio": "South Korean actress known for My Girlfriend Is a Gumiho and Tomorrow, With You."
+      },
+      {
+        "name": "Kim Seon-ho",
+        "role": "Hong Du-sik",
+        "bio": "South Korean actor who became a breakout star for his charming, do-it-all village role in this drama."
+      }
+    ]
   },
   {
     "id": "its-okay-to-not-be-okay",
@@ -1336,7 +1412,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Kim Soo-hyun",
+        "role": "Moon Gang-tae",
+        "bio": "One of South Korea's highest-paid actors, known for My Love from the Star and It's Okay to Not Be Okay."
+      },
+      {
+        "name": "Seo Ye-ji",
+        "role": "Ko Moon-young",
+        "bio": "South Korean actress praised for her striking, fashion-forward portrayal of a children's book author with an antisocial personality."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1399,7 +1486,23 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Lee Hye-ri",
+        "role": "Sung Deok-sun",
+        "bio": "South Korean singer (Girl's Day) and actress whose role as Deok-sun became one of the most beloved in Korean TV."
+      },
+      {
+        "name": "Park Bo-gum",
+        "role": "Choi Taek",
+        "bio": "South Korean actor whose gentle portrayal of baduk prodigy Choi Taek launched him to stardom."
+      },
+      {
+        "name": "Ryu Jun-yeol",
+        "role": "Kim Jung-hwan",
+        "bio": "South Korean actor known for his role as the group's introspective, unlucky-in-love friend."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1557,7 +1660,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Song Hye-kyo",
+        "role": "Moon Dong-eun",
+        "bio": "Veteran South Korean actress (Descendants of the Sun) who took on one of her darkest roles as a bullying survivor seeking revenge."
+      },
+      {
+        "name": "Lee Do-hyun",
+        "role": "Joo Yeo-jeong",
+        "bio": "South Korean actor known for The Good Bad Mother and his rising presence in film and TV."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1620,7 +1734,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Kim Tae-ri",
+        "role": "Na Hee-do",
+        "bio": "South Korean actress who broke out in The Handmaiden before starring in this coming-of-age romance."
+      },
+      {
+        "name": "Nam Joo-hyuk",
+        "role": "Baek Yi-jin",
+        "bio": "South Korean actor and former model known for Start-Up and Twenty-Five Twenty-One."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1683,7 +1808,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Song Joong-ki",
+        "role": "Yoo Si-jin",
+        "bio": "South Korean actor whose role as a special forces captain made this one of the best-selling Korean dramas internationally."
+      },
+      {
+        "name": "Song Hye-kyo",
+        "role": "Kang Mo-yeon",
+        "bio": "South Korean actress whose on-screen chemistry with Song Joong-ki became a defining K-drama romance."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1746,7 +1882,23 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Bae Suzy",
+        "role": "Seo Dal-mi",
+        "bio": "South Korean singer (Miss A) and actress known for Dream High and While You Were Sleeping."
+      },
+      {
+        "name": "Nam Joo-hyuk",
+        "role": "Nam Do-san",
+        "bio": "South Korean actor who played an awkward young entrepreneur inspired by tech founders like Elon Musk."
+      },
+      {
+        "name": "Kim Seon-ho",
+        "role": "Han Ji-pyeong",
+        "bio": "South Korean actor whose supporting role as a sharp-tongued investor won him widespread popularity."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -1801,7 +1953,18 @@
         "summary": ""
       }
     ],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Lee Sung-kyung",
+        "role": "Kim Bok-joo",
+        "bio": "South Korean model-turned-actress known for her athletic, comedic lead role as a college weightlifter."
+      },
+      {
+        "name": "Nam Joo-hyuk",
+        "role": "Jung Joon-hyung",
+        "bio": "South Korean actor whose role as a competitive swimmer was an early star-making performance."
+      }
+    ],
     "whereToWatch": []
   },
   {
@@ -2007,7 +2170,18 @@
     "episodeCount": 10,
     "rating": 8.4,
     "description": "The second chapter continues the story of students caught between school violence and personal survival, expanding on the world introduced in the first season.",
-    "cast": [],
+    "cast": [
+      {
+        "name": "Ryeoun",
+        "role": "Ahn Su-ho",
+        "bio": "South Korean actor who stepped into a leading role for Weak Hero Class 2 after a supporting turn in season one."
+      },
+      {
+        "name": "Park Ji-hoon",
+        "role": "Yeon Si-eun",
+        "bio": "South Korean idol-actor (Wanna One) known for his transformation into the series' quiet, calculating lead."
+      }
+    ],
     "featured": false,
     "whereToWatch": [
       {
@@ -2382,7 +2556,19 @@
       "Historical"
     ],
     "featured": false,
-    "episodeCount": 12
+    "episodeCount": 12,
+    "cast": [
+      {
+        "name": "Im Yoon-ah",
+        "role": "Yeon Ji-young",
+        "bio": "South Korean singer (Girls' Generation) and actress known for her leading role as a time-slipping chef."
+      },
+      {
+        "name": "Lee Chae-min",
+        "role": "King Lee Heon",
+        "bio": "South Korean actor who stepped into the lead role on short notice and earned widespread praise for his performance."
+      }
+    ]
   },
   {
     "id": "queen-of-tears",
@@ -2401,7 +2587,19 @@
       "Drama"
     ],
     "featured": false,
-    "episodeCount": 16
+    "episodeCount": 16,
+    "cast": [
+      {
+        "name": "Kim Ji-won",
+        "role": "Hong Hae-in",
+        "bio": "South Korean actress known for Fight for My Way and My Liberation Notes; Queen of Tears was a career-defining lead role."
+      },
+      {
+        "name": "Kim Soo-hyun",
+        "role": "Baek Hyun-woo",
+        "bio": "One of South Korea's top-billed actors, returning to romance after It's Okay to Not Be Okay."
+      }
+    ]
   },
   {
     "id": "dear-x",
@@ -2419,7 +2617,19 @@
       "Thriller"
     ],
     "featured": false,
-    "episodeCount": 12
+    "episodeCount": 12,
+    "cast": [
+      {
+        "name": "Kim You-jung",
+        "role": "Baek Ah-jin",
+        "bio": "South Korean actress known as a former child star who took on a dramatic departure playing a manipulative sociopath."
+      },
+      {
+        "name": "Kim Young-dae",
+        "role": "Yoon Joon-seo",
+        "bio": "South Korean actor known for The Penthouse, playing Ah-jin's loyal but conflicted stepbrother."
+      }
+    ]
   },
   {
     "id": "the-manipulated",
@@ -2438,7 +2648,24 @@
       "Thriller"
     ],
     "featured": false,
-    "episodeCount": 12
+    "episodeCount": 12,
+    "cast": [
+      {
+        "name": "Ji Chang-wook",
+        "role": "Park Tae-jung",
+        "bio": "South Korean actor known for his action roles, playing a wrongfully convicted man seeking revenge."
+      },
+      {
+        "name": "Do Kyung-soo",
+        "role": "Ahn Yo-han",
+        "bio": "South Korean singer (EXO's D.O.) and actor taking on his first major villain role."
+      },
+      {
+        "name": "Lee Kwang-soo",
+        "role": "Baek Do-kyeong",
+        "bio": "South Korean actor known for variety show Running Man, playing a mysterious figure tied to the conspiracy."
+      }
+    ]
   },
   {
     "id": "sky-castle",
@@ -2458,7 +2685,19 @@
       "Satire"
     ],
     "featured": false,
-    "episodeCount": 20
+    "episodeCount": 20,
+    "cast": [
+      {
+        "name": "Yum Jung-ah",
+        "role": "Han Seo-jin",
+        "bio": "South Korean actress whose role as an obsessive, image-conscious mother anchored the show's dark satire."
+      },
+      {
+        "name": "Lee Tae-ran",
+        "role": "Lee Soo-im",
+        "bio": "South Korean actress who played the one mother in SKY Castle who refuses to play by its ruthless rules."
+      }
+    ]
   },
   {
     "id": "extraordinary-you",
@@ -2478,7 +2717,24 @@
       "School"
     ],
     "featured": false,
-    "episodeCount": 32
+    "episodeCount": 32,
+    "cast": [
+      {
+        "name": "Kim Hye-yoon",
+        "role": "Eun Dan-oh",
+        "bio": "South Korean actress known for playing a side character who becomes self-aware inside her own comic-book world."
+      },
+      {
+        "name": "Kim Ro-woon",
+        "role": "Ha-ru (Number 13)",
+        "bio": "South Korean singer (SF9) and actor whose role as a nameless, lineless character won wide acclaim."
+      },
+      {
+        "name": "Lee Jae-wook",
+        "role": "Baek Kyung",
+        "bio": "South Korean actor and model who later became a leading man in dramas like Alchemy of Souls."
+      }
+    ]
   },
   {
     "id": "all-of-us-are-dead",
@@ -2498,7 +2754,24 @@
       "Action"
     ],
     "featured": false,
-    "episodeCount": 12
+    "episodeCount": 12,
+    "cast": [
+      {
+        "name": "Park Ji-hu",
+        "role": "Nam On-jo",
+        "bio": "South Korean actress who gained international recognition for this Netflix zombie survival hit."
+      },
+      {
+        "name": "Yoon Chan-young",
+        "role": "Lee Cheong-san",
+        "bio": "South Korean actor playing an ordinary student thrust into the outbreak's center."
+      },
+      {
+        "name": "Cho Yi-hyun",
+        "role": "Choi Nam-ra",
+        "bio": "South Korean actress known for her role as the class president caught between humanity and infection."
+      }
+    ]
   },
   {
     "id": "hierarchy",
@@ -2518,6 +2791,23 @@
       "Thriller"
     ],
     "featured": false,
-    "episodeCount": 7
+    "episodeCount": 7,
+    "cast": [
+      {
+        "name": "Roh Jeong-eui",
+        "role": "Jung Jae-i",
+        "bio": "South Korean actress known for Our Beloved Summer, playing the reigning queen of an elite high school."
+      },
+      {
+        "name": "Lee Chae-min",
+        "role": "Kang Ha",
+        "bio": "South Korean actor whose role as a secretive transfer student became a breakout performance."
+      },
+      {
+        "name": "Kim Jae-won",
+        "role": "Kim Ri-an",
+        "bio": "South Korean actor known for King the Land, playing the heir at the top of the school's social order."
+      }
+    ]
   }
 ]
