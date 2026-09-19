@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { UpcomingDrama } from "@/data/upcoming";
 
 interface UpcomingRowProps {
@@ -14,7 +15,10 @@ function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
   const accent = categoryAccent[drama.category] ?? "var(--color-muted)";
 
   return (
-    <div className="w-56 sm:w-64 flex-shrink-0 rounded-xl overflow-hidden bg-[var(--color-surface)] border border-[var(--color-border)]">
+    <Link
+      href={`/upcoming/${drama.id}`}
+      className="block w-56 sm:w-64 flex-shrink-0 rounded-xl overflow-hidden bg-[var(--color-surface)] border border-[var(--color-border)] hover:border-[var(--color-accent)]/40 transition-colors"
+    >
       <div
         className="relative aspect-video flex items-center justify-center overflow-hidden"
         style={{ background: "linear-gradient(155deg, #1a1613 0%, #221d19 100%)" }}
@@ -52,7 +56,7 @@ function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
           {drama.synopsis}
         </p>
       </div>
-    </div>
+    </Link>
   );
 }
 

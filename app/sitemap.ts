@@ -1,6 +1,7 @@
 // src/app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { getAllDramas } from "@/lib/dramas";
+import { upcomingDramas } from "@/data/upcoming";
 
 const categoryPages = [
   "korean-dramas",
@@ -35,5 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...dramaRoutes];
+  const upcomingRoutes = upcomingDramas.map((drama) => ({
+    url: `${baseUrl}/upcoming/${drama.id}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.5,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...dramaRoutes, ...upcomingRoutes];
 }

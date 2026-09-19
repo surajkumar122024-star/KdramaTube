@@ -6,6 +6,8 @@ export interface UpcomingDrama {
   expectedRelease: string;
   platform: string;
   synopsis: string;
+  about: string;
+  cast: string[];
   poster?: string;
 }
 
@@ -17,9 +19,12 @@ export const upcomingDramas: UpcomingDrama[] = [
     category: "Korean",
     country: "South Korea",
     expectedRelease: "Late 2026",
-    platform: "JioHotstar",
+    platform: "Disney+ (JioHotstar in India)",
     synopsis:
       "Hyun Bin returns for a second season, continuing the story of a man driven by ambition for wealth and power and the prosecutor determined to stop him.",
+    about:
+      "The first season of Made in Korea followed Baek Ki-tae (Hyun Bin), a KCIA section chief in 1970s South Korea who secretly built a smuggling operation to fund his rise to power, while prosecutor Jang Geon-young (Jung Woo-sung) pursued him with unrelenting resolve. Directed by Woo Min-ho, the acclaimed political crime thriller premiered on Disney+ in December 2025 and was renewed for a second season even before season one finished its run, promising to continue the high-stakes collision between ambition and obsession.",
+    cast: ["Hyun Bin", "Jung Woo-sung", "Woo Do-hwan"],
   },
   {
     id: "tantara",
@@ -31,6 +36,9 @@ export const upcomingDramas: UpcomingDrama[] = [
     platform: "Netflix",
     synopsis:
       "Set in the Korean War era of the 1960s, this period drama follows a group of entertainers making their name in the industry. Stars Song Hye-kyo, Gong Yoo, Lee Ha-nee, Kim Seol-hyun, and Cha Seung-won.",
+    about:
+      "Tantara brings together several of Korean television's biggest names for a sweeping period drama set against the backdrop of the Korean War era of the 1960s. It follows a group of performers building their careers in the entertainment industry amid the chaos and uncertainty of the time — a story about ambition, survival, and the power of performance in wartime. The Netflix original is one of the most star-studded Korean drama casts announced for 2026.",
+    cast: ["Song Hye-kyo", "Gong Yoo", "Lee Ha-nee", "Kim Seol-hyun", "Cha Seung-won"],
   },
   {
     id: "can-this-love-be-translated",
@@ -42,6 +50,9 @@ export const upcomingDramas: UpcomingDrama[] = [
     platform: "Netflix",
     synopsis:
       "Written by the Hong sisters and starring Kim Seon-ho, this romance follows a celebrity and her interpreter as they travel the world filming a TV show, with feelings developing along the way.",
+    about:
+      "From the pens of the Hong sisters, known for hit romantic comedies, this globe-trotting series follows a famous actress and the interpreter assigned to accompany her while filming a television show abroad. As they travel together and language barriers create both friction and unexpected closeness, an initially professional relationship slowly turns into something more. Kim Seon-ho stars in this Netflix original.",
+    cast: ["Kim Seon-ho"],
   },
   {
     id: "the-remarried-empress",
@@ -53,6 +64,9 @@ export const upcomingDramas: UpcomingDrama[] = [
     platform: "Disney+",
     synopsis:
       "An adaptation of the hit web novel, starring Shin Min-a as Empress Navier, who is forced to reclaim her life and her place after her husband's betrayal.",
+    about:
+      "Based on the hugely popular web novel of the same name, The Remarried Empress reimagines the story of Empress Navier — a woman betrayed by the husband she long served faithfully, who chooses to walk away and reclaim her own life and power rather than remain in a marriage that no longer serves her. Shin Min-a stars as Navier in this Disney+ fantasy-romance adaptation, one of the most anticipated web novel adaptations among Korean drama fans.",
+    cast: ["Shin Min-a"],
   },
   {
     id: "a-shop-for-killers-season-2",
@@ -64,5 +78,8 @@ export const upcomingDramas: UpcomingDrama[] = [
     platform: "Disney+",
     synopsis:
       "Kim Hye-jun and Lee Dong-wook reprise their roles as Jeong Ji-an and Jeong Jin-man, picking up right where the first season's cliffhanger left off.",
+    about:
+      "The first season of A Shop for Killers introduced Jeong Ji-an (Kim Hye-jun), an ordinary young woman who discovers that her late uncle secretly ran an online marketplace supplying weapons to assassins, and Jeong Jin-man (Lee Dong-wook), the uncle whose past comes back into her life in the most dangerous way. The Disney+ action-thriller became a sleeper hit for its stylish action and twisty plotting, and season two continues directly from the shocking events of the season one finale.",
+    cast: ["Kim Hye-jun", "Lee Dong-wook"],
   },
 ];
