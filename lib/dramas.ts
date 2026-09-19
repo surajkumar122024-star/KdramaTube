@@ -30,11 +30,30 @@ export function getAllDramaSlugs(): string[] {
   return allDramas.map((d) => d.slug);
 }
 
-/** Return other dramas from the same category, excluding the current one */
+/** Return dramas most similar to the current one, scored by shared genres
+ *  (primary signal) with same-category as a secondary boost — powers the
+ *  "You Might Also Like" section on each drama's detail page. */
 export function getRelatedDramas(current: Drama, limit = 4): Drama[] {
-  return allDramas
-    .filter((d) => d.slug !== current.slug && d.category === current.category)
-    .slice(0, limit);
+  const scored = allDramas
+    .filter((d) => d.slug !== current.slug)
+    .map((d) => {
+      const sharedGenres = d.genre.filter((g) => current.genre.includes(g)).length;
+      const sameCategory = d.category === current.category ? 1 : 0;
+      const score = sharedGenres * 3 + sameCategory;
+      return { drama: d, score };
+    })
+    .filter((r) => r.score > 0)
+    .sort((a, b) => b.score - a.score || b.drama.rating - a.drama.rating)
+    .map((r) => r.drama);
+
+  if (scored.length >= limit) return scored.slice(0, limit);
+
+  // Backfill with same-category dramas if genre overlap alone isn't enough
+  const seen = new Set(scored.map((d) => d.slug));
+  const backfill = allDramas.filter(
+    (d) => d.slug !== current.slug && d.category === current.category && !seen.has(d.slug)
+  );
+  return [...scored, ...backfill].slice(0, limit);
 }
 
 /** Search dramas by title (case-insensitive) across all categories */

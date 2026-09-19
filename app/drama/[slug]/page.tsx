@@ -215,6 +215,24 @@ const related = getRelatedDramas(drama);
           </div>
         </section>
 
+        {/* Why watch this */}
+        {drama.whyWatch && (
+          <section aria-labelledby="why-watch-heading">
+            <h2
+              id="why-watch-heading"
+              className="text-xl font-bold text-[var(--color-text)] mb-4 flex items-center gap-3"
+            >
+              <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
+              Why Watch {drama.title}?
+            </h2>
+            <div className="border-l-2 pl-5" style={{ borderColor: accent }}>
+              <p className="text-[var(--color-text)] leading-relaxed text-sm sm:text-base">
+                {drama.whyWatch}
+              </p>
+            </div>
+          </section>
+        )}
+
         {/* Quick info panel */}
         <section aria-labelledby="info-heading">
           <h2
@@ -252,7 +270,7 @@ const related = getRelatedDramas(drama);
         <CastList cast={drama.cast} />
         {/* Episodes */}
         <EpisodeList episodes={drama.episodes ?? []} dramaTitle={drama.title} dramaSlug={drama.slug} />
-       <RelatedDramas dramas={related} />
+       <RelatedDramas dramas={related} currentTitle={drama.title} />
       </div>
     </article>
   );

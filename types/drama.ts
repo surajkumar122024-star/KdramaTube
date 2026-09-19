@@ -32,6 +32,7 @@ export interface Drama {
   episodes?: Episode[];
   cast?: CastMember[];
   whereToWatch?: WhereToWatch[]; // legal streaming platform links
+  whyWatch?: string; // short review-style pitch for why this drama is worth watching
 }
 
 export type CategoryFilter = "All" | "Korean" | "Chinese" | "Turkish";
