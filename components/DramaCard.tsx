@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Drama } from "@/types/drama";
+import SaveButton from "./SaveButton";
 
 interface DramaCardProps {
   drama: Drama;
@@ -15,12 +16,14 @@ export default function DramaCard({ drama }: DramaCardProps) {
   const accent = originAccent[drama.category] ?? "var(--color-muted)";
 
   return (
-    <Link
-      href={`/drama/${drama.slug}`}
-      id={`drama-card-${drama.slug}`}
-      className="group block rounded-xl overflow-hidden bg-[var(--color-surface)] border border-[var(--color-border)] hover:border-[var(--color-accent)]/40 transition-all duration-300"
-      aria-label={`View details for ${drama.title}`}
-    >
+    <div className="relative group">
+      <SaveButton slug={drama.slug} className="absolute top-2 right-2 z-10" />
+      <Link
+        href={`/drama/${drama.slug}`}
+        id={`drama-card-${drama.slug}`}
+        className="block rounded-xl overflow-hidden bg-[var(--color-surface)] border border-[var(--color-border)] hover:border-[var(--color-accent)]/40 transition-all duration-300"
+        aria-label={`View details for ${drama.title}`}
+      >
       {/* Poster area */}
       <div className="relative aspect-[2/3] overflow-hidden">
         {drama.poster ? (
@@ -45,7 +48,7 @@ export default function DramaCard({ drama }: DramaCardProps) {
         )}
 
         {/* Rating badge */}
-        <div className="absolute top-2 right-2 flex items-center gap-1 bg-black/60 backdrop-blur-sm rounded-full px-2 py-1 text-xs font-bold text-[var(--color-accent)]">
+        <div className="absolute top-2 left-2 flex items-center gap-1 bg-black/60 backdrop-blur-sm rounded-full px-2 py-1 text-xs font-bold text-[var(--color-accent)]">
           <span aria-hidden="true">★</span>
           <span>{drama.rating}</span>
         </div>
@@ -69,6 +72,7 @@ export default function DramaCard({ drama }: DramaCardProps) {
           <span className="text-[var(--color-muted)] text-xs">{drama.year}</span>
         </div>
       </div>
-    </Link>
+      </Link>
+    </div>
   );
 }

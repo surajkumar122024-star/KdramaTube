@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Drama } from "@/types/drama";
+import SaveButton from "./SaveButton";
 
 interface FeaturedCardProps {
   drama: Drama;
@@ -74,16 +75,19 @@ export default function FeaturedCard({ drama }: FeaturedCardProps) {
           {drama.description}
         </p>
 
-        <Link
-          href={`/drama/${drama.slug}`}
-          id={`featured-view-${drama.slug}`}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[var(--color-accent)] hover:bg-[var(--color-accent-soft)] text-[#1a1310] font-semibold text-sm transition-all duration-200 w-fit"
-        >
-          View details
-          <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M3 8h10M9 4l4 4-4 4" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link
+            href={`/drama/${drama.slug}`}
+            id={`featured-view-${drama.slug}`}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[var(--color-accent)] hover:bg-[var(--color-accent-soft)] text-[#1a1310] font-semibold text-sm transition-all duration-200 w-fit"
+          >
+            View details
+            <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M3 8h10M9 4l4 4-4 4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
+          <SaveButton slug={drama.slug} size="md" />
+        </div>
       </div>
     </article>
   );

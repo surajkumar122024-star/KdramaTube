@@ -13,7 +13,7 @@ const categoryPages = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://kdramatube.vercel.app";
 
-  const staticRoutes = ["", "/about", "/contact", "/privacy-policy", "/terms"].map(
+  const staticRoutes = ["", "/about", "/contact", "/privacy-policy", "/terms", "/quiz"].map(
     (route) => ({
       url: `${baseUrl}${route}`,
       lastModified: new Date(),

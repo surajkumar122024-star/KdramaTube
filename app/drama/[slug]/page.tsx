@@ -4,6 +4,7 @@ import RelatedDramas from "@/components/RelatedDramas";
 import { notFound } from "next/navigation";
 import { generateDramaSchema } from "@/lib/schema";
 import WatchButtons from "@/components/WatchButtons";
+import SaveButton from "@/components/SaveButton";
 import { Metadata } from "next";
 import Link from "next/link";
 import { getDramaBySlug, getAllDramaSlugs } from "@/lib/dramas";
@@ -158,9 +159,12 @@ const related = getRelatedDramas(drama);
               {drama.category} Drama
             </span>
 
-            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold text-[var(--color-text)] leading-tight mb-3">
-              {drama.title}
-            </h1>
+            <div className="flex items-start justify-between gap-3 mb-3">
+              <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold text-[var(--color-text)] leading-tight">
+                {drama.title}
+              </h1>
+              <SaveButton slug={drama.slug} size="md" className="flex-shrink-0 mt-1" />
+            </div>
 
             {/* Stats row */}
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-[var(--color-text)] mb-4">

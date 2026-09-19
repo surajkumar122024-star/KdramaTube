@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Chinese", href: "/chinese-dramas" },
   { label: "Turkish", href: "/turkish-dramas" },
   { label: "All dramas", href: "/all-dramas" },
+  { label: "Quiz", href: "/quiz" },
 ];
 
 export default function Header() {
@@ -61,6 +62,18 @@ export default function Header() {
               </Link>
             ))}
           </nav>
+
+          {/* Watchlist */}
+          <Link
+            href="/watchlist"
+            aria-label="My watchlist"
+            title="My watchlist"
+            className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-lg hover:bg-white/5 text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M3.5 2h9a.5.5 0 0 1 .5.5V14l-5-3-5 3V2.5a.5.5 0 0 1 .5-.5z" strokeLinejoin="round" />
+            </svg>
+          </Link>
 
           {/* Hamburger Button */}
           <button
