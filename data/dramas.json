@@ -1415,7 +1415,8 @@
     "story": "Lim Ju-kyung, once bullied for her appearance, masters makeup to reinvent herself at a new school, but must keep her bare face a secret while falling for two very different classmates.",
     "genre": [
       "Romance",
-      "Comedy"
+      "Comedy",
+      "School"
     ],
     "cast": [
       {
@@ -1517,7 +1518,8 @@
     "story": "After enduring horrific bullying in high school that left her scarred for life, Moon Dong-eun spends years carefully orchestrating an elaborate revenge plan against her former tormentors.",
     "genre": [
       "Thriller",
-      "Drama"
+      "Drama",
+      "School"
     ],
     "featured": false,
     "episodeCount": 8,
@@ -2437,5 +2439,85 @@
     ],
     "featured": false,
     "episodeCount": 12
+  },
+  {
+    "id": "sky-castle",
+    "slug": "sky-castle",
+    "title": "SKY Castle",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2018,
+    "rating": 8.8,
+    "poster": "",
+    "description": "A satirical drama about wealthy families in an exclusive residential community who will stop at nothing to get their children into Korea's top universities.",
+    "story": "In SKY Castle, an exclusive residential community home to Korea's elite doctors and professors, mothers will do anything to secure their children's admission into the country's most prestigious medical schools. As one family after another is drawn into a ruthless, secretive admissions coordinator's web, the drama peels back the obsession, sacrifice, and moral compromise hidden behind the neighborhood's manicured hedges.",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "School",
+      "Satire"
+    ],
+    "featured": false,
+    "episodeCount": 20
+  },
+  {
+    "id": "extraordinary-you",
+    "slug": "extraordinary-you",
+    "title": "Extraordinary You",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2019,
+    "rating": 8.1,
+    "poster": "",
+    "description": "A sickly high schooler discovers she is a side character in a comic book and starts trying to rewrite her own tragic, side-lined story.",
+    "story": "Eun Dan-oh is a minor character in a high school romance comic, doomed to a short, unhappy life so the story's real leads can fall in love. When she realizes she can act outside her scripted lines, Dan-oh sets out to change her fate — and finds herself drawn to Baek Kyung's mysterious friend Number 13, a character with no name and no lines of his own, who seems to be waking up just like she did.",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Fantasy",
+      "School"
+    ],
+    "featured": false,
+    "episodeCount": 32
+  },
+  {
+    "id": "all-of-us-are-dead",
+    "slug": "all-of-us-are-dead",
+    "title": "All of Us Are Dead",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2022,
+    "rating": 7.8,
+    "poster": "",
+    "description": "A high school becomes ground zero for a zombie outbreak, and the students trapped inside must fight to survive and find a way out.",
+    "story": "When a science teacher's experiment goes wrong, a zombie virus rips through Hyosan High School within minutes. A group of students barricade themselves inside classrooms as the infection spreads through the building and beyond, forcing them to make brutal choices about who to save, who to trust, and how far they'll go to make it out alive.",
+    "genre": [
+      "Horror",
+      "Thriller",
+      "School",
+      "Action"
+    ],
+    "featured": false,
+    "episodeCount": 12
+  },
+  {
+    "id": "hierarchy",
+    "slug": "hierarchy",
+    "title": "Hierarchy",
+    "category": "Korean",
+    "country": "South Korea",
+    "year": 2024,
+    "rating": 7.0,
+    "poster": "",
+    "description": "At an elite high school built by a Korean conglomerate, a mysterious transfer student begins to crack the rigid social order controlled by the children of the ultra-wealthy.",
+    "story": "Jooshin High School was founded by a top Korean conglomerate for the children of its most powerful families, where the top 0.01% control the social order through wealth, fear, and favors. When Kang Ha, a secretive transfer student with a hidden agenda, enrolls at the school, his presence begins to crack the group's indomitable hold — unraveling scandals, rivalries, and secrets among the school's ruling class.",
+    "genre": [
+      "Romance",
+      "Mystery",
+      "School",
+      "Thriller"
+    ],
+    "featured": false,
+    "episodeCount": 7
   }
 ]
