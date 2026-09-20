@@ -28,6 +28,8 @@ const PLATFORMS_BY_CATEGORY: Record<Drama["category"], Platform[]> = {
 
 export default function WatchButtons({ drama }: { drama: Drama }) {
   const platforms = PLATFORMS_BY_CATEGORY[drama.category] ?? [];
+  const confirmedLinks = new Map((drama.whereToWatch ?? []).map((w) => [w.platform, w.url]));
+  const hasAnyConfirmed = confirmedLinks.size > 0;
 
   return (
     <div className="mt-6">
@@ -35,21 +37,25 @@ export default function WatchButtons({ drama }: { drama: Drama }) {
         Where to Watch
       </h3>
       <div className="flex flex-wrap gap-3">
-        {platforms.map((platform) => (
-          <a
-            key={platform.name}
-            href={platform.urlTemplate(drama.title)}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className={`${platform.color} text-[var(--color-text)] text-sm font-medium px-4 py-2 rounded-lg transition-colors`}
-          >
-            Watch on {platform.name} &rarr;
-          </a>
-        ))}
+        {platforms.map((platform) => {
+          const confirmedUrl = confirmedLinks.get(platform.name);
+          return (
+            <a
+              key={platform.name}
+              href={confirmedUrl ?? platform.urlTemplate(drama.title)}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className={`${platform.color} text-[var(--color-text)] text-sm font-medium px-4 py-2 rounded-lg transition-colors`}
+            >
+              Watch on {platform.name} &rarr;
+            </a>
+          );
+        })}
       </div>
       <p className="text-xs text-[var(--color-muted)] mt-3">
-        Availability varies by region. Links open an official platform search
-        for &quot;{drama.title}&quot;.
+        {hasAnyConfirmed
+          ? `Availability varies by region. Some links go straight to "${drama.title}"; others open an official platform search.`
+          : `Availability varies by region. Links open an official platform search for "${drama.title}".`}
       </p>
     </div>
   );
