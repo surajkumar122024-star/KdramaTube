@@ -33,6 +33,7 @@ export interface Drama {
   cast?: CastMember[];
   whereToWatch?: WhereToWatch[]; // legal streaming platform links
   whyWatch?: string; // short review-style pitch for why this drama is worth watching
+  trailerUrl?: string; // full YouTube watch/share URL for the official trailer
 }
 
 export type CategoryFilter = "All" | "Korean" | "Chinese" | "Turkish";

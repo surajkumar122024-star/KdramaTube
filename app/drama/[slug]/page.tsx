@@ -3,6 +3,7 @@ import { getRelatedDramas } from "@/lib/dramas";
 import RelatedDramas from "@/components/RelatedDramas";
 import { notFound } from "next/navigation";
 import { generateDramaSchema } from "@/lib/schema";
+import { getYouTubeEmbedUrl } from "@/lib/youtube";
 import WatchButtons from "@/components/WatchButtons";
 import SaveButton from "@/components/SaveButton";
 import { Metadata } from "next";
@@ -68,6 +69,7 @@ export default async function DramaDetailPage({ params }: PageProps) {
 const related = getRelatedDramas(drama);
   
   const accent = categoryAccent[drama.category] ?? "var(--color-muted)";
+  const trailerEmbedUrl = drama.trailerUrl ? getYouTubeEmbedUrl(drama.trailerUrl) : null;
 
  return (
   <article>
@@ -199,6 +201,29 @@ const related = getRelatedDramas(drama);
 
       {/* Body content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+        {/* Trailer */}
+        {trailerEmbedUrl && (
+          <section aria-labelledby="trailer-heading">
+            <h2
+              id="trailer-heading"
+              className="text-xl font-bold text-[var(--color-text)] mb-4 flex items-center gap-3"
+            >
+              <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
+              Trailer
+            </h2>
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-[var(--color-border)]">
+              <iframe
+                src={trailerEmbedUrl}
+                title={`${drama.title} — Official Trailer`}
+                className="absolute inset-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
+          </section>
+        )}
+
         {/* Story / synopsis */}
         <section aria-labelledby="story-heading">
           <h2
