@@ -8,6 +8,8 @@ interface EpisodeListProps {
 }
 
 export default function EpisodeList({ episodes, dramaTitle, dramaSlug }: EpisodeListProps) {
+  if (!episodes || episodes.length === 0) return null;
+
   return (
     <section aria-labelledby="episodes-heading">
       <h2
