@@ -2595,7 +2595,8 @@
       {
         "name": "Lee Chae-min",
         "role": "King Lee Heon",
-        "bio": "South Korean actor who stepped into the lead role on short notice and earned widespread praise for his performance."
+        "bio": "South Korean actor who stepped into the lead role on short notice and earned widespread praise for his performance.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lee_Chae-min_%EC%9D%B4%EC%B1%84%EB%AF%BC_-_Netflix_original_series_%22Hierarchy_%28%ED%95%98%EC%9D%B4%EB%9D%BC%ED%82%A4%29%22_production_presentation_%28cropped%29.jpg"
       }
     ],
     "whyWatch": "Bon Appétit, Your Majesty is worth watching for its irresistible high concept — a modern French-trained chef time-slipping into the Joseon court to cook for a temperamental king. It blends historical fantasy, food, and romance with a lighter comedic touch than most time-slip dramas."
@@ -2723,12 +2724,26 @@
       {
         "name": "Yum Jung-ah",
         "role": "Han Seo-jin",
-        "bio": "South Korean actress whose role as an obsessive, image-conscious mother anchored the show's dark satire."
+        "bio": "South Korean actress whose role as an obsessive, image-conscious mother anchored the show's dark satire.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Yum_Jung-ah_in_July_2024.png"
       },
       {
         "name": "Lee Tae-ran",
         "role": "Lee Soo-im",
-        "bio": "South Korean actress who played the one mother in SKY Castle who refuses to play by its ruthless rules."
+        "bio": "South Korean actress who played the one mother in SKY Castle who refuses to play by its ruthless rules.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/75/181122_%EC%9D%B4%ED%83%9C%EB%9E%80.png"
+      },
+      {
+        "name": "Yoon Se-ah",
+        "role": "Noh Seung-hye",
+        "bio": "South Korean actress playing a housewife hiding an explosive secret behind her PhD and picture-perfect family.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/70/Yoon_Se-ah_in_August_2024.png"
+      },
+      {
+        "name": "Oh Na-ra",
+        "role": "Jin Jin-hee",
+        "bio": "South Korean actress playing one of the ambitious 'SKY Queens' mothers, willing to do anything for her son's future.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oh_Na-ra_in_April_2024.png"
       }
     ],
     "whyWatch": "SKY Castle is essential viewing for its razor-sharp satire of Korea's elite college admissions culture — a group of wealthy mothers will do anything, including hiring a manipulative admissions coordinator, to get their children into medical school. It's worth watching for how uncomfortably real its portrait of obsessive parenting feels."
@@ -2756,17 +2771,26 @@
       {
         "name": "Kim Hye-yoon",
         "role": "Eun Dan-oh",
-        "bio": "South Korean actress known for playing a side character who becomes self-aware inside her own comic-book world."
+        "bio": "South Korean actress known for playing a side character who becomes self-aware inside her own comic-book world.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Hye-yoon_in_January_2026.png"
       },
       {
         "name": "Kim Ro-woon",
         "role": "Ha-ru (Number 13)",
-        "bio": "South Korean singer (SF9) and actor whose role as a nameless, lineless character won wide acclaim."
+        "bio": "South Korean singer (SF9) and actor whose role as a nameless, lineless character won wide acclaim.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/20250619_Rowoon_%EB%A1%9C%EC%9A%B4_01.jpg"
       },
       {
         "name": "Lee Jae-wook",
         "role": "Baek Kyung",
-        "bio": "South Korean actor and model who later became a leading man in dramas like Alchemy of Souls."
+        "bio": "South Korean actor and model who later became a leading man in dramas like Alchemy of Souls.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lee_Jae-wook_at_Chanel_Coco_Crush_Photocall_event.jpg"
+      },
+      {
+        "name": "Lee Na-eun",
+        "role": "Yeo Joo-da",
+        "bio": "South Korean singer (April) and actress playing one of Eun Dan-oh's closest friends at school.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/20240909_Lee_Naeun_%EC%9D%B4%EB%82%98%EC%9D%80_02.jpg"
       }
     ],
     "whyWatch": "Extraordinary You is worth watching for its clever meta premise — a sickly side character in a high school comic realizes she can rewrite her own story and sets out to escape her tragic fate. It's a genuinely inventive twist on the romantic fantasy genre."
@@ -2794,17 +2818,26 @@
       {
         "name": "Park Ji-hu",
         "role": "Nam On-jo",
-        "bio": "South Korean actress who gained international recognition for this Netflix zombie survival hit."
+        "bio": "South Korean actress who gained international recognition for this Netflix zombie survival hit.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Park_Jihu_2022.png"
       },
       {
         "name": "Yoon Chan-young",
         "role": "Lee Cheong-san",
-        "bio": "South Korean actor playing an ordinary student thrust into the outbreak's center."
+        "bio": "South Korean actor playing an ordinary student thrust into the outbreak's center.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Yoon_Chanyoung_2023.jpg"
       },
       {
         "name": "Cho Yi-hyun",
         "role": "Choi Nam-ra",
-        "bio": "South Korean actress known for her role as the class president caught between humanity and infection."
+        "bio": "South Korean actress known for her role as the class president caught between humanity and infection.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cho_Yi-hyun_%EC%A1%B0%EC%9D%B4%ED%98%84_October_2023.png"
+      },
+      {
+        "name": "Lomon",
+        "role": "Lee Su-hyeok",
+        "bio": "South Korean actor who became an overnight global star for his role as a track-team runner fighting to survive the outbreak.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/4/43/20260116_Lomon.png"
       }
     ],
     "whyWatch": "All of Us Are Dead is worth watching for anyone who wants K-drama storytelling applied to horror — a zombie outbreak trapped inside a high school, forcing students to make brutal survival choices. It balances genuine scares with the character-driven relationships the genre is known for."
@@ -2832,17 +2865,26 @@
       {
         "name": "Roh Jeong-eui",
         "role": "Jung Jae-i",
-        "bio": "South Korean actress known for Our Beloved Summer, playing the reigning queen of an elite high school."
+        "bio": "South Korean actress known for Our Beloved Summer, playing the reigning queen of an elite high school.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/241014_Roh_Jeong_Eui.jpg"
       },
       {
         "name": "Lee Chae-min",
         "role": "Kang Ha",
-        "bio": "South Korean actor whose role as a secretive transfer student became a breakout performance."
+        "bio": "South Korean actor whose role as a secretive transfer student became a breakout performance.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lee_Chae-min_%EC%9D%B4%EC%B1%84%EB%AF%BC_-_Netflix_original_series_%22Hierarchy_%28%ED%95%98%EC%9D%B4%EB%9D%BC%ED%82%A4%29%22_production_presentation_%28cropped%29.jpg"
       },
       {
         "name": "Kim Jae-won",
         "role": "Kim Ri-an",
-        "bio": "South Korean actor known for King the Land, playing the heir at the top of the school's social order."
+        "bio": "South Korean actor known for King the Land, playing the heir at the top of the school's social order.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/240603_Kim_Jae-won.jpg"
+      },
+      {
+        "name": "Ji Hye-won",
+        "role": "Yoon He-ra",
+        "bio": "South Korean actress playing the jealousy-driven youngest daughter of a major trading company family.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Ji_at_Hierarchy_press_conference_%282%29.png"
       }
     ],
     "whyWatch": "Hierarchy is worth watching for its stylish take on elite-school power dynamics — a mysterious transfer student begins to unravel the rigid social order controlled by the children of Korea's wealthiest families. It leans into mystery and slow-burn tension rather than straightforward high-school romance."
