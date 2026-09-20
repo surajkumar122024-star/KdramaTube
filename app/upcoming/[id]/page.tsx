@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { upcomingDramas } from "@/data/upcoming";
+import { getYouTubeEmbedUrl } from "@/lib/youtube";
 
 const categoryAccent: Record<string, string> = {
   Korean: "var(--color-korean)",
@@ -40,6 +41,7 @@ export default async function UpcomingDetailPage({ params }: PageProps) {
   if (!drama) notFound();
 
   const accent = categoryAccent[drama.category] ?? "var(--color-muted)";
+  const trailerEmbedUrl = drama.trailerUrl ? getYouTubeEmbedUrl(drama.trailerUrl) : null;
 
   return (
     <div className="pt-8 pb-16">
@@ -103,6 +105,26 @@ export default async function UpcomingDetailPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+
+        {/* Trailer */}
+        {trailerEmbedUrl && (
+          <section className="mb-8">
+            <h2 className="text-[var(--color-text)] font-bold text-xl flex items-center gap-3 mb-3">
+              <span className="w-1 h-6 rounded-full bg-[var(--color-accent)] block" aria-hidden="true" />
+              Trailer
+            </h2>
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-[var(--color-border)]">
+              <iframe
+                src={trailerEmbedUrl}
+                title={`${drama.title} — Trailer`}
+                className="absolute inset-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
+          </section>
+        )}
 
         {/* About */}
         <section className="mb-8">

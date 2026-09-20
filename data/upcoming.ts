@@ -9,11 +9,13 @@ export interface UpcomingDrama {
   about: string;
   cast: string[];
   poster?: string;
+  trailerUrl?: string;
 }
 
 export const upcomingDramas: UpcomingDrama[] = [
   {
     id: "made-in-korea-season-2",
+    trailerUrl: "https://youtu.be/3X6kxBnz3gA?si=7sK_7-8i2MYkhfEx",
     poster: "https://upload.wikimedia.org/wikipedia/en/9/91/Made_in_Korea_%28TV_series%29_title_card.jpg",
     title: "Made in Korea Season 2",
     category: "Korean",
@@ -42,6 +44,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "can-this-love-be-translated",
+    trailerUrl: "https://youtu.be/tNZG1aLBATY?si=D3IPYgtD865qaVCb",
     poster: "https://upload.wikimedia.org/wikipedia/en/1/1d/Can_This_Love_Be_Translated%3F_Poster.png",
     title: "Can This Love Be Translated?",
     category: "Korean",
@@ -70,6 +73,7 @@ export const upcomingDramas: UpcomingDrama[] = [
   },
   {
     id: "a-shop-for-killers-season-2",
+    trailerUrl: "https://youtu.be/HsEtWqNooLU?si=eYv30s67clLwOnrw",
     poster: "https://upload.wikimedia.org/wikipedia/en/7/71/A_Shop_for_Killers_logo.png",
     title: "A Shop for Killers Season 2",
     category: "Korean",
