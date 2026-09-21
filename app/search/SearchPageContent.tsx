@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { searchDramas } from "@/lib/dramas";
 import { Drama } from "@/types/drama";
-import DramaGrid from "@/components/DramaGrid";
+import DramaGrid from "@/components/DramaGrid";fffff
 
 export default function SearchPageContent() {
   const searchParams = useSearchParams();
@@ -36,7 +36,7 @@ export default function SearchPageContent() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-[var(--color-text)] mb-2">Search Dramas</h1>
         <p className="text-[var(--color-muted)] text-sm">
-          Search by title, genre, country, or category across all dramas.
+          Search by title, genre, country, category, or actor across all dramas.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function SearchPageContent() {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search dramas, genres, countries…"
+          placeholder="Search dramas, genres, countries, actors…"
           className="w-full pl-12 pr-5 py-4 rounded-2xl bg-[var(--color-surface)]/80 border border-[var(--color-border)] text-[var(--color-text)] placeholder-[var(--color-muted)] text-base focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/50 focus:border-[var(--color-accent)]/60 focus:bg-[var(--color-surface)] transition-all duration-200"
         />
         {query && (
@@ -98,7 +98,7 @@ export default function SearchPageContent() {
           </div>
           <p className="text-[var(--color-muted)] text-lg font-medium">Start typing to search</p>
           <p className="text-[var(--color-muted)] text-sm mt-1">
-            Search across titles, genres, and countries.
+            Search across titles, genres, countries, and actors.
           </p>
         </div>
       )}
