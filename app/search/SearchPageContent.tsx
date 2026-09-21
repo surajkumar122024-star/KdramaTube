@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { searchDramas } from "@/lib/dramas";
 import { Drama } from "@/types/drama";
-import DramaGrid from "@/components/DramaGrid";fffff
+import DramaGrid from "@/components/DramaGrid";
 
 export default function SearchPageContent() {
   const searchParams = useSearchParams();
