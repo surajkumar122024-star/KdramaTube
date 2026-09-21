@@ -54,6 +54,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Lee Tae-hwan", role: "Lee Sung-yeon", bio: "Actor known for supporting roles in many dramas." },
     ],
     whyWatch: "Fun chemistry, workplace comedy and a very comforting romance.",
+    trailerUrl: "https://youtu.be/EDGfWN36q5o?si=uIij9eo2riz4ptU3",
   }),
   korean({
     slug: "boys-over-flowers",
@@ -72,6 +73,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Kim Hyun-joong", role: "Yoon Ji-hoo", bio: "Singer and actor, former member of SS501." },
     ],
     whyWatch: "A classic K-drama that defined a generation of romance fans.",
+    trailerUrl: "https://youtu.be/iuqwMI6dpJA?si=hLDRptVyQLoar6u6",
   }),
   korean({
     slug: "coffee-prince",
@@ -90,6 +92,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Chae Jung-an", role: "Han Yoo-joo", bio: "Actress known for Coffee Prince." },
     ],
     whyWatch: "A classic romantic comedy that still feels fresh and heartwarming.",
+    trailerUrl: "https://youtu.be/eNtPix9PtQw?si=GhO8ZE5vOpTKSNM6",
   }),
   korean({
     slug: "healer",
@@ -108,6 +111,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Yoo Ji-tae", role: "Kim Moon-ho", bio: "Veteran actor known for Oldboy and many dramas." },
     ],
     whyWatch: "A stylish mix of action, mystery and romance with a memorable lead.",
+    trailerUrl: "https://youtu.be/AnjmzZFssmg?si=OKaJM_zaC-4nO-wi",
   }),
   korean({
     slug: "our-beloved-summer",
@@ -126,6 +130,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Kim Sung-cheol", role: "Kim Ji-woong", bio: "Actor known for Our Beloved Summer." },
     ],
     whyWatch: "A soft, cozy romance with beautiful cinematography.",
+    trailerUrl: "https://youtu.be/wpW6aVWgvMc?si=do_JPmbT3LF_Dfbi",
   }),
   korean({
     slug: "extraordinary-attorney-woo",
@@ -144,6 +149,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Kang Ki-young", role: "Jung Myeong-seok", bio: "Actor known for supporting roles in many dramas." },
     ],
     whyWatch: "Warm, thoughtful and creative legal storytelling with a memorable lead.",
+    trailerUrl: "https://youtu.be/MxeXECe2t-c?si=IG25Wjj44lBdM_ym",
   }),
   korean({
     slug: "strong-woman-do-bong-soon",
@@ -162,6 +168,7 @@ export const moreKoreanDramas1: Drama[] = [
       { name: "Ji Soo", role: "In Guk-doo", bio: "Actor known for Strong Woman Do Bong-soon." },
     ],
     whyWatch: "Lots of fun action, crime and a super sweet love story.",
+    trailerUrl: "https://youtu.be/ysJzkl-SU1Q?si=HDAvgOMsKo9ELUHh",
   }),
   korean({
     slug: "hotel-del-luna",
