@@ -1,8 +1,10 @@
 import dramas from "@/data/dramas.json";
+import { moreKoreanDramas1, mergeDramas } from "@/data/moreKoreanDramas1";
 import { Drama, CategoryFilter } from "@/types/drama";
 
-// Cast the imported JSON to our typed array
-const allDramas = dramas as Drama[];
+// Cast the imported JSON to our typed array, then add the extra dramas
+// (agar koi slug pehle se hai to wo dobara add nahi hoti)
+const allDramas: Drama[] = mergeDramas(dramas as Drama[], moreKoreanDramas1);
 
 /** Return all dramas */
 export function getAllDramas(): Drama[] {
@@ -56,15 +58,25 @@ export function getRelatedDramas(current: Drama, limit = 4): Drama[] {
   return [...scored, ...backfill].slice(0, limit);
 }
 
-/** Search dramas by title (case-insensitive) across all categories */
+/** "Tae-ri", "Taeri", "tae ri" — sab ek jaise ho jayein (space, hyphen, accents hata do) */
+const normalize = (s: string): string =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
+/** Search dramas by title, category, genre, country or actor name (case-insensitive) */
 export function searchDramas(query: string): Drama[] {
   const lower = query.toLowerCase().trim();
   if (!lower) return allDramas;
+  const q = normalize(query);
   return allDramas.filter(
     (d) =>
       d.title.toLowerCase().includes(lower) ||
       d.category.toLowerCase().includes(lower) ||
       d.genre.some((g) => g.toLowerCase().includes(lower)) ||
-      d.country.toLowerCase().includes(lower)
+      d.country.toLowerCase().includes(lower) ||
+      (q.length > 0 && (d.cast ?? []).some((c) => normalize(c.name).includes(q)))
   );
 }
