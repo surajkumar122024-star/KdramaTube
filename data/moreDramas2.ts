@@ -2,6 +2,7 @@ import type { Drama } from "@/types/drama";
 
 // Jis drama ka poster abhi nahi mila, uske liye placeholder (baad me asli URL daalo)
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
+const LOVELY_RUNNER_POSTER = "https://upload.wikimedia.org/wikipedia/en/6/67/Lovely_Runner.png";
 
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
@@ -43,6 +44,7 @@ export const moreDramas2: Drama[] = [
     slug: "lovely-runner",
     title: "Lovely Runner",
     year: 2024,
+    poster: LOVELY_RUNNER_POSTER,
     rating: 8.8,
     description: "A devoted fan travels back in time to save the idol who changed her life.",
     story:
