@@ -2,6 +2,8 @@ import type { Drama } from "@/types/drama";
 
 // Poster/trailer/cast photos baad me daalne hain. Tab tak placeholder poster.
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
+const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
+
 
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
