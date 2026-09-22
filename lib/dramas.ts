@@ -82,6 +82,16 @@ export function getRelatedDramas(current: Drama, limit = 4): Drama[] {
   return [...scored, ...backfill].slice(0, limit);
 }
 
+/** Top-rated dramas across all categories, highest rating first (ties broken by newest year).
+ *  Powers the "Top 10 Dramas of the Month" page — this re-sorts live from allDramas,
+ *  so it updates automatically whenever ratings change or new dramas are added,
+ *  no manual curation needed. */
+export function getTopDramas(limit = 10): Drama[] {
+  return [...allDramas]
+    .sort((a, b) => b.rating - a.rating || b.year - a.year)
+    .slice(0, limit);
+}
+
 /** Search dramas by title, category, genre, country or actor name (case-insensitive) */
 export function searchDramas(query: string): Drama[] {
   const lower = query.toLowerCase().trim();
