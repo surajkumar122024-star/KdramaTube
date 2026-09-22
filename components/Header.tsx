@@ -6,6 +6,7 @@ import SearchBar from "./SearchBar";
 
 const navLinks = [
   { label: "Home", href: "/" },
+  { label: "Top 10", href: "/top-dramas" },
   { label: "Korean", href: "/korean-dramas" },
   { label: "Chinese", href: "/chinese-dramas" },
   { label: "Turkish", href: "/turkish-dramas" },
