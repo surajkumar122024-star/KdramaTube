@@ -22,6 +22,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
+  // Top 10 page re-ranks itself daily and is a strong SEO/repeat-visitor page,
+  // so it gets its own high-priority, frequently-changing entry.
+  const topDramasRoute = {
+    url: `${baseUrl}/top-dramas`,
+    lastModified: new Date(),
+    changeFrequency: "daily" as const,
+    priority: 0.9,
+  };
+
   const categoryRoutes = categoryPages.map((cat) => ({
     url: `${baseUrl}/${cat}`,
     lastModified: new Date(),
@@ -43,5 +52,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...dramaRoutes, ...upcomingRoutes];
+  return [...staticRoutes, topDramasRoute, ...categoryRoutes, ...dramaRoutes, ...upcomingRoutes];
 }
