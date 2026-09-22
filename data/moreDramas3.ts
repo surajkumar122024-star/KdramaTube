@@ -67,7 +67,8 @@ const make =
     description: string,
     story: string,
     cast: [string, string][],
-    whyWatch: string
+    whyWatch: string,
+    poster?: string
   ): Drama => ({
     id: slug,
     slug,
@@ -75,7 +76,7 @@ const make =
     category,
     country: COUNTRY[category],
     year,
-    rating,
+    poster: poster ?? POSTER_PLACEHOLDER,
     poster: POSTER_PLACEHOLDER,
     description,
     story,
@@ -114,6 +115,7 @@ export const moreDramas3: Drama[] = [
     "Kim Joo-won is a rich and arrogant CEO. After a strange event he switches bodies with Gil Ra-im, a stuntwoman, and the two learn about each other's lives.",
     [["Hyun Bin", "Kim Joo-won"], ["Ha Ji-won", "Gil Ra-im"]],
     "A classic body-swap romance that many fans still call one of the best of its era."),
+     SECRET_GARDEN_POSTER),
   ko("moon-lovers-scarlet-heart-ryeo", "Moon Lovers: Scarlet Heart Ryeo", 2016, 8.3, 20, ["Historical", "Romance", "Fantasy"],
     "A modern woman wakes up in the Goryeo era and gets tied to its royal princes.",
     "After an eclipse, Go Ha-jin wakes in the body of Hae Soo in the Goryeo dynasty. She gets close to several princes, especially the scarred and cold Wang So, as a struggle for the throne begins.",
