@@ -100,11 +100,11 @@ const tr = make("Turkish");
 
 export const moreDramas3: Drama[] = [
   // ================= Korean =================
-  ko("the-penthouse", "The Penthouse: War in Life", 2020, 8.0, 21, ["Thriller", "Drama", "Mystery"],
-    "Rich families in a luxury tower fight over power, status and their children's future.",
-    "Residents of the ultra-luxury Hera Palace tower will do anything to protect their status. Secrets, revenge and shocking crimes slowly come out. This entry covers season 1.",
-    [["Lee Ji-ah", "Shim Su-ryeon"], ["Kim So-yeon", "Cheon Seo-jin"], ["Eugene", "Oh Yoon-hee"]],
-    "Over-the-top twists and dramatic performances that make it hard to stop watching."),
+  ko("the-penthouse", "The Penthouse: War in Life", 2020, 8.0, 21, ["Thriller","Drama","Mystery"],
+  "Rich families in a luxury tower fight over power, status and their children's future.",
+  "Residents of the ultra-luxury Hera Palace tower will do anything to protect their status. Secrets, revenge and shocking crimes slowly come out...",
+  [["Lee Ji-ah","Shim Su-ryeon"],["Kim So-yeon","Cheon Seo-jin"],["Eugene","Oh Yoon-hee"]],
+  "Over-the-top twists and dramatic performances that make it hard to stop watching.",
   PENTHOUSE_POSTER),
   ko("kill-me-heal-me", "Kill Me, Heal Me", 2015, 8.4, 20, ["Drama", "Romance", "Mystery"],
     "A young heir with seven personalities meets a psychiatrist who tries to help him.",
