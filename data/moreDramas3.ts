@@ -3,7 +3,7 @@ import type { Drama } from "@/types/drama";
 // Poster/trailer/cast photos baad me daalne hain. Tab tak placeholder poster.
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
-
+const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
 
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
@@ -105,6 +105,7 @@ export const moreDramas3: Drama[] = [
     "Residents of the ultra-luxury Hera Palace tower will do anything to protect their status. Secrets, revenge and shocking crimes slowly come out. This entry covers season 1.",
     [["Lee Ji-ah", "Shim Su-ryeon"], ["Kim So-yeon", "Cheon Seo-jin"], ["Eugene", "Oh Yoon-hee"]],
     "Over-the-top twists and dramatic performances that make it hard to stop watching."),
+  PENTHOUSE_POSTER),
   ko("kill-me-heal-me", "Kill Me, Heal Me", 2015, 8.4, 20, ["Drama", "Romance", "Mystery"],
     "A young heir with seven personalities meets a psychiatrist who tries to help him.",
     "Cha Do-hyun, the heir of a large company, has multiple personalities that he hides from his family. He meets Oh Ri-jin, a young psychiatrist, and she slowly becomes part of his secret.",
