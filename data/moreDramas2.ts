@@ -118,6 +118,7 @@ export const moreDramas2: Drama[] = [
     slug: "moving",
     title: "Moving",
     year: 2023,
+    poster: "https://upload.wikimedia.org/wikipedia/en/f/f2/Moving_%28South_Korean_TV_series%29.png",
     rating: 8.8,
     description: "Teenagers with special powers and parents with hidden pasts face a dangerous threat.",
     story:
@@ -125,12 +126,13 @@ export const moreDramas2: Drama[] = [
     genre: ["Action", "Fantasy", "Family"],
     episodeCount: 20,
     cast: [
-      { name: "Ryu Seung-ryong", role: "Jang Ju-won", bio: "Veteran actor known for Extreme Job and Kingdom." },
-      { name: "Han Hyo-joo", role: "Lee Mi-hyun", bio: "Actress known for W: Two Worlds and Moving." },
-      { name: "Zo In-sung", role: "Kim Doo-shik", bio: "Actor known for That Winter, the Wind Blows and Moving." },
+       { name: "Ryu Seung-ryong", role: "Jang Ju-won", bio: "Veteran actor known for Extreme Job and Kingdom.", photo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ryu_Seung-ryong_in_2025.png" },
+      { name: "Han Hyo-joo", role: "Lee Mi-hyun", bio: "Actress known for W: Two Worlds and Moving.", photo: "https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg" },
+      { name: "Zo In-sung", role: "Kim Doo-shik", bio: "Actor known for That Winter, the Wind Blows and Moving.", photo: "https://upload.wikimedia.org/wikipedia/commons/1/17/Zo_In-sung_at_the_2026_Cannes_Film_Festival_02_%28cropped%29.jpg" },
       { name: "Go Youn-jung", role: "Jang Hee-soo", bio: "Actress known for Alchemy of Souls and Moving." },
     ],
     whyWatch: "Big action, superpowers and a surprisingly emotional family story.",
+    trailerUrl: "https://youtu.be/d_SFsZEZAy4?si=zW31E7lii5TEkpYP",
   }),
   korean({
     slug: "mr-queen",
