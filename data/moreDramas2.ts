@@ -138,6 +138,7 @@ export const moreDramas2: Drama[] = [
     slug: "mr-queen",
     title: "Mr. Queen",
     year: 2020,
+    poster: "https://upload.wikimedia.org/wikipedia/en/e/e7/Mr._Queen_poster.jpg",
     rating: 8.6,
     description: "A modern chef wakes up in the body of a queen in the Joseon era.",
     story:
@@ -145,10 +146,11 @@ export const moreDramas2: Drama[] = [
     genre: ["Comedy", "Historical", "Romance"],
     episodeCount: 20,
     cast: [
-      { name: "Shin Hye-sun", role: "Kim So-yong / Jang Bong-hwan", bio: "Actress known for Mr. Queen and Angel's Last Mission: Love." },
-      { name: "Kim Jung-hyun", role: "King Cheoljong", bio: "Actor known for Mr. Queen and Crash Landing on You." },
+       { name: "Shin Hye-sun", role: "Kim So-yong / Jang Bong-hwan", bio: "Actress known for Mr. Queen and Angel's Last Mission: Love.", photo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Shin_Hye-sun_in_April_2024.png" },
+      { name: "Kim Jung-hyun", role: "King Cheoljong", bio: "Actor known for Mr. Queen and Crash Landing on You.", photo: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Yokohama_International_Film_Festival_2024_Kim_Jung_Hyun_%2853869008061%29.jpg" },
     ],
     whyWatch: "A funny and clever historical comedy that turns surprisingly touching.",
+    trailerUrl: "https://www.youtube.com/watch?v=H1vplUsGDoI",
   }),
   korean({
     slug: "flower-of-evil",
