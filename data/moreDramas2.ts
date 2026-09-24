@@ -156,6 +156,7 @@ export const moreDramas2: Drama[] = [
     slug: "flower-of-evil",
     title: "Flower of Evil",
     year: 2020,
+    poster: "https://upload.wikimedia.org/wikipedia/en/f/f1/Flower_of_Evil_poster.png",
     rating: 8.8,
     description: "A loving husband hides a dark secret, and his detective wife starts to suspect him.",
     story:
@@ -163,10 +164,11 @@ export const moreDramas2: Drama[] = [
     genre: ["Thriller", "Romance", "Mystery"],
     episodeCount: 16,
     cast: [
-      { name: "Lee Joon-gi", role: "Baek Hee-sung", bio: "Actor known for Scarlet Heart: Ryeo and Flower of Evil." },
-      { name: "Moon Chae-won", role: "Cha Ji-won", bio: "Actress known for Flower of Evil and The Princess' Man." },
+      { name: "Lee Joon-gi", role: "Baek Hee-sung", bio: "Actor known for Scarlet Heart: Ryeo and Flower of Evil.", photo: "https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg" },
+      { name: "Moon Chae-won", role: "Cha Ji-won", bio: "Actress known for Flower of Evil and The Princess' Man.", photo: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Moon_Chae-won_in_2024_-_1.png" },
     ],
     whyWatch: "A thriller and love story in one, with a lead performance that keeps you hooked.",
+    trailerUrl: "https://youtu.be/bKIu8S6kj8E?si=kReabER7wqkaFoSZ",
   }),
   korean({
     slug: "the-heirs",
