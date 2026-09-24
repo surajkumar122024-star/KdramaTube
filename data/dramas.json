@@ -1,5 +1,52 @@
 [
   {
+  "id": "marry-my-husband",
+  "slug": "marry-my-husband",
+  "title": "Marry My Husband",
+  "category": "Korean",
+  "country": "South Korea",
+  "year": 2024,
+  "rating": 8.9,
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e1/Marry_My_Husband_poster.jpg",
+  "description": "A woman murdered by her cheating husband and best friend is given a second chance when she wakes up ten years in the past.",
+  "story": "Kang Ji-won discovers that her husband, Park Min-hwan, and her best friend, Jung Su-min, have been having an affair -- moments before Su-min kills her. Ji-won wakes up ten years earlier with full memory of her future. Determined to escape her fate, she sets out to push Min-hwan and Su-min together while building a new life for herself, crossing paths with Yu Ji-hyuk, a cold but perceptive chaebol heir who slowly falls for her.",
+  "genre": ["Romance", "Fantasy", "Revenge", "Drama"],
+  "cast": [
+    {
+      "name": "Park Min-young",
+      "role": "Kang Ji-won",
+      "bio": "South Korean actress born March 4, 1986 in Seoul. Known for Healer, What's Wrong with Secretary Kim and Her Private Life before leading Marry My Husband.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/9c/20250625_Park_Min-young_TAG_Heuer_PhotoCall.jpg"
+    },
+    {
+      "name": "Na In-woo",
+      "role": "Yu Ji-hyuk",
+      "bio": "South Korean actor born November 10, 1994. Known for River Where the Moon Rises and Rookie Historian Goo Hae-ryung; Marry My Husband became his breakout lead role.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/98/2022_Na_In-woo_%EB%82%98%EC%9D%B8%EC%9A%B0_Jinxed_at_First_%283%29.jpg"
+    },
+    {
+      "name": "Lee Yi-kyung",
+      "role": "Park Min-hwan",
+      "bio": "South Korean actor born September 15, 1990. Known for supporting roles in Extraordinary Attorney Woo and Sweet Home before this villainous turn.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lee_Yi-kyung_%EC%9D%B4%EC%9D%B4%EA%B2%BD_in_2022.png"
+    },
+    {
+      "name": "Song Ha-yoon",
+      "role": "Jung Su-min",
+      "bio": "South Korean actress born July 4, 1986. Known for Miss Lee and I'll Go to You When the Weather Is Nice; earned acclaim for her antagonist role here.",
+      "photo": ""
+    },
+  ],
+  "featured": true,
+  "whereToWatch": [
+    {
+      "platform": "Amazon Prime Video",
+      "url": "https://www.primevideo.com"
+    }
+  ],
+  "episodeCount": 16
+}
+  {
     "id": "crash-landing-on-you",
     "slug": "crash-landing-on-you",
     "title": "Crash Landing on You",
