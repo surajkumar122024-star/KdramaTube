@@ -174,6 +174,7 @@ export const moreDramas2: Drama[] = [
     slug: "the-heirs",
     title: "The Heirs",
     year: 2013,
+    poster: "https://upload.wikimedia.org/wikipedia/en/f/f7/The_Inheritors_poster.jpg",
     rating: 7.9,
     description: "A poor girl and the heir of a rich family meet at an elite high school.",
     story:
@@ -181,11 +182,12 @@ export const moreDramas2: Drama[] = [
     genre: ["Romance", "School", "Drama"],
     episodeCount: 20,
     cast: [
-      { name: "Lee Min-ho", role: "Kim Tan", bio: "Popular actor known for Boys Over Flowers and Pachinko." },
-      { name: "Park Shin-hye", role: "Cha Eun-sang", bio: "Actress known for The Heirs and Pinocchio." },
-      { name: "Kim Woo-bin", role: "Choi Young-do", bio: "Actor known for The Heirs and Uncontrollably Fond." },
+      { name: "Lee Min-ho", role: "Kim Tan", bio: "Popular actor known for Boys Over Flowers and Pachinko.", photo: "https://upload.wikimedia.org/wikipedia/commons/3/36/Lee_Min-ho_in_June_2026.png" },
+      { name: "Park Shin-hye", role: "Cha Eun-sang", bio: "Actress known for The Heirs and Pinocchio.", photo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Park_Shin-hye_in_April_2025.png" },
+      { name: "Kim Woo-bin", role: "Choi Young-do", bio: "Actor known for The Heirs and Uncontrollably Fond.", photo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kim_Woo-bin_in_2026.png" },
     ],
     whyWatch: "A classic teen romance from the Hallyu era with a lot of memorable scenes.",
+    trailerUrl: "https://youtu.be/XdwxjNfaRnc?si=oR3mwCvlJdMYLShx",
   }),
   korean({
     slug: "my-name",
