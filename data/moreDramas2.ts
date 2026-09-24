@@ -97,6 +97,7 @@ export const moreDramas2: Drama[] = [
     slug: "kingdom",
     title: "Kingdom",
     year: 2019,
+    poster: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Title_screen_for_the_Netflix_series%2C_Kingdom.png",
     rating: 8.4,
     description: "A crown prince investigates a mysterious plague in Joseon that turns people into monsters.",
     story:
@@ -104,11 +105,12 @@ export const moreDramas2: Drama[] = [
     genre: ["Thriller", "Historical", "Horror"],
     episodeCount: 12,
     cast: [
-      { name: "Ju Ji-hoon", role: "Lee Chang", bio: "Actor known for Kingdom and Along with the Gods." },
-      { name: "Bae Doona", role: "Seo-bi", bio: "Actress known for Kingdom, Sense8 and many films." },
-      { name: "Ryu Seung-ryong", role: "Jo Hak-ju", bio: "Veteran actor known for Extreme Job and Moving." },
+       { name: "Ju Ji-hoon", role: "Lee Chang", bio: "Actor known for Kingdom and Along with the Gods.", photo: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ju_Ji-hoon_in_February_2025.png" },
+      { name: "Bae Doona", role: "Seo-bi", bio: "Actress known for Kingdom, Sense8 and many films.", photo: "" },
+      { name: "Ryu Seung-ryong", role: "Jo Hak-ju", bio: "Veteran actor known for Extreme Job and Moving.", photo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ryu_Seung-ryong_in_2025.png" },
     ],
     whyWatch: "A gripping historical zombie thriller with excellent visuals and tension.",
+    trailerUrl: "https://youtu.be/4l-yByZpaaM?si=v2mx2Yj_M0qqiMis",
   }),
   korean({
     slug: "moving",
