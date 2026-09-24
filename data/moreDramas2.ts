@@ -62,6 +62,7 @@ export const moreDramas2: Drama[] = [
     slug: "marry-my-husband",
     title: "Marry My Husband",
     year: 2024,
+    poster: "https://upload.wikimedia.org/wikipedia/en/e/e1/Marry_My_Husband_poster.jpg",
     rating: 8.4,
     description: "Betrayed and wronged, a woman gets a second chance ten years in the past.",
     story:
@@ -69,9 +70,9 @@ export const moreDramas2: Drama[] = [
     genre: ["Romance", "Fantasy", "Revenge"],
     episodeCount: 16,
     cast: [
-      { name: "Park Min-young", role: "Kang Ji-won", bio: "Actress known for What's Wrong with Secretary Kim and Healer." },
-      { name: "Na In-woo", role: "Yoo Ji-hyuk", bio: "Actor known for Marry My Husband." },
-      { name: "Lee Yi-kyung", role: "Park Min-hwan", bio: "Actor and entertainer known for comedy and drama roles." },
+      { name: "Park Min-young", role: "Kang Ji-won", bio: "Actress known for What's Wrong with Secretary Kim and Healer.", photo: "https://upload.wikimedia.org/wikipedia/commons/9/9c/20250625_Park_Min-young_TAG_Heuer_PhotoCall.jpg" },
+      { name: "Na In-woo", role: "Yoo Ji-hyuk", bio: "Actor known for Marry My Husband.", photo: "https://upload.wikimedia.org/wikipedia/commons/9/98/2022_Na_In-woo_%EB%82%98%EC%9D%B8%EC%9A%B0_Jinxed_at_First_%283%29.jpg" },
+      { name: "Lee Yi-kyung", role: "Park Min-hwan", bio: "Actor and entertainer known for comedy and drama roles.", photo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Lee_Yi-kyung_%EC%9D%B4%EC%9D%B4%EA%B2%BD_in_2022.png" },
     ],
     whyWatch: "A satisfying revenge story with a strong lead and plenty of twists.",
   }),
