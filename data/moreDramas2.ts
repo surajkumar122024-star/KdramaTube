@@ -193,6 +193,7 @@ export const moreDramas2: Drama[] = [
     slug: "my-name",
     title: "My Name",
     year: 2021,
+    poster: "https://upload.wikimedia.org/wikipedia/en/9/9c/My_Name_TV_series.jpg",
     rating: 8.0,
     description: "After her father's death, a young woman joins a criminal gang to find his killer.",
     story:
@@ -200,16 +201,18 @@ export const moreDramas2: Drama[] = [
     genre: ["Action", "Crime", "Thriller"],
     episodeCount: 8,
     cast: [
-      { name: "Han So-hee", role: "Yoon Ji-woo", bio: "Actress known for My Name and The World of the Married." },
-      { name: "Park Hee-soon", role: "Choi Mu-jin", bio: "Veteran actor known for My Name." },
-      { name: "Ahn Bo-hyun", role: "Do Kang-jae", bio: "Actor known for Itaewon Class and My Name." },
+      { name: "Han So-hee", role: "Yoon Ji-woo", bio: "Actress known for My Name and The World of the Married.", photo: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Han_So-Hee_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg" },
+      { name: "Park Hee-soon", role: "Choi Mu-jin", bio: "Veteran actor known for My Name.", photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/230103_Park_Hee-soon.jpg" },
+      { name: "Ahn Bo-hyun", role: "Do Kang-jae", bio: "Actor known for Itaewon Class and My Name.", photo: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ahn_Bo-hyun_in_September_2023.png" },
     ],
     whyWatch: "A fast, tough action thriller that is short and easy to binge.",
+    trailerUrl: "https://youtu.be/ZOl7iOrD31Q?si=NUaxZSg3n9uo-VQD",
   }),
   korean({
     slug: "sweet-home",
     title: "Sweet Home",
     year: 2020,
+    poster: "https://upload.wikimedia.org/wikipedia/en/f/f7/Sweet_Home_-_TV_series_%28title_card%29.png",
     rating: 7.9,
     description: "Residents of an apartment building fight to survive as people turn into monsters.",
     story:
@@ -217,11 +220,12 @@ export const moreDramas2: Drama[] = [
     genre: ["Horror", "Thriller", "Fantasy"],
     episodeCount: 10,
     cast: [
-      { name: "Song Kang", role: "Cha Hyun-su", bio: "Actor known for Sweet Home and Love Alarm." },
-      { name: "Lee Jin-wook", role: "Pyeon Sang-wook", bio: "Actor known for Sweet Home." },
-      { name: "Lee Si-young", role: "Seo Yi-kyung", bio: "Actress known for Sweet Home." },
+      { name: "Song Kang", role: "Cha Hyun-su", bio: "Actor known for Sweet Home and Love Alarm.", photo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Song_Kang_in_March_2026.png" },
+      { name: "Lee Jin-wook", role: "Pyeon Sang-wook", bio: "Actor known for Sweet Home.", photo: "https://upload.wikimedia.org/wikipedia/commons/3/34/%EC%9D%B4%EC%A7%84%EC%9A%B1_2024.png" },
+      { name: "Lee Si-young", role: "Seo Yi-kyung", bio: "Actress known for Sweet Home.", photo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lee_Si-young_in_April_2025.png" },
     ],
     whyWatch: "Creepy creature design and a strong sense of survival with an emotional core.",
+    trailerUrl: "https://youtu.be/7rI56NmD33Y?si=79d127fvfVxIbRAF",
   }),
 
   // ---------------- Chinese ----------------
