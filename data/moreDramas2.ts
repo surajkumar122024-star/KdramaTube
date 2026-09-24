@@ -106,7 +106,7 @@ export const moreDramas2: Drama[] = [
     episodeCount: 12,
     cast: [
        { name: "Ju Ji-hoon", role: "Lee Chang", bio: "Actor known for Kingdom and Along with the Gods.", photo: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ju_Ji-hoon_in_February_2025.png" },
-       { name: "Bae Doona", role: "Seo-bi", bio: "Actress known for Kingdom, Sense8 and many films.", photo: "" },
+       { name: "Bae Doona", role: "Seo-bi", bio: "Actress known for Kingdom, Sense8 and many films.", photo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bae_Doona_at_Berlinale_2026.jpg" },
        { name: "Ryu Seung-ryong", role: "Jo Hak-ju", bio: "Veteran actor known for Extreme Job and Moving.", photo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ryu_Seung-ryong_in_2025.png" },
     ],
     whyWatch: "A gripping historical zombie thriller with excellent visuals and tension.",
