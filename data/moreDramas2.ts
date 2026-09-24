@@ -81,6 +81,7 @@ export const moreDramas2: Drama[] = [
     slug: "doctor-slump",
     title: "Doctor Slump",
     year: 2024,
+    poster: "https://upload.wikimedia.org/wikipedia/en/8/8a/Doctor_Slump_%28TV_series%29_poster.jpg",
     rating: 8.3,
     description: "Two former rivals hit rock bottom and slowly help each other heal.",
     story:
@@ -88,10 +89,11 @@ export const moreDramas2: Drama[] = [
     genre: ["Romance", "Comedy", "Medical"],
     episodeCount: 16,
     cast: [
-      { name: "Park Shin-hye", role: "Nam Ha-neul", bio: "Actress known for The Heirs and Pinocchio." },
-      { name: "Park Hyung-sik", role: "Yeo Jeong-woo", bio: "Actor and singer known for Strong Woman Do Bong-soon." },
+      { name: "Park Shin-hye", role: "Nam Ha-neul", bio: "Actress known for The Heirs and Pinocchio.", photo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Park_Shin-hye_in_April_2025.png" },
+      { name: "Park Hyung-sik", role: "Yeo Jeong-woo", bio: "Actor and singer known for Strong Woman Do Bong-soon.", photo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/20230425_Park_Hyung-sik_%EB%B0%95%ED%98%95%EC%8B%9D.jpg" },
     ],
     whyWatch: "A warm, healing romance that mixes humor with honest feelings about burnout.",
+    trailerUrl: "https://youtu.be/oGyWHLCf4NQ?si=uso1w7y0aIsCNXso",
   }),
   korean({
     slug: "kingdom",
