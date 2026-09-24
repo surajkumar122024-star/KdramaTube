@@ -74,6 +74,7 @@ export const moreDramas2: Drama[] = [
       { name: "Na In-woo", role: "Yoo Ji-hyuk", bio: "Actor known for Marry My Husband.", photo: "https://upload.wikimedia.org/wikipedia/commons/9/98/2022_Na_In-woo_%EB%82%98%EC%9D%B8%EC%9A%B0_Jinxed_at_First_%283%29.jpg" },
       { name: "Lee Yi-kyung", role: "Park Min-hwan", bio: "Actor and entertainer known for comedy and drama roles.", photo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Lee_Yi-kyung_%EC%9D%B4%EC%9D%B4%EA%B2%BD_in_2022.png" },
     ],
+    trailerUrl: "https://www.youtube.com/watch?v=lfJGSxXf9Xg",
     whyWatch: "A satisfying revenge story with a strong lead and plenty of twists.",
   }),
   korean({
