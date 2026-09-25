@@ -6,8 +6,8 @@ const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Sec
 const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
 const W_Two_Worlds_POSTER = "https://upload.wikimedia.org/wikipedia/en/9/9f/W_%28%EB%8D%94%EB%B8%94%EC%9C%A0%29_-_poster.jpg";
 const KILL_ME_HEAL_ME_POSTER = "https://upload.wikimedia.org/wikipedia/en/8/8a/KillMeHealMe-Poster.jpg";
-const Moon_Lovers_Scarlet_Heart_Ryeo_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/0f/Scarlet_heart_ryeo_poster.jpg";
-const Love_in_the_Moonlight_POSTER = "https://upload.wikimedia.org/wikipedia/en/5/55/Love_in_the_Moonlight-official-poster.jpg";
+const MOON_LOVERS_SCAELET_HEART_RYEO_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/0f/Scarletheartryeo_poster.jpg";
+const LOVE_IN_THE_MOOLIGHT_POSTER = "https://upload.wikimedia.org/wikipedia/en/5/55/LoveintheMoonlight_poster.jpg";
 
     // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
