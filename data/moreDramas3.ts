@@ -4,6 +4,7 @@ import type { Drama } from "@/types/drama";
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
 const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
+const ACTOR_PHOTOS: Record<string, string> = {
 
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
@@ -45,6 +46,8 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Ji Chang-wook": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ji_Chang-wook.jpg",
   "Lee Kwang-soo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lee_Kwang-soo_2026.jpg",
   "Kim Nam-gil": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kim_Nam-gil_at_Island_Press_Conference_2022.png",
+  "Ji Sung": "https://upload.wikimedia.org/wikipedia/commons/7/7d/180212_%EC%A7%80%EC%84%B1.png",
+  "Hwang Jung-eum": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hwang_Jung-eum_in_March_2024.png",
 };
 
 type Category = Drama["category"];
