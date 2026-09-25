@@ -4,6 +4,7 @@ import type { Drama } from "@/types/drama";
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
 const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
+const W_Two_Worlds_POSTER = "https://upload.wikimedia.org/wikipedia/en/9/9f/W_%28%EB%8D%94%EB%B8%94%EC%9C%A0%29_-_poster.jpg";
     // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
   "Kim Tae-ri": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kim_Tae-ri_in_April_2026_-_02.jpg",
@@ -46,6 +47,8 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Kim Nam-gil": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kim_Nam-gil_at_Island_Press_Conference_2022.png",
   "Ji Sung": "https://upload.wikimedia.org/wikipedia/commons/7/7d/180212_%EC%A7%80%EC%84%B1.png",
   "Hwang Jung-eum": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hwang_Jung-eum_in_March_2024.png",
+  "Lee Jong-suk": "https://upload.wikimedia.org/wikipedia/commons/5/57/240725_Lee_Jong-suk.png",
+  "Han Hyo-joo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg",
 };
 
 type Category = Drama["category"];
