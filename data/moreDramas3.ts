@@ -4,8 +4,6 @@ import type { Drama } from "@/types/drama";
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
 const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
-const ACTOR_PHOTOS: Record<string, string> = {
-
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
   "Kim Tae-ri": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kim_Tae-ri_in_April_2026_-_02.jpg",
