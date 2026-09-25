@@ -51,12 +51,12 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Kim Nam-gil": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kim_Nam-gil_at_Island_Press_Conference_2022.png",
   "Ji Sung": "https://upload.wikimedia.org/wikipedia/commons/7/7d/180212_%EC%A7%80%EC%84%B1.png",
   "Hwang Jung-eum": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hwang_Jung-eum_in_March_2024.png",
-  "Lee Jong-suk": "https://upload.wikimedia.org/wikipedia/commons/5/57/240725_Lee_Jong-suk.png",
-  "Han Hyo-joo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg",
-  "Lee Joon gie": "https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg",
-  "Kang Ha neul": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kang_Ha-neul_at_Midnight_Runners_VIP_premiere_in_August_2017.jpg",
-  "Hyun Bin": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyun_Bin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
-  "Ha Ji-won": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ha_Ji-won_in_September_2025.png", 
+  "Lee Jong-suk":"https://upload.wikimedia.org/wikipedia/commons/5/57/240725_Lee_Jong-suk.png",
+  "Han Hyo-joo":"https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg",
+  "Lee Joon gie":"https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg",
+  "Kang Ha neul":"https://upload.wikimedia.org/wikipedia/commons/c/c7/Kang_Ha-neul_at_Midnight_Runners_VIP_premiere_in_August_2017.jpg",
+  "Hyun Bin":"https://upload.wikimedia.org/wikipedia/commons/6/60/Hyun_Bin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+  "Ha Ji-won":"https://upload.wikimedia.org/wikipedia/commons/7/76/Ha_Ji-won_in_September_2025.png", 
   "Bae Suzy":"https://upload.wikimedia.org/wikipedia/commons/4/40/Suzy_at_the_Longines_2026_new_product_presentation%2C_25_March_2026_04.png",
 };
 
