@@ -68,11 +68,15 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-10 pt-6 border-t border-[var(--color-border)] flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-[var(--color-muted)]">
+                <div className="mt-10 pt-6 border-t border-[var(--color-border)] flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-[var(--color-muted)]">
           <p>© {year} DramaVerse. All rights reserved.</p>
+          <img
+            src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fkdramatube.vercel.app&label=Visits&countColor=%23263759&style=flat"
+            alt="Visitor count"
+            className="h-5"
+          />
           <p>Built for drama lovers worldwide.</p>
-        </div>
-      </div>
+         </div>
     </footer>
   );
 }
