@@ -5,6 +5,9 @@ const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 const SECRET_GARDEN_POSTER = "https://upload.wikimedia.org/wikipedia/en/c/c1/Secret_garden_korean_drama.jpg";
 const PENTHOUSE_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/09/The_Penthouse_TV_series.jpg";
 const W_Two_Worlds_POSTER = "https://upload.wikimedia.org/wikipedia/en/9/9f/W_%28%EB%8D%94%EB%B8%94%EC%9C%A0%29_-_poster.jpg";
+const KILL_ME_HEAL_ME_POSTER = "https://upload.wikimedia.org/wikipedia/en/8/8a/KillMeHealMe-Poster.jpg";
+const Moon_Lovers_Scarlet_Heart_Ryeo_POSTER = "https://upload.wikimedia.org/wikipedia/en/0/0f/Scarletheartryeoposter.jpg";
+const Love_in_the_Moonlight_POSTER = "https://upload.wikimedia.org/wikipedia/en/5/55/Love_in_the_Moonlight-official-poster.jpg";
 
     // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
 const ACTOR_PHOTOS: Record<string, string> = {
@@ -116,30 +119,30 @@ export const moreDramas3: Drama[] = [
     "Cha Do-hyun, the heir of a large company, has multiple personalities that he hides from his family. He meets Oh Ri-jin, a young psychiatrist, and she slowly becomes part of his secret.",
     [["Ji Sung", "Cha Do-hyun"], ["Hwang Jung-eum", "Oh Ri-jin"]],
     "A lead actor who plays many different characters, mixed with warm romance and humor.",
-  KILL_ME_HEAL_ME),
+  KILL_ME_HEAL_ME_POSTER),
   ko("secret-garden", "Secret Garden", 2010, 8.3, 20, ["Romance","Fantasy","Comedy"],
   "A proud department store heir and a stuntwoman mysteriously swap bodies.",
   "Kim Joo-won is a rich and arrogant CEO. After a strange event he switches bodies with Gil Ra-im, a stuntwoman, and the two learn about each other's worlds.",
 [["Hyun Bin", "Kim Joo-won"], ["Ha Ji-won", "Gil Ra-im"]],"A classic body-swap romance that many fans still call one of the best of its era.",
- SECRET_GARDEN),
+ SECRET_GARDEN_POSTER),
   ko("moon-lovers-scarlet-heart-ryeo", "Moon Lovers: Scarlet Heart Ryeo", 2016, 8.3, 20, ["Historical", "Romance", "Fantasy"],
     "A modern woman wakes up in the Goryeo era and gets tied to its royal princes.",
     "After an eclipse, Go Ha-jin wakes in the body of Hae Soo in the Goryeo dynasty. She gets close to several princes, especially the scarred and cold Wang So, as a struggle for the throne begins.",
     [["Lee Joon-gi", "Wang So"], ["IU", "Hae Soo"], ["Kang Ha-neul", "Wang Wook"]],
     "Beautiful visuals, palace politics and a very emotional love story.",
-    Moon_Lovers_Scarlet_Heart_Ryeo),
+    Moon_Lovers_Scarlet_Heart_Ryeo_POSTER),
   ko("love-in-the-moonlight", "Love in the Moonlight", 2016, 8.3, 18, ["Historical", "Romance", "Comedy"],
     "A girl who pretends to be a eunuch grows close to the crown prince.",
     "Hong Ra-on disguises herself as a eunuch to earn money and ends up in the palace. There she meets the free-spirited Crown Prince Lee Yeong and a warm, funny love story begins.",
     [["Park Bo-gum", "Lee Yeong"], ["Kim Yoo-jung", "Hong Ra-on"]],
     "A light, sweet historical romance with charming leads.",
-    Love_in_the_Moonlight),
+    Love_in_the_Moonlight_POSTER),
   ko("w-two-worlds", "W: Two Worlds", 2016, 8.5, 16, ["Fantasy", "Romance", "Thriller"],
     "A surgeon is pulled into the world of a webtoon and meets its hero.",
     "Oh Yeon-joo is a surgeon whose father is a famous webtoon artist. One day she is pulled into the webtoon world and meets Kang Chul, its main character, and together they try to change their fate.",
     [["Lee Jong-suk", "Kang Chul"], ["Han Hyo-joo", "Oh Yeon-joo"]],
          "A clever mix of thriller and romance with a very creative idea.",
-    W_Two_Worlds),
+    W_Two_Worlds_POSTER),
   ko("while-you-were-sleeping", "While You Were Sleeping", 2017, 8.4, 32, ["Romance", "Fantasy", "Mystery"],
     "A woman who sees the future in her dreams tries to save the people she loves.",
     "Nam Hong-joo has dreams that come true. Together with Jung Jae-chan, a prosecutor, and Han Woo-tak, a reporter, she tries to change the future and stop tragedies.",
