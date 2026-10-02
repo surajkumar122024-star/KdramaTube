@@ -1,7 +1,5 @@
 import dramas from "@/data/dramas.json";
 import { moreKoreanDramas1 } from "@/data/moreKoreanDramas1";
-import { moreDramas2 } from "@/data/moreDramas2";
-import { moreDramas3 } from "@/data/moreDramas3";
 import { Drama, CategoryFilter } from "@/types/drama";
 
 /** "Mr. Sunshine" == "mr-sunshine" == "Mr Sunshine" — compare karne ke liye simple form */
@@ -28,7 +26,7 @@ function mergeUnique(base: Drama[], ...extras: Drama[][]): Drama[] {
 }
 
 // Cast the imported JSON to our typed array, then add the extra dramas
-const allDramas: Drama[] = mergeUnique(dramas as Drama[], moreKoreanDramas1, moreDramas2, moreDramas3);
+const allDramas: Drama[] = mergeUnique(dramas as Drama[], moreKoreanDramas1);
 
 /** Return all dramas */
 export function getAllDramas(): Drama[] {
