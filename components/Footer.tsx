@@ -76,7 +76,8 @@ export default function Footer() {
             className="h-5"
           />
           <p>Built for drama lovers worldwide.</p>
-         </div>
+        </div>
+      </div>
     </footer>
   );
 }
