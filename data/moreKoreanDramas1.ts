@@ -4,6 +4,7 @@ import type { Drama } from "@/types/drama";
 const POSTER_PLACEHOLDER = "/posters/placeholder.jpg";
 
 // Actor photos (Wikimedia Commons). Naam match hone par cast me apne aap lag jati hain.
+// NOTE: har naam sirf ek baar likhna hai (duplicate key se TypeScript error aata hai).
 const ACTOR_PHOTOS: Record<string, string> = {
   "Gong Yoo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gong_Yoo_in_2021_-_3.png",
   "Ji Chang-wook": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ji_Chang-wook.jpg",
@@ -11,18 +12,15 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Yeo Jin-goo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Yeo_Jin-goo_in_May_2024.png",
   "Nam Joo-hyuk": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Nam_Joo-hyuk_in_July_2026.png",
   "Kim Seon-ho": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kim_Seon-ho_Bottega_2026_A.jpg",
-   "Kim Tae-ri": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kim_Tae-ri_in_April_2026_-_02.jpg",
-  "Nam Joo-hyuk": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Nam_Joo-hyuk_in_July_2026.png",
+  "Kim Tae-ri": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kim_Tae-ri_in_April_2026_-_02.jpg",
   "Song Joong-ki": "https://upload.wikimedia.org/wikipedia/commons/1/13/Song_Joong-ki_at_Style_Icon_Asia_2016.jpg",
   "Song Hye-kyo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Song_Hye_Kyo_2025_%EC%86%A1%ED%98%9C%EA%B5%90_04.jpg",
-  "Gong Yoo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gong_Yoo_in_2021_-_3.png",
   "Kim Go-eun": "https://upload.wikimedia.org/wikipedia/commons/f/fa/050826_Kim_Go-eun_at_the_2026_Baeksang_Arts_Awards.png",
   "Lee Dong-wook": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lee_Dong-wook_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg",
   "Yoo In-na": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Yoo_In-na_for_Marie_Claire_Korea_X_Didier_Dubot_on_07032023_%282%29.png",
   "Hyeri": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hyeri_in_July_2025.png",
   "Park Bo-gum": "https://upload.wikimedia.org/wikipedia/commons/8/86/Park_Bo-gum_%EB%B0%95%EB%B3%B4%EA%B2%80_%E6%9C%B4%E5%AF%B6%E5%8A%8D_for_Marie_Claire_Korea%2C_April_2025_4.png",
   "Ryu Jun-yeol": "https://upload.wikimedia.org/wikipedia/commons/7/77/20240319_Ryu_Jun-yeol_%EB%A5%98%EC%A4%80%EC%97%B4_03.jpg",
-  "IU": "https://upload.wikimedia.org/wikipedia/commons/2/2f/IU_at_Blue_Dragon_Series_Awards_on_18072025_%2810%29.png",
   "Jo Jung-suk": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jo_Jung-suk_in_June_2026.png",
   "Yoo Yeon-seok": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yoo_Yeon-seok_-_Bean_Pole_catalogue_2015_Spring-Summer_02_%28cropped%29.jpg",
   "Go Youn-jung": "https://upload.wikimedia.org/wikipedia/commons/9/93/073126_Go_Younjung_at_the_5th_Blue_Dragon_Series_Awards_02.jpg",
@@ -35,9 +33,7 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Bae Doona": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bae_Doona_at_Berlinale_2026.jpg",
   "Jeon Yeo-been": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jeon_Yeo-been_in_November_2024.png",
   "Shin Min-a": "https://upload.wikimedia.org/wikipedia/commons/3/37/Shin_Min-a_in_September_2024.png",
-  "Kim Seon-ho": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kim_Seon-ho_Bottega_2026_A.jpg",
   "Yoona": "https://upload.wikimedia.org/wikipedia/commons/6/60/260508_YOONA_%40_62nd_BAEKSANG_AWARDS_with_GUCCI.jpg",
-  "Yeo Jin-goo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Yeo_Jin-goo_in_May_2024.png",
   "Moon Ga-young": "https://upload.wikimedia.org/wikipedia/commons/6/60/Moon_Ga-young_in_July_2026.png",
   "Cha Eun-woo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cha_Eun-woo%2C_March_31%2C_2025.png",
   "Hwang In-youp": "https://upload.wikimedia.org/wikipedia/commons/3/37/Hwang_In-youp_in_June_2026.png",
@@ -46,18 +42,17 @@ const ACTOR_PHOTOS: Record<string, string> = {
   "Kim Se-jeong": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kim_Sejeong_in_June_2025.png",
   "Kim Yoo-jung": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Kim_You-jung_in_September_2026.png",
   "Kim Young-dae": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kim-Young-dae_for_Marie_Claire_Korea_on_171222.jpg",
-  "Ji Chang-wook": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ji_Chang-wook.jpg",
   "Lee Kwang-soo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lee_Kwang-soo_2026.jpg",
   "Kim Nam-gil": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kim_Nam-gil_at_Island_Press_Conference_2022.png",
   "Ji Sung": "https://upload.wikimedia.org/wikipedia/commons/7/7d/180212_%EC%A7%80%EC%84%B1.png",
   "Hwang Jung-eum": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hwang_Jung-eum_in_March_2024.png",
-  "Lee Jong-suk":"https://upload.wikimedia.org/wikipedia/commons/5/57/240725_Lee_Jong-suk.png",
-  "Han Hyo-joo":"https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg",
-  "Lee Joon gie":"https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg",
-  "Kang Ha neul":"https://upload.wikimedia.org/wikipedia/commons/c/c7/Kang_Ha-neul_at_Midnight_Runners_VIP_premiere_in_August_2017.jpg",
-  "Hyun Bin":"https://upload.wikimedia.org/wikipedia/commons/6/60/Hyun_Bin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
-  "Ha Ji-won":"https://upload.wikimedia.org/wikipedia/commons/7/76/Ha_Ji-won_in_September_2025.png", 
-  "Bae Suzy":"https://upload.wikimedia.org/wikipedia/commons/4/40/Suzy_at_the_Longines_2026_new_product_presentation%2C_25_March_2026_04.png",
+  "Lee Jong-suk": "https://upload.wikimedia.org/wikipedia/commons/5/57/240725_Lee_Jong-suk.png",
+  "Han Hyo-joo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Han_Hyo-joo_in_July_2024.jpg",
+  "Lee Joon gie": "https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg",
+  "Kang Ha neul": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kang_Ha-neul_at_Midnight_Runners_VIP_premiere_in_August_2017.jpg",
+  "Hyun Bin": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyun_Bin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+  "Ha Ji-won": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ha_Ji-won_in_September_2025.png",
+  "Bae Suzy": "https://upload.wikimedia.org/wikipedia/commons/4/40/Suzy_at_the_Longines_2026_new_product_presentation%2C_25_March_2026_04.png",
 };
 
 type Entry = Omit<Drama, "id" | "category" | "country" | "poster" | "featured"> & {
@@ -217,57 +212,7 @@ export const moreKoreanDramas1: Drama[] = [
     whyWatch: "Lots of fun action, crime and a super sweet love story.",
     trailerUrl: "https://youtu.be/ysJzkl-SU1Q?si=HDAvgOMsKo9ELUHh",
   }),
-  korean({
-    slug: "hotel-del-luna",
-    title: "Hotel del Luna",
-    year: 2019,
-    rating: 8.5,
-    description: "A hotel for ghosts is run by a mysterious owner and a new human manager.",
-    story:
-      "Jang Man-wol is the owner of a hotel that serves ghosts who need closure before moving on. Elite hotelier Koo Chan-sung is hired as manager and slowly learns about her long and lonely past.",
-    genre: ["Fantasy", "Romance", "Mystery"],
-    episodeCount: 16,
-    cast: [
-      { name: "IU", role: "Jang Man-wol", bio: "Singer and actress known for My Mister." },
-      { name: "Yeo Jin-goo", role: "Koo Chan-sung", bio: "Actor who has worked since childhood in dramas and films." },
-      { name: "Kim Seo-hyung", role: "Kim Seon-bi", bio: "Veteran actress known for Sky Castle." },
-    ],
-    whyWatch: "Beautiful visuals, emotional ghost stories and a fantastic lead pair.",
-  }),
-  korean({
-    slug: "start-up",
-    title: "Start-Up",
-    year: 2020,
-    rating: 8.3,
-    description: "Young entrepreneurs chase their dreams in Korea's version of Silicon Valley.",
-    story:
-      "Seo Dal-mi wants to succeed in the startup world of Sandbox. She meets Nam Do-san, a young tech genius, and Han Ji-pyeong, a mentor investor, and the three find their lives connected in surprising ways.",
-    genre: ["Romance", "Drama", "Business"],
-    episodeCount: 16,
-    cast: [
-      { name: "Bae Suzy", role: "Seo Dal-mi", bio: "Singer and actress, former member of Miss A." },
-      { name: "Nam Joo-hyuk", role: "Nam Do-san", bio: "Actor and former model known for Weightlifting Fairy Kim Bok-joo." },
-      { name: "Kim Seon-ho", role: "Han Ji-pyeong", bio: "Actor known for Hometown Cha-Cha-Cha." },
-    ],
-    whyWatch: "A fresh workplace drama with love, ambition and a fun love triangle.",
-  }),
-  korean({
-    slug: "start-up",
-    title: "Start-Up",
-    year: 2020,
-    rating: 8.3,
-    description: "Young entrepreneurs chase their dreams in Korea's version of Silicon Valley.",
-    story:
-      "Seo Dal-mi wants to succeed in the startup world of Sandbox. She meets Nam Do-san, a young tech genius, and Han Ji-pyeong, a mentor investor, and the three find their lives connected in surprising ways.",
-    genre: ["Romance", "Drama", "Business"],
-    episodeCount: 16,
-    cast: [
-      { name: "Bae Suzy", role: "Seo Dal-mi", bio: "Singer and actress, former member of Miss A." },
-      { name: "Nam Joo-hyuk", role: "Nam Do-san", bio: "Actor and former model known for Weightlifting Fairy Kim Bok-joo." },
-      { name: "Kim Seon-ho", role: "Han Ji-pyeong", bio: "Actor known for Hometown Cha-Cha-Cha." },
-    ],
-    whyWatch: "A fresh workplace drama with love, ambition and a fun love triangle.",
-  }),
+  // Hotel del Luna aur Start-Up pehle se dramas.json me hain, isliye yahan se hata diye.
 ];
 
 /**
